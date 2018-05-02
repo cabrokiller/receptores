@@ -1,427 +1,427 @@
-target;gene
-"&#946;-carbonic anhydrase 2 (ca 2)";CA2
-"&#954; opioid receptor (kor d138a)";OPRK1
-"&#954; opioid receptor (kor d138n)";OPRK1
-"&#954; opioid receptor (kor e297a)";OPRK1
-"&#954; opioid receptor (kor h291a)";OPRK1
-"&#954; opioid receptor (kor h291f)";OPRK1
-"&#954; opioid receptor (kor i135a)";OPRK1
-"&#954; opioid receptor (kor i294a)";OPRK1
-"&#954; opioid receptor (kor i316a)";OPRK1
-"&#954; opioid receptor (kor k200a)";OPRK1
-"&#954; opioid receptor (kor k227a)";OPRK1
-"&#954; opioid receptor (kor l212a)";OPRK1
-"&#954; opioid receptor (kor m142a)";OPRK1
-"&#954; opioid receptor (kor m226a)";OPRK1
-"&#954; opioid receptor (kor q115a)";OPRK1
-"&#954; opioid receptor (kor y119a)";OPRK1
-"&#954; opioid receptor (kor y119f)";OPRK1
-"&#954; opioid receptor (kor y139a)";OPRK1
-"&#954; opioid receptor (kor y139f)";OPRK1
-"&#954; opioid receptor (kor y312a)";OPRK1
-"&#954; opioid receptor (kor y312f)";OPRK1
-"&#954; opioid receptor (kor y313a)";OPRK1
-"&#954; opioid receptor (kor y313f)";OPRK1
-"&#954; opioid receptor (kor y320a)";OPRK1
-"&#954; opioid receptor (kor y320f)";OPRK1
-"&#954; opioid receptor (kor y66a)";OPRK1
-1,3-beta-glucan synthase component gls2;
-15-lipoxygenase (loxa);
-17-beta-hydroxysteroid dehydrogenase 5 (17-beta-hsd5, akr1c3);
-5-ht1;HTR1A
-5-ht2;HTR2A
-5-ht3a serotonin receptor;HTR3A
-5-ht5;HTR5
-5-ht5b;HTR5BP
-5-hydroxytryptamine receptor 1a (5-ht1a);HTR1A
-5-hydroxytryptamine receptor 1a (5ht1a);HTR1A
-5-hydroxytryptamine receptor 1b;HTR1B
-5-hydroxytryptamine receptor 1b (5ht1b);HTR1B
-5-hydroxytryptamine receptor 1d;HTR1D
-5-hydroxytryptamine receptor 2a (5-ht2a);HTR2A
-5-hydroxytryptamine receptor 2a (5ht2a);HTR2A
-5-hydroxytryptamine receptor 2b (5ht2b);HTR2B
-5-hydroxytryptamine receptor 2c (5-ht2c);HTR2C
-5-hydroxytryptamine receptor 2c (5ht2c);HTR2C
-5-hydroxytryptamine receptor 6 (5-ht6);HTR7
-5-hydroxytryptamine receptor 7 (5-ht7);HTR6
-5-hydroxytryptamine receptor 7 (5ht7);HTR7
-acetylcholine binding protein;
-acetylcholine receptor;CHRNA1
-acetylcholine receptor protein alpha chain/beta chain/delta chain /gamma chain;CHRNA1
-acetylcholine receptor protein alpha/beta/delta/gamma chain;CHRNA1
-acetylcholinesterase;
-acyl-coa: cholesterol acyltransferase (acat);
-adenosine a2;
-adenosine receptor a1;
-adenosine receptor a3;
-adenosine receptors a2a (a2a);
-"adenosine receptors; a1 & a2a";
-adenosine transporter;ADORA2A
-adenylate cyclase forskolin;
-adra1a;ADRA1A
-adra1b;ADRA1B
-adra2b;ADRA2B
-adra2c;ADRA2C
-adrb2;ADRB2
-adrenaline alpha1;ADRA1A
-adrenaline alpha2;ADRA2A
-adrenergic alpha;ADRA1A
-adrenergic alpha1;ADRA1B
-adrenergic alpha1b;ADRA1B
-adrenergic alpha2;ADRA2A
-adrenergic beta-2 receptor (beta2);ADRB2
-adrenergic receptor alpha;ADRB2
-adrenergic receptor alpha-1;ADRA1A
-adrenergic receptor alpha-2;ADRA1A
-adrenergic receptor beta;ADRA1A
-aldehyde oxidase;AOX1
-aldehyde reductase;ALR1
-aldehyde reductase (alr1);ALR1
-aldo-keto reductase family 1 member c1;AKR1C1
-aldo-keto reductase family 1 member c2;AKR1C2
-aldose reductase;ALR1
-aldose reductase (alr2);ALR2
-aldose reductase-related protein 1;AKR
-alpha adrenergic receptor (1a and 1d);ADRA1A
-alpha adrenergic receptor 1a and 1b;ADRA1A
-alpha carbonic anhydrase;CA1
-alpha-1 adrenergic receptor/ adrenergic receptor/ adrenergic receptor;ADRA1A
-alpha-1 nicotinic achr;CHRNA1
-alpha-1a adrenergic receptor;ADRA1A
-alpha-2a adrenergic receptor;ADRA1A
-alpha-2b adrenergic receptor;ADRA2A
-alpha-2c adrenergic receptor;ADRA2B
-androgen receptor;ADRA2C
-angiotensin ii at2;AGTR2
-angiotensin ii receptor;AGTR2
-angiotensin ii type 1a (at-1a) receptor;AGTR1
-anti-estrogen binding site (aebs);AEBS
-apelin receptor;APLNR
-astrosclerin-3;A6YCJ1
-benzodiazepine central;GABRBA1
-beta-1 adrenergic receptor;ADRB1
-beta-2 adrenergic receptor;ADRB1
-beta-3 adrenergic receptor;ADRB3
-beta-carbonic anhydrase;
-beta-glucuronidase;GUSB
-bfl-1;
-bile salt export pump;
-bile salt export pump (bsep);
-bromodomain-containing protein 4;
-butyrylcholinesterase (bche);
-c-8 sterol isomerase;
-calcium channel;
-calcium channel (type l);
-calcium channel (type n);
-calmodulin;
-carbonic anhydrase;
-cannabinoid receptor 1;CALM1
-cannabinoid receptor 2;CNR1
-carbonate dehydratase;CNR2
-carbonic anhydrase (mtca 1);
-carbonic anhydrase (hpca);CA2
-carbonic anhydrase (mtca 3);
-carbonic anhydrase 12;
-carbonic anhydrase 6 (ca-vi);
-carbonic anhydrase 2;CA2
-carbonic anhydrase 2 (can2);CA2
-carbonic anhydrase va;
-carbonic anhydrase 9;CA6
-carbonic anhydrase iii;CA9
-carbonic anhydrase iv;CA3
-carbonic anhydrase, alpha family;
-carbonic anhydrase vb;CA5A
-carbonic anhydrase xv;CA5B
-carboxylesterase 2;
-carboxy-terminal domain rna polymerase ii polypeptide a small phosphatase 1 isoform 1;
-c-c chemokine receptor type 5;
-cckbr;CES2
-cerebral cortex alpha adrenergic receptor;
-cftr;
-cholecystokinin;
-cholecystokinin a receptor;
-cholecystokinin b;
-cholecystokinin receptor;
-choline transporter;
-cholinergic, muscarinic;
-cholinergic, nicotinic alpha1beta1deltagamma;
-cholinergic, nicotinic alpha3beta2;
-cholinergic, nicotinic alpha6;
-cholinergic, nicotinic alpha6beta2;
-cholinergic, nicotinic alpha6beta3beta4alpha5;
-cholinergic, nicotinic alpha6beta4;
-cholinergic, nicotinic muscle;
-chrm5;
-cnr1;CHRM5
-coagulation factor vii/tissue factor;
-cruzipain;
-cysteinyl leukotriene receptor 1;
-cytochrome p450 1a;
-cytochrome p450 2a13;
-cytochrome p450 2a5;
-cytochrome p450 2a6;
-cytochrome p450 2b6;CYP2A6
-cytochrome p450 2c19;CYP2B6
-cytochrome p450 2c8;
-cytochrome p450 2c9;CYP2C8
-cytochrome p450 2d1;
-cytochrome p450 2d18;
-cytochrome p450 2d2;
-cytochrome p450 2d3;
-cytochrome p450 2d6 (2d6);
-cytochrome p450 2j2;CYP2D6
-cytochrome p450 3a;
-d(3) dopamine receptor;
-delta carbonic anhydrase;
-delta-type opioid receptor;
-dihydrofolate reductase (dhfr);OPRD1
-dna-dependent protein kinase;
-dopamine;
-dopamine d1 and d2 receptor;
-dopamine d1 receptor;DRD2
-dopamine d1b;
-dopamine d2 receptor;
-dopamine d2 receptor/serotonin 2 (5-ht2) receptor;
-dopamine d5 receptor;
-dopamine receptor;DRD5
-dopamine receptor d2l/neurotensin receptor nts1;
-"dopamine receptors; d2 & d4";DRD2
-"dopamine receptors; d3 & d4";DRD2
-dopamine transporter (dat);DRD3
-drd1;
-drd2;
-drd3;
-"ecto-5&#39;-nucleotidase (e5&#39;nt)";
-emopamil-binding protein-like;
-g protein-coupled receptor kinase 5;EBPL
-gaba;
-gaba a;
-gaba a alpha2beta1gamma2;
-gaba a receptor alpha-1/beta-1/gamma-2;GABRA1
-gaba a receptor alpha-2/beta-2/gamma-2;GABRA1
-gaba a receptor alpha-3/beta-2/gamma-2;
-gaba a receptor alpha-5/beta-3/gamma-2;
-gaba a receptor alpha-6/beta-2/gamma-2;
-gaba receptor alpha-1/beta-2/gamma-2 subunit;
-gaba receptor alpha-1/beta-3/gamma-2 subunit;GABRA1
-gaba receptor alpha-2/beta-2/gamma-2 subunit;GABRA1
-gaba receptor alpha-2/beta-3/gamma-2 subunit;
-gaba receptor alpha-3/beta-2/gamma-2 subunit;GABRA1
-gaba receptor alpha-3/beta-3/gamma-2 subunit;
-gaba receptor alpha-5/beta-3/gamma-2 subunit;
-gaba receptor alpha-6/beta-2/gamma-2 subunit;GABRA1
-gaba receptor alpha-6/beta-3/gamma-2 subunit;
-gaba receptor gamma-1 subunit;
-gaba transporter;
-gaba transporter 1;
-gaba(a) receptor subunit alpha-2;
-gamma-aminobutyric acid receptor subunit alpha-1 (gaba(a) alpha-1);
-gamma-aminobutyric acid receptor subunit alpha-5 (gaba(a));
-glutamate kainate;
-glutamate-nmda;
-glycine;
-glycine, non-strychnine;
-gpr24;
-gria3;
-gst-malt lymphoma-associated translocation (malt1);
-hepatitis c virus serine protease, ns3/ns4a;
-hepatocyte nuclear factor 4-alpha;
-histamine h1 receptor;
-histamine h2 receptor;HRH1
-histamine h3 receptor;HRH2
-histamine receptor (h3);
-histamine receptor (h4);HRH3
-histone deacetylase;HRH4
-histone deacetylase 1;
-histone deacetylase 1/3/5/8;
-histone deacetylase 3/ncor1;
-histone deacetylase 4;
-histone deacetylase 7 (hdac7);
-histone deacetylase 8;
-histone deacetylase hd2;
-histone h1;
-hrh1;
-hrh3;
-htr1a;
-htr1b;
-htr1d;
-htr1f;
-htr2a;
-htr2b;
-htr2c;
-htr3a;
-htr4;
-htr5a;
-htr6;
-htr7;
-human herpesvirus 5 chemokine receptor;
-human immunodeficiency virus type 1 protease;
-human rhinovirus a protease;
-imidazoline i1;
-indoleamine 2,3-dioxygenase;
-induced myeloid leukemia cell differentiation protein mcl-1;
-inositol triphosphate;
-kappa-type opioid receptor;
-kappa-type opioid receptor (kor);OPRK1
-kinesin-1 heavy chain/ tyrosine-protein kinase receptor ret;
-kinesin-like protein 1;
-"l&#8208;hydroxynicotine oxidase (lhno)";
-liver fatty acid binding protein (rat l-fabp);
-lysine-specific histone demethylase 1a;
-lysozyme c;KDM1A
-mas-related g protein-coupled receptor x2 (mrgprx2);
-melatonin;
-melatonin 1c;
-melatonin receptor;
-monoamine oxidase;MTNR1A
-monoamine oxidase type a (mao-a);
-monoamine oxidase type b (mao-b);MAOA
-mu opioid receptor;MAOB
-mu opioid receptor-like or2;
-multidrug and toxin extrusion protein 1;
-mu/kappa opioid receptor;OPRM1
-multidrug and toxin extrusion protein 2;
-muscarinic acetylcholine receptor;
-muscarinic acetylcholine receptor m4;
-muscarinic acetylcholine receptor m1 (m1);CHRM1
-muscarinic acetylcholine receptor m2;CHRM1
-muscarinic acetylcholine receptor m2 and m4;CHRM2
-muscarinic receptor m1 and m2;
-muscarinic receptor m2 and m3;
-mu-type opioid receptor;
-n-achr;
-nachr alpha4 beta2 subtype;
-nad-dependent protein deacetylase sirtuin-5 (sirt5);
-nadph oxidase 1;
-neurokinin 1 receptor;
-neurokinin 3 receptor;
-neuronal acetylcholine receptor;
-neuronal acetylcholine receptor protein alpha-2 subunit/subunit beta-4;
-neuronal acetylcholine receptor protein alpha-2/beta-2 subunit;
-neuronal acetylcholine receptor protein alpha-2/beta-4 subunit;CHRNA2
-neuronal acetylcholine receptor protein alpha-3/beta-2 subunit;
-neuronal acetylcholine receptor protein alpha-3/beta-4 subunit;CHRNA3
-neuronal acetylcholine receptor protein alpha-4/beta-2 subunit;
-neuronal acetylcholine receptor protein alpha-4/beta-4 subunit;CHRNA4
-neuronal acetylcholine receptor protein alpha-7 subunit;
-neuronal acetylcholine receptor subunit alpha-2;CHRNA7
-neuronal acetylcholine receptor subunit alpha-3;
-neuronal acetylcholine receptor subunit alpha-4;
-neuronal acetylcholine receptor subunit beta-4;CHRNA4
-"neuronal acetylcholine receptor; alpha2/beta2";
-neuropeptide y receptor type 1;
-neuropeptides b/w receptor 1;
-neurotrophic tyrosine kinase receptor;NPBWR1
-neutrophil cytosolic factor 1;
-nicotinic acetylcholine receptor alpha2/beta4;
-nicotinic alpha-bungarotoxin;
-nitric-oxide synthase, brain;
-nociceptin receptor;
-nociceptin/mu opioid receptor;OPRL1
-nociceptin/orphanin fq, nop receptor;
-norepinephrine monoamine transporters;
-norepinephrine transporter;
-nt;
-opiate kappa 3;
-opiate non-selective;
-opiate sigma;
-opioid growth factor receptor-like protein 1;
-opioid receptor;OGFR
-"opioid receptors; mu & delta";
-"opioid receptors; mu/kappa/delta";
-oprd1;OPRM1
-oprk1;
-p2x purinoceptor 4;
-perilipin-1;
-p-glycoprotein 1 and 3 (mdr1a/mdr1b);ABCB1
-perilipin-5;
-peripheral-type benzodiazepine receptor;
-p-glycoprotein (p-gp);
-p-glycoprotein 1;
-phenylethanolamine n-methyltransferase;
-pkc alpha and beta-2;
-platelet activating factor receptor;
-pleiotropic abc efflux transporter of multiple drugs;
-potassium channel (ca2+ dependent);
-potassium voltage-gated channel subfamily c member 1;
-pregnane x receptor (pxr);
-prion protein;
-prostaglandin e2 receptor;
-prostaglandin e2 receptor ep4 subtype (ep4);PTGER2
-prostanoid tp receptor;PTGER2
-proteasome subunit alpha type-6;TBXA2R
-protein kinase c;
-protein kinase c, gamma;
-quinolone resistance protein nora;PRKCG
-renal outer medullary potassium (romk);
-rhodopsin kinase;
-ribosyldihydronicotinamide dehydrogenase [quinone];
-serotonin (5-ht) receptor;NQO2
-serotonin 1b/1d receptor;HTR1A
-serotonin 2a (5-ht2a) receptor;
-serotonin 3 (5-ht3) receptor;
-serotonin 3a (5-ht3a)/3b (5-ht3b) receptor;HTR3
-serotonin 3a (5-ht3a)/3b (5-ht3b)/3c (5-ht3c)/3d (5-ht3d)/3e (5-ht3e) receptor;
-serotonin and norepinephrine transporters (sert/net);HTR3A
-serotonin receptor (2b and 2c);SERT
-serotonin receptor 2a and 2b (5ht2a and 5ht2b);HTR2B
-serotonin receptor 2a and 2c (5ht2a and 5ht2c);
-serum albumin;
-sigma;
-sigma-1 receptor;
-sigma-2;
-slc6a3;
-slc6a4;
-sodium (site 1);
-sodium (site 2);
-sodium channel alpha subunit;
-sodium channel protein type 7 subunit alpha;SCN1A
-sodium channel protein type ii alpha subunit;
-sodium-dependent dopamine transporter;
-sodium-dependent noradrenaline transporter;SLC6A3
-sodium-dependent serotonin transporter;SLC6A2
-solute carrier family 22 member 2;
-solute carrier family 22 member 20;
-solute carrier family 22 member 6;
-somatostatin;
-sphingosine 1-phosphate receptor 3;
-substance p;
-sulfotransferase 1a1 (sult1a1);
-sulfotransferase 2a1 (sult2a1);SULT1A1
-tacr2;SULT2A1
-toll-like receptor 4/md-2/cd14;
-tpa: essential protein of the mitochondrial intermembrane space;
-trace amine-associated receptor 1;
-trace amine-associated receptor 1 (taar1);
-transcriptional activator protein luxr;
-transient receptor potential cation channel subfamily a member 1;
-translocator protein;
-transporter;
-trypanothione reductase;
-trypanothione reductase (tryr);
-twik-related potassium (k+) channel 1 (trek1);
-tyrosinase;
-ubiquitin-conjugating enzyme e2 n;
-udp-glucuronosyltransferase 1-9;
-"uridine-5&#39;-diphosphoglucuronosyltransferase 1a1";UGT1A
-"uridine-5&#39;-diphosphoglucuronosyltransferase 1a4";
-"uridine-5&#39;-diphosphoglucuronosyltransferase 1a6";
-"uridine-5&#39;-diphosphoglucuronosyltransferase 2b10";
-"uridine-5&#39;-diphosphoglucuronosyltransferase 2b7";
-vascular adhesion protein 1 (vap-1);
-vesicular acetylcholine transporter;
-vesicular monoamine transporter 2 (vmat2);
-voltage-dependent calcium channel alpha2delta subunit;
-voltage-dependent l-type calcium channel subunit alpha-1c;
-voltage-gated calcium channel alpha2/delta subunit 1;
-voltage-gated calcium channel subunit alpha-2/delta;
-voltage-gated l-type calcium channel;
-voltage-gated potassium channel;
-voltage-gated potassium channel beta subunit mink/subunit kv7.1;KCNA1
-voltage-gated potassium channel subunit kv4.3;
-voltage-gated sodium channel subunit alpha nav1.2 (nav1.2);
-voltage-gated sodium channel subunit alpha nav1.3 (nav1.3);
-voltage-gated sodium channel subunit alpha nav1.4 (nav1.4);
-voltage-gated sodium channel subunit alpha nav1.8;KCNA1
-voltage-gated sodium channel subunit nav1.5;
+target,gene
+&#946;-carbonic anhydrase 2 (ca 2),CA2
+&#954; opioid receptor (kor d138a),OPRK1
+&#954; opioid receptor (kor d138n),OPRK1
+&#954; opioid receptor (kor e297a),OPRK1
+&#954; opioid receptor (kor h291a),OPRK1
+&#954; opioid receptor (kor h291f),OPRK1
+&#954; opioid receptor (kor i135a),OPRK1
+&#954; opioid receptor (kor i294a),OPRK1
+&#954; opioid receptor (kor i316a),OPRK1
+&#954; opioid receptor (kor k200a),OPRK1
+&#954; opioid receptor (kor k227a),OPRK1
+&#954; opioid receptor (kor l212a),OPRK1
+&#954; opioid receptor (kor m142a),OPRK1
+&#954; opioid receptor (kor m226a),OPRK1
+&#954; opioid receptor (kor q115a),OPRK1
+&#954; opioid receptor (kor y119a),OPRK1
+&#954; opioid receptor (kor y119f),OPRK1
+&#954; opioid receptor (kor y139a),OPRK1
+&#954; opioid receptor (kor y139f),OPRK1
+&#954; opioid receptor (kor y312a),OPRK1
+&#954; opioid receptor (kor y312f),OPRK1
+&#954; opioid receptor (kor y313a),OPRK1
+&#954; opioid receptor (kor y313f),OPRK1
+&#954; opioid receptor (kor y320a),OPRK1
+&#954; opioid receptor (kor y320f),OPRK1
+&#954; opioid receptor (kor y66a),OPRK1
+"1,3-beta-glucan synthase component gls2",GSC2
+15-lipoxygenase (loxa),LOXA
+"17-beta-hydroxysteroid dehydrogenase 5 (17-beta-hsd5, akr1c3)",AKR1C3
+5-ht1,HTR1A
+5-ht2,HTR2A
+5-ht3a serotonin receptor,HTR3A
+5-ht5,HTR5
+5-ht5b,HTR5BP
+5-hydroxytryptamine receptor 1a (5-ht1a),HTR1A
+5-hydroxytryptamine receptor 1a (5ht1a),HTR1A
+5-hydroxytryptamine receptor 1b,HTR1B
+5-hydroxytryptamine receptor 1b (5ht1b),HTR1B
+5-hydroxytryptamine receptor 1d,HTR1D
+5-hydroxytryptamine receptor 2a (5-ht2a),HTR2A
+5-hydroxytryptamine receptor 2a (5ht2a),HTR2A
+5-hydroxytryptamine receptor 2b (5ht2b),HTR2B
+5-hydroxytryptamine receptor 2c (5-ht2c),HTR2C
+5-hydroxytryptamine receptor 2c (5ht2c),HTR2C
+5-hydroxytryptamine receptor 6 (5-ht6),HTR7
+5-hydroxytryptamine receptor 7 (5-ht7),HTR6
+5-hydroxytryptamine receptor 7 (5ht7),HTR7
+acetylcholine binding protein,ACHBP
+acetylcholine receptor,CHRNA1
+acetylcholine receptor protein alpha chain/beta chain/delta chain /gamma chain,CHRNA1
+acetylcholine receptor protein alpha/beta/delta/gamma chain,CHRNA1
+acetylcholinesterase,ACHE
+acyl-coa: cholesterol acyltransferase (acat),ACAT
+adenosine a2,ADORA2A
+adenosine receptor a1,ADORA1
+adenosine receptor a3,ADORA3
+adenosine receptors a2a (a2a),ADORA2A
+adenosine receptors; a1 & a2a,ADORA1
+adenosine transporter,ADORA2A
+adenylate cyclase forskolin,AC
+adra1a,ADRA1A
+adra1b,ADRA1B
+adra2b,ADRA2B
+adra2c,ADRA2C
+adrb2,ADRB2
+adrenaline alpha1,ADRA1A
+adrenaline alpha2,ADRA2A
+adrenergic alpha,ADRA1A
+adrenergic alpha1,ADRA1B
+adrenergic alpha1b,ADRA1B
+adrenergic alpha2,ADRA2A
+adrenergic beta-2 receptor (beta2),ADRB2
+adrenergic receptor alpha,ADRB2
+adrenergic receptor alpha-1,ADRA1A
+adrenergic receptor alpha-2,ADRA1A
+adrenergic receptor beta,ADRA1A
+aldehyde oxidase,AOX1
+aldehyde reductase,ALR1
+aldehyde reductase (alr1),ALR1
+aldo-keto reductase family 1 member c1,AKR1C1
+aldo-keto reductase family 1 member c2,AKR1C2
+aldose reductase,ALR1
+aldose reductase (alr2),ALR2
+aldose reductase-related protein 1,AKR
+alpha adrenergic receptor (1a and 1d),ADRA1A
+alpha adrenergic receptor 1a and 1b,ADRA1A
+alpha carbonic anhydrase,CA1
+alpha-1 adrenergic receptor/ adrenergic receptor/ adrenergic receptor,ADRA1A
+alpha-1 nicotinic achr,CHRNA1
+alpha-1a adrenergic receptor,ADRA1A
+alpha-2a adrenergic receptor,ADRA1A
+alpha-2b adrenergic receptor,ADRA2A
+alpha-2c adrenergic receptor,ADRA2B
+androgen receptor,ADRA2C
+angiotensin ii at2,AGTR2
+angiotensin ii receptor,AGTR2
+angiotensin ii type 1a (at-1a) receptor,AGTR1
+anti-estrogen binding site (aebs),AEBS
+apelin receptor,APLNR
+astrosclerin-3,A6YCJ1
+benzodiazepine central,GABRBA1
+beta-1 adrenergic receptor,ADRB1
+beta-2 adrenergic receptor,ADRB1
+beta-3 adrenergic receptor,ADRB3
+beta-carbonic anhydrase,CA1
+beta-glucuronidase,GUSB
+bfl-1,BCL2A1
+bile salt export pump,ABCB11
+bile salt export pump (bsep),ABCB11
+bromodomain-containing protein 4,BRD4
+butyrylcholinesterase (bche),BCHE
+c-8 sterol isomerase,ERG2
+calcium channel,
+calcium channel (type l),CACNA1
+calcium channel (type n),CACNA1B
+calmodulin,CALM1
+carbonic anhydrase,CA1
+cannabinoid receptor 1,CALM1
+cannabinoid receptor 2,CNR1
+carbonate dehydratase,CNR2
+carbonic anhydrase (mtca 1),CA1
+carbonic anhydrase (hpca),CA2
+carbonic anhydrase (mtca 3),CA3
+carbonic anhydrase 12,CA12
+carbonic anhydrase 6 (ca-vi),CA6
+carbonic anhydrase 2,CA2
+carbonic anhydrase 2 (can2),CA2
+carbonic anhydrase va,CA5A
+carbonic anhydrase 9,CA6
+carbonic anhydrase iii,CA9
+carbonic anhydrase iv,CA3
+"carbonic anhydrase, alpha family",CA1
+carbonic anhydrase vb,CA5A
+carbonic anhydrase xv,CA5B
+Carboxylesterase 2,CES2
+carboxy-terminal domain rna polymerase ii polypeptide a small phosphatase 1 isoform 1,CTDSP1
+c-c chemokine receptor type 5,CCR5
+cckbr,CES2
+cerebral cortex alpha adrenergic receptor,ADRA1A
+cftr,CFTR
+cholecystokinin,CCK
+cholecystokinin a receptor,CCK
+cholecystokinin b,CCK
+cholecystokinin receptor,CCK
+choline transporter,SLC5A7
+"cholinergic, muscarinic",CHRM1
+"cholinergic, nicotinic alpha1beta1deltagamma",CHRNA1
+"cholinergic, nicotinic alpha3beta2",CHRNA3
+"cholinergic, nicotinic alpha6",CHRNA6
+"cholinergic, nicotinic alpha6beta2",CHRNA6
+"cholinergic, nicotinic alpha6beta3beta4alpha5",CHRNA6
+"cholinergic, nicotinic alpha6beta4",CHRNA6
+"cholinergic, nicotinic muscle",CHRNA
+chrm5,CHRM5
+cnr1,CHRM5
+coagulation factor vii/tissue factor,F7
+cruzipain,
+cysteinyl leukotriene receptor 1,CYSLTR1
+cytochrome p450 1a,CYP1A1
+cytochrome p450 2a13,CYP2A13
+cytochrome p450 2a5,CYP2A5
+cytochrome p450 2a6,CYP2A6
+cytochrome p450 2b6,CYP2A6
+cytochrome p450 2c19,CYP2B6
+cytochrome p450 2c8,CYP2C8
+cytochrome p450 2c9,CYP2C8
+cytochrome p450 2d1,CYP2D1
+cytochrome p450 2d18,CYP2D18
+cytochrome p450 2d2,CYP2D2
+cytochrome p450 2d3,CYP2D3
+cytochrome p450 2d6 (2d6),CYP2D6
+cytochrome p450 2j2,CYP2D6
+cytochrome p450 3a,CYP3A
+d(3) dopamine receptor,DRD3
+delta carbonic anhydrase,CA1
+delta-type opioid receptor,OPRD1
+dihydrofolate reductase (dhfr),OPRD1
+dna-dependent protein kinase,PRKDC
+dopamine,DRD2
+dopamine d1 and d2 receptor,DRD2
+dopamine d1 receptor,DRD2
+dopamine d1b,DRD5
+dopamine d2 receptor,DRD2
+dopamine d2 receptor/serotonin 2 (5-ht2) receptor,DRD2
+dopamine d5 receptor,DRD5
+dopamine receptor,DRD5
+dopamine receptor d2l/neurotensin receptor nts1,DRD2
+dopamine receptors; d2 & d4,DRD2
+dopamine receptors; d3 & d4,DRD2
+dopamine transporter (dat),DRD3
+drd1,DRD1
+drd2,DRD2
+drd3,DRD3
+ecto-5&#39;-nucleotidase (e5&#39;nt),NT5E
+emopamil-binding protein-like,EBPL
+g protein-coupled receptor kinase 5,EBPL
+gaba,GABRA1
+gaba a,GABRA1
+gaba a alpha2beta1gamma2,GABRA2
+gaba a receptor alpha-1/beta-1/gamma-2,GABRA1
+gaba a receptor alpha-2/beta-2/gamma-2,GABRA1
+gaba a receptor alpha-3/beta-2/gamma-2,GABRA3
+gaba a receptor alpha-5/beta-3/gamma-2,GABRA5
+gaba a receptor alpha-6/beta-2/gamma-2,GABRA6
+gaba receptor alpha-1/beta-2/gamma-2 subunit,GABRA1
+gaba receptor alpha-1/beta-3/gamma-2 subunit,GABRA1
+gaba receptor alpha-2/beta-2/gamma-2 subunit,GABRA1
+gaba receptor alpha-2/beta-3/gamma-2 subunit,GABRA2
+gaba receptor alpha-3/beta-2/gamma-2 subunit,GABRA1
+gaba receptor alpha-3/beta-3/gamma-2 subunit,GABRA3
+gaba receptor alpha-5/beta-3/gamma-2 subunit,GABRA5
+gaba receptor alpha-6/beta-2/gamma-2 subunit,GABRA1
+gaba receptor alpha-6/beta-3/gamma-2 subunit,GABRA6
+gaba receptor gamma-1 subunit,GABRA1
+gaba transporter,SLC6A1
+gaba transporter 1,SLC6A1
+gaba(a) receptor subunit alpha-2,GABRA2
+gamma-aminobutyric acid receptor subunit alpha-1 (gaba(a) alpha-1),GABRA1
+gamma-aminobutyric acid receptor subunit alpha-5 (gaba(a)),GABRA5
+glutamate kainate,GRIK1
+glutamate-nmda,GRIN1
+glycine,GLRA1
+"glycine, non-strychnine",GLRA1
+gpr24,MCHR1
+gria3,GRIA3
+gst-malt lymphoma-associated translocation (malt1),MALT1
+"hepatitis c virus serine protease, ns3/ns4a",
+hepatocyte nuclear factor 4-alpha,HNF4A
+histamine h1 receptor,HRH1
+histamine h2 receptor,HRH1
+histamine h3 receptor,HRH2
+histamine receptor (h3),HRH3
+histamine receptor (h4),HRH3
+histone deacetylase,HRH4
+histone deacetylase 1,HDAC1
+histone deacetylase 1/3/5/8,HDAC1
+histone deacetylase 3/ncor1,HDAC3
+histone deacetylase 4,HDAC4
+histone deacetylase 7 (hdac7),HDAC7
+histone deacetylase 8,HDAC8
+histone deacetylase hd2,HDAC2
+histone h1,HDAC1
+hrh1,HRH1
+hrh3,HRH3
+htr1a,HTR1A
+htr1b,HTR1B
+htr1d,HTR1D
+htr1f,HTR1F
+htr2a,HTR2A
+htr2b,HTR2B
+htr2c,HTR2C
+htr3a,HTR3A
+htr4,HTR4
+htr5a,HTR5A
+htr6,HTR6
+htr7,HTR7
+human herpesvirus 5 chemokine receptor,
+human immunodeficiency virus type 1 protease,
+human rhinovirus a protease,
+imidazoline i1,NISCH
+"indoleamine 2,3-dioxygenase",IDO2
+induced myeloid leukemia cell differentiation protein mcl-1,MCL1
+inositol triphosphate,ITPK1
+kappa-type opioid receptor,OPRK1
+kappa-type opioid receptor (kor),OPRK1
+kinesin-1 heavy chain/ tyrosine-protein kinase receptor ret,
+kinesin-like protein 1,
+l&#8208;hydroxynicotine oxidase (lhno),
+liver fatty acid binding protein (rat l-fabp),
+lysine-specific histone demethylase 1a,
+lysozyme c,KDM1A
+mas-related g protein-coupled receptor x2 (mrgprx2),
+melatonin,MTNR1A
+melatonin 1c,MTNR1C
+melatonin receptor,MTNR1A
+monoamine oxidase,MTNR1A
+monoamine oxidase type a (mao-a),MAOA
+monoamine oxidase type b (mao-b),MAOA
+mu opioid receptor,MAOB
+mu opioid receptor-like or2,OPRM1
+multidrug and toxin extrusion protein 1,SLC47A1
+mu/kappa opioid receptor,OPRM1
+multidrug and toxin extrusion protein 2,SLC47A2
+muscarinic acetylcholine receptor,CHRM1
+muscarinic acetylcholine receptor m4,CHRM4
+muscarinic acetylcholine receptor m1 (m1),CHRM1
+muscarinic acetylcholine receptor m2,CHRM1
+muscarinic acetylcholine receptor m2 and m4,CHRM2
+muscarinic receptor m1 and m2,CHRM1
+muscarinic receptor m2 and m3,CHRM1
+mu-type opioid receptor,OPRM1
+n-achr,CHRNA
+nachr alpha4 beta2 subtype,CHRNA4
+nad-dependent protein deacetylase sirtuin-5 (sirt5),SIRT5
+nadph oxidase 1,NOX1
+neurokinin 1 receptor,TAC1
+neurokinin 3 receptor,TACR3
+neuronal acetylcholine receptor,CHRNA
+neuronal acetylcholine receptor protein alpha-2 subunit/subunit beta-4,CHRNA2
+neuronal acetylcholine receptor protein alpha-2/beta-2 subunit,CHRNA2
+neuronal acetylcholine receptor protein alpha-2/beta-4 subunit,CHRNA2
+neuronal acetylcholine receptor protein alpha-3/beta-2 subunit,CHRNA3
+neuronal acetylcholine receptor protein alpha-3/beta-4 subunit,CHRNA3
+neuronal acetylcholine receptor protein alpha-4/beta-2 subunit,CHRNA4
+neuronal acetylcholine receptor protein alpha-4/beta-4 subunit,CHRNA4
+neuronal acetylcholine receptor protein alpha-7 subunit,CHRNA7
+neuronal acetylcholine receptor subunit alpha-2,CHRNA7
+neuronal acetylcholine receptor subunit alpha-3,CHRNA3
+neuronal acetylcholine receptor subunit alpha-4,CHRNA4
+neuronal acetylcholine receptor subunit beta-4,CHRNA4
+neuronal acetylcholine receptor; alpha2/beta2,CHRNA2
+neuropeptide y receptor type 1,NPY1R
+neuropeptides b/w receptor 1,NPBWR1
+neurotrophic tyrosine kinase receptor,NPBWR1
+neutrophil cytosolic factor 1,NCF1
+nicotinic acetylcholine receptor alpha2/beta4,CHRNA2
+nicotinic alpha-bungarotoxin,CHRNA
+"nitric-oxide synthase, brain",NOS1
+nociceptin receptor,OPRL1
+nociceptin/mu opioid receptor,OPRL1
+"nociceptin/orphanin fq, nop receptor",OPRL1
+norepinephrine monoamine transporters,SLC6A2
+norepinephrine transporter,SLC6A2
+nt,
+opiate kappa 3,OPRK3
+opiate non-selective,OPR
+opiate sigma,SIGMAR1
+opioid growth factor receptor-like protein 1,OGFR
+opioid receptor,OGFR
+opioid receptors; mu & delta,OPRM1
+opioid receptors; mu/kappa/delta,OPRM1
+oprd1,OPRM1
+oprk1,OPRK1
+p2x purinoceptor 4,P2RX4
+perilipin-1,PLIN1
+p-glycoprotein 1 and 3 (mdr1a/mdr1b),ABCB1
+perilipin-5,PLIN5
+peripheral-type benzodiazepine receptor,TSPO
+p-glycoprotein (p-gp),ABCB1
+p-glycoprotein 1,ABCB1
+phenylethanolamine n-methyltransferase,PNMT
+pkc alpha and beta-2,PRKCA
+platelet activating factor receptor,PTAFR
+pleiotropic abc efflux transporter of multiple drugs,PDR5
+potassium channel (ca2+ dependent),KCNN1
+potassium voltage-gated channel subfamily c member 1,KCNC1
+pregnane x receptor (pxr),NR1I2
+prion protein,PRNP
+prostaglandin e2 receptor,PTGER2
+prostaglandin e2 receptor ep4 subtype (ep4),PTGER2
+prostanoid tp receptor,PTGER2
+proteasome subunit alpha type-6,TBXA2R
+protein kinase c,PRKCA
+"protein kinase c, gamma",PRKCG
+quinolone resistance protein nora,PRKCG
+renal outer medullary potassium (romk),KCNJ1
+rhodopsin kinase,GRK1
+ribosyldihydronicotinamide dehydrogenase [quinone],NQO2
+serotonin (5-ht) receptor,NQO2
+serotonin 1b/1d receptor,HTR1A
+serotonin 2a (5-ht2a) receptor,HTR2A
+serotonin 3 (5-ht3) receptor,HTR3
+serotonin 3a (5-ht3a)/3b (5-ht3b) receptor,HTR3
+serotonin 3a (5-ht3a)/3b (5-ht3b)/3c (5-ht3c)/3d (5-ht3d)/3e (5-ht3e) receptor,HTR3A
+serotonin and norepinephrine transporters (sert/net),HTR3A
+serotonin receptor (2b and 2c),SERT
+serotonin receptor 2a and 2b (5ht2a and 5ht2b),HTR2B
+serotonin receptor 2a and 2c (5ht2a and 5ht2c),HTR2A
+serum albumin,ALB
+sigma,SIGMAR1
+sigma-1 receptor,SIGMAR1
+sigma-2,SIGMAR2
+slc6a3,SLC6A3
+slc6a4,SLC6A4
+sodium (site 1),SCN1A
+sodium (site 2),SCN2A
+sodium channel alpha subunit,SCN1A
+sodium channel protein type 7 subunit alpha,SCN1A
+sodium channel protein type ii alpha subunit,SCN1A
+sodium-dependent dopamine transporter,SLC6A3
+sodium-dependent noradrenaline transporter,SLC6A3
+sodium-dependent serotonin transporter,SLC6A2
+solute carrier family 22 member 2,SLC22A2
+solute carrier family 22 member 20,SLC22A20
+solute carrier family 22 member 6,SLC22A6
+somatostatin,SST
+sphingosine 1-phosphate receptor 3,S1PR3
+substance p,TACR1
+sulfotransferase 1a1 (sult1a1),SULT1A1
+sulfotransferase 2a1 (sult2a1),SULT1A1
+tacr2,SULT2A1
+toll-like receptor 4/md-2/cd14,TLR4
+tpa: essential protein of the mitochondrial intermembrane space,
+trace amine-associated receptor 1,TAAR1
+trace amine-associated receptor 1 (taar1),TAAR1
+transcriptional activator protein luxr,LUXR
+transient receptor potential cation channel subfamily a member 1,TRPA1
+translocator protein,TSPO
+transporter,
+trypanothione reductase,TRYR
+trypanothione reductase (tryr),TRYR
+twik-related potassium (k+) channel 1 (trek1),KCNK2
+tyrosinase,TYR
+ubiquitin-conjugating enzyme e2 n,UBE2N
+udp-glucuronosyltransferase 1-9,UGT1A9
+uridine-5&#39;-diphosphoglucuronosyltransferase 1a1,UGT1A
+uridine-5&#39;-diphosphoglucuronosyltransferase 1a4,UGT1A4
+uridine-5&#39;-diphosphoglucuronosyltransferase 1a6,UGT1A6
+uridine-5&#39;-diphosphoglucuronosyltransferase 2b10,UGT2B10
+uridine-5&#39;-diphosphoglucuronosyltransferase 2b7,UGT2B7
+vascular adhesion protein 1 (vap-1),AOC3
+vesicular acetylcholine transporter,SLC18A3
+vesicular monoamine transporter 2 (vmat2),SLC18A2
+voltage-dependent calcium channel alpha2delta subunit,CACNA2D1
+voltage-dependent l-type calcium channel subunit alpha-1c,CACNA1C
+voltage-gated calcium channel alpha2/delta subunit 1,CACNA2D1
+voltage-gated calcium channel subunit alpha-2/delta,CACNA2D1
+voltage-gated l-type calcium channel,CACNA1A
+voltage-gated potassium channel,KCNA4
+voltage-gated potassium channel beta subunit mink/subunit kv7.1,KCNA1
+voltage-gated potassium channel subunit kv4.3,KCNA4
+voltage-gated sodium channel subunit alpha nav1.2 (nav1.2),SCN1A
+voltage-gated sodium channel subunit alpha nav1.3 (nav1.3),SCN1A
+voltage-gated sodium channel subunit alpha nav1.4 (nav1.4),SCN1A
+voltage-gated sodium channel subunit alpha nav1.8,KCNA1
+voltage-gated sodium channel subunit nav1.5,SCN1A
