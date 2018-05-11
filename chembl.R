@@ -2,6 +2,7 @@ pacman::p_load_gh("rajarshi/chemblr/package")
 pacman::p_load(tidyverse, RCurl, rJava, RJSONIO)
 
 
+library(rJava)
 # Drugbank_converted.csv is a query of `data/fulldatabase.xml`
 # The query is 'data/basex/to_csv.xq"
 drugbank <-
