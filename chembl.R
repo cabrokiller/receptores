@@ -19,10 +19,17 @@ drugs <-
     mutate(receptor = str_to_lower(receptor))
 
 
+tt <- 
+drugs %>%
+    select(inchi) %>%
+    distinct() %>%
+    mutate(chembId = chemblr::get.compounds(inchi, type = "stdinchi")["chemblId"])
+
+
 
 
 
 ####
 
-chemblr::get.compounds(drugs$inchi[1], type="stdinchi")
+chemblr::get.compounds(drugs$inchi[1], type="stdinchi")["chemblId"]
 
