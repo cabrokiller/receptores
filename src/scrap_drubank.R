@@ -1,4 +1,4 @@
-pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid)
+pacman::p_load(rvest, tidyverse, ggthemes, magick, RCurl, grid)
 
 
 get_activity <- function(query){
@@ -53,5 +53,28 @@ do_activity_plot <- function(DB_df){
 "haloperidol" %>%
     get_activity(.) %>%
     do_activity_plot(.)
+
+
+
+
+
+mol_img <- 
+    'https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL415' %>%
+    getURLContent() %>%
+    readPNG()
+
+mol_img <-
+image_read('https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL415')
+
+ozp %>%
+    ggplot(aes(x=fct_rev(Target), y=Actions, color=Activity)) + 
+    geom_point(size=5, shape=15) +
+    coord_flip() +
+    scale_color_manual(values = solarized_pal("red")(3)) +
+    labs(title = ozp$Name, x = "") +
+    theme_solarized_2(light = F) +
+    theme(axis.text.x = element_text(angle = 30, hjust = 1)) +
+    annotation_custom(rasterGrob(mol_img))
+ 
 
 
