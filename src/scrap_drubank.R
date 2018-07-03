@@ -1,4 +1,4 @@
-pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl)
+pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid)
 
 
 get_activity <- function(query){
@@ -29,43 +29,29 @@ get_activity <- function(query){
     return(DB_df)
 }
     
+
 do_activity_plot <- function(DB_df){
+    mol_img <- 
+        DB_df %>%
+        distinct(Chembl_ID) %>%
+        pull(Chembl_ID) %>%
+        paste0('https://www.ebi.ac.uk/chembl/api/data/image/', .) %>%
+        getURLContent() %>%
+        readPNG()
+    
     DB_df %>%
         ggplot(aes(x=fct_rev(Target), y=Actions, color=Activity)) + 
-        geom_point(size=3) +
-        geom_line(aes(group=Activity)) +
+        geom_point(size=5, shape=15) +
         coord_flip() +
         scale_color_manual(values = solarized_pal("red")(3)) +
+        labs(title = DB_df$Name, x = "") +
         theme_solarized_2(light = F) +
-        theme(axis.text.x = element_text(angle = 30, hjust = 1)) + 
-        labs(title = DB_df$Name,
-             x = "Target")
+        theme(axis.text.x = element_text(angle = 30, hjust = 1)) +
+        annotation_custom(rasterGrob(mol_img))
 }
 
-ozp <- get_activity("olanzapine")
-
-ozp %>%
-    ggplot(aes(x=fct_rev(Target), y=Actions, color=Activity)) + 
-    geom_point(size=5, shape=15) +
-    coord_flip() +
-    scale_color_manual(values = solarized_pal("red")(3)) +
-    labs(title = ozp$Name, x = "") +
-    theme_solarized_2(light = F) +
-    theme(axis.text.x = element_text(angle = 30, hjust = 1))
-
-
-
-ozp %>%
-    distinct(Chembl_ID) %>%
-    pull(Chembl_ID)
-
-
-url <- 'https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL715'
-
-image <-
-    url %>%
-    getURLContent() %>%
-    readPNG()
-
+"haloperidol" %>%
+    get_activity(.) %>%
+    do_activity_plot(.)
 
 
