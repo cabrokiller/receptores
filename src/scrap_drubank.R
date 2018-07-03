@@ -1,4 +1,4 @@
-pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid)
+pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick)
 
 
 get_activity <- function(query){
@@ -36,22 +36,25 @@ do_activity_plot <- function(DB_df){
         distinct(Chembl_ID) %>%
         pull(Chembl_ID) %>%
         paste0('https://www.ebi.ac.uk/chembl/api/data/image/', .) %>%
-        getURLContent() %>%
-        readPNG()
+        image_read() %>%
+        image_colorize(100, '#586e75')
     
     DB_df %>%
         ggplot(aes(x=fct_rev(Target), y=Actions, color=Activity)) + 
-        geom_point(size=5, shape=15) +
+        annotation_custom(rasterGrob(mol_img)) +
+        geom_point(size=5, shape=15, alpha = .8) +
         coord_flip() +
         scale_color_manual(values = solarized_pal("red")(3)) +
         labs(title = DB_df$Name, x = "") +
         theme_solarized_2(light = F) +
-        theme(axis.text.x = element_text(angle = 30, hjust = 1)) +
-        annotation_custom(rasterGrob(mol_img))
+        theme(axis.text.x = element_text(angle = 30, hjust = 1))
+        
 }
 
-"haloperidol" %>%
-    get_activity(.) %>%
-    do_activity_plot(.)
+
+get_activity("vortioxetin") %>%
+    do_activity_plot()
+
+
 
 
