@@ -30,29 +30,56 @@ get_enzymes <- function(query){
 }
 
 
-tt <- 
-'https://www.drugbank.ca/drugs/DB00334' %>%
-    url %>%
+
+
+# download olanzapine html
+test <- 
+    url("https://www.drugbank.ca/drugs/DB00334") %>%
     read_html() %>%
-    html_node(xpath = '/html/body/main/div/div[4]/div[2]/div')
-    
-    
-    
-    
-    separate(Target, into = c("Activity", "Target"), sep = 1) %>%
-    mutate(Target = factor(Target, levels = .$Target),
-           Activity = factor(Activity, levels = c("A", "U", "N")))
+    html_nodes(css ='.bond-list')
+
+x = 1 #1 = target, 2 = enzymes
+y = 1
+
+
+name <- 
+    xml_child(test[[x]], y) %>%
+    html_nodes('strong') %>%
+    html_text()
+
+
+keys <-
+    xml_child(test[[x]], y) %>%
+    html_nodes('dt') %>%
+    html_text() %>%
+    tibble(keys = .) %>%
+    mutate(values = c(
+        xml_child(test[[x]], y) %>%
+        html_nodes('dd') %>%
+        html_text()))
+
+# try
+binding <- 
+xml_child(test[[x]], y) %>%
+    html_nodes('.table') %>%
+    html_table() %>%
+    .[[1]]
+
+
+binding %>%
+    select(col = 1, value = 2) %>%
+    group_by(col) %>%
+    summarise(min = min(value),
+              max = max(value),
+              med = median(value)) %>%
+    gather(key, value, -col)
 
 
 
-# download html
-html <- getURL("https://www.drugbank.ca/drugs/DB00334")
 
-# parse html
-doc = XML::htmlParse(html, asText=TRUE)
 
-plain.text <- XML::xpathSApply(doc, "/html/body/main/div/div[4]/div[2]/div", XML::xmlValue)
 
-cat(paste(plain.text, collapse = " "))
 
-//*[@id="BE0002433"]/div[2]
+
+
+
