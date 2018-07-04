@@ -1,4 +1,4 @@
-pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick)
+pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick, rsvg)
 
 
 get_activity <- function(query){
@@ -33,11 +33,11 @@ get_activity <- function(query){
 do_activity_plot <- function(DB_df){
     mol_img <- 
         DB_df %>%
-        distinct(Chembl_ID) %>%
-        pull(Chembl_ID) %>%
-        paste0('https://www.ebi.ac.uk/chembl/api/data/image/', .) %>%
-        image_read() %>%
-        image_colorize(100, '#586e75')
+        distinct(DrugBank_ID) %>%
+        pull(DrugBank_ID) %>%
+        paste0('https://www.drugbank.ca/structures/', ., '/image.svg') %>%
+        image_read_svg() %>%
+        image_colorize(opacity = 100, color = '#839496')
     
     DB_df %>%
         ggplot(aes(x=fct_rev(Target), y=Actions, color=Activity)) + 
@@ -45,14 +45,12 @@ do_activity_plot <- function(DB_df){
         geom_point(size=5, shape=15, alpha = .8) +
         coord_flip() +
         scale_color_manual(values = solarized_pal("red")(3)) +
-        labs(title = DB_df$Name, x = "")
+        labs(title = str_to_title(DB_df$Name), x = "")
         }
 
 
 get_activity("vortioxetin") %>%
-    do_activity_plot() + 
-    theme_minimal() +
-    theme(axis.text.x = element_text(angle = 30, hjust = 1))
+    do_activity_plot()
 
 
 
