@@ -1,4 +1,4 @@
-pacman::p_load(rvest, tidyverse, ggthemes, magick, RCurl, grid)
+pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick)
 
 
 get_activity <- function(query){
@@ -36,45 +36,34 @@ do_activity_plot <- function(DB_df){
         distinct(Chembl_ID) %>%
         pull(Chembl_ID) %>%
         paste0('https://www.ebi.ac.uk/chembl/api/data/image/', .) %>%
-        getURLContent() %>%
-        readPNG()
+        image_read() %>%
+        image_colorize(100, '#586e75')
     
     DB_df %>%
         ggplot(aes(x=fct_rev(Target), y=Actions, color=Activity)) + 
-        geom_point(size=5, shape=15) +
+        annotation_custom(rasterGrob(mol_img)) +
+        geom_point(size=5, shape=15, alpha = .8) +
         coord_flip() +
         scale_color_manual(values = solarized_pal("red")(3)) +
-        labs(title = DB_df$Name, x = "") +
-        theme_solarized_2(light = F) +
-        theme(axis.text.x = element_text(angle = 30, hjust = 1)) +
-        annotation_custom(rasterGrob(mol_img))
-}
+        labs(title = DB_df$Name, x = "")
+        }
 
-"haloperidol" %>%
-    get_activity(.) %>%
-    do_activity_plot(.)
 
+get_activity("vortioxetin") %>%
+    do_activity_plot() + 
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 30, hjust = 1))
 
 
 
-
-mol_img <- 
-    'https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL415' %>%
-    getURLContent() %>%
-    readPNG()
-
-mol_img <-
-image_read('https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL415')
 
 ozp %>%
-    ggplot(aes(x=fct_rev(Target), y=Actions, color=Activity)) + 
-    geom_point(size=5, shape=15) +
-    coord_flip() +
-    scale_color_manual(values = solarized_pal("red")(3)) +
-    labs(title = ozp$Name, x = "") +
-    theme_solarized_2(light = F) +
-    theme(axis.text.x = element_text(angle = 30, hjust = 1)) +
-    annotation_custom(rasterGrob(mol_img))
- 
-
+    ggplot(aes(x=fct_rev(Target), y=Activity, fill=Actions)) + 
+    annotation_custom(rasterGrob(mol_img)) +
+    geom_bin2d(alpha = .6) +
+    coord_flip() + 
+    #geom_point(size=5, shape=15, alpha = .8) +
+    #geom_line(aes(group = Activity), size = 2, alpha = .8) +
+    scale_fill_manual(values = solarized_pal("red")(3)) +
+    labs(title = str_to_title(ozp$Name), x = "", y = "")
 
