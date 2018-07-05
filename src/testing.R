@@ -38,42 +38,54 @@ test <-
     read_html() %>%
     html_nodes(css ='.bond-list')
 
-x = 1 #1 = target, 2 = enzymes
+x = 2 #1 = target, 2 = enzymes
 y = 1
-
 
 name <- 
     xml_child(test[[x]], y) %>%
     html_nodes('strong') %>%
     html_text()
 
+vals <- 
+    xml_child(test[[x]], y) %>%
+    html_nodes('dd') %>%
+    html_text()
 
-keys <-
+cols <-
     xml_child(test[[x]], y) %>%
     html_nodes('dt') %>%
-    html_text() %>%
-    tibble(keys = .) %>%
-    mutate(values = c(
-        xml_child(test[[x]], y) %>%
-        html_nodes('dd') %>%
-        html_text()))
+    html_text()
 
-# try
+
 binding <- 
-xml_child(test[[x]], y) %>%
-    html_nodes('.table') %>%
-    html_table() %>%
-    .[[1]]
+    try(xml_child(test[[x]], y) %>%
+        html_nodes('.table') %>%
+        html_table() %>%
+        .[[1]] %>%
+        select(col = 1, value = 2) %>%
+        group_by(col) %>%
+        summarise(min = min(value),
+                  max = max(value),
+                  med = median(value)) %>%
+        gather(key, value, -col) %>%
+        unite(key, col, key) %>%
+        arrange(key) %>%
+        spread(key, value))
 
 
-binding %>%
-    select(col = 1, value = 2) %>%
-    group_by(col) %>%
-    summarise(min = min(value),
-              max = max(value),
-              med = median(value)) %>%
-    gather(key, value, -col)
+ee <- 
+    tibble(cols, vals) %>%
+    spread(cols, vals) %>%
+    mutate(Name = name)
+    
 
+ifelse(ifelse(class(binding) != "try-error", bind_cols(binding)))
+    
+
+
+
+        
+    
 
 
 
