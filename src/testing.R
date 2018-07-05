@@ -6,7 +6,6 @@ drugs <- read_csv("data/drugs.csv")
 
 
 get_selection <- function(query){
-    drugs <- read_csv("data/drugs.csv")
     match <- agrep(pattern = query, x = drugs$name, value = T)[1]
     selection <- 
         drugs %>%
@@ -44,7 +43,7 @@ get_targets_df <- function(df, section) {
                     html_table() %>%
                     .[[1]] %>%
                     select(col = 1, value = 2) %>%
-                    mutate(value = str_remove(xx$value, pattern = '>'),
+                    mutate(value = str_remove(value, pattern = '>'),
                            value = as.numeric(value)) %>%
                     group_by(col) %>%
                     summarise(min = min(value),
@@ -85,9 +84,23 @@ do_all <- function(query, section = 1){
 }
 
 
-test <- 
-do_all("Nicotine")
 
-rr <- 
-bind_rows(
-map(kk, do_all)
+targets <-
+    pull(drugs, name) %>%
+    map_df(function(x) do_all(x,1))
+
+write_csv(targets, "data/drugbank_target_parse.csv")
+
+
+
+enzymes <-
+    drugs %>%
+    filter(!(name %in% c("Paliperidone", "Varenicline", "Lithium", "Fludiazepam", "Lormetazepam"))) %>%
+    pull(name) %>%
+    map_df(function(x) do_all_enzyme(x,2))
+
+
+
+write_csv(enzymes, "data/drugbank_enzyme_parse.csv")
+
+
