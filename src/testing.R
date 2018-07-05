@@ -1,97 +1,59 @@
 pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick, rsvg)
 
 
-get_enzymes <- function(query){
-    drugs <- 
-        read_csv("data/joined.csv") %>%
-        filter(!str_detect(`Common name`, pattern = '.*[0-9].*')) %>%
-        mutate(Name = tolower(`Common name`)) %>%
-        select(Name, `DrugBank ID`, chembl_id)
-    match <- agrep(pattern = query, x = drugs$Name, value = T)[1]
-    
-    selection <- 
-        drugs %>%
-        filter(Name == match)
-    url <- paste0("https://www.drugbank.ca/drugs/", pull(selection, `DrugBank ID`))
-    
-    DB_df <- 
-        url %>%
-        read_html() %>%
-        html_node(xpath = '//*[@id="drug-moa-target-table"]') %>%
-        html_table() %>%
-        separate(Target, into = c("Activity", "Target"), sep = 1) %>%
-        mutate(Target = factor(Target, levels = .$Target),
-               Activity = factor(Activity, levels = c("A", "U", "N")),
-               Name = selection$Name,
-               DrugBank_ID = selection$`DrugBank ID`,
-               Chembl_ID = selection$chembl_id)
-    
-    return(DB_df)
-}
 
-
-
-
-# download olanzapine html
-test <- 
-    url("https://www.drugbank.ca/drugs/DB00334") %>%
+drug <- "DB00334"
+df <- 
+    url(paste0("https://www.drugbank.ca/drugs/", drug)) %>%
     read_html() %>%
     html_nodes(css ='.bond-list')
 
-x = 2 #1 = target, 2 = enzymes
-y = 1
-
-name <- 
-    xml_child(test[[x]], y) %>%
-    html_nodes('strong') %>%
-    html_text()
-
-vals <- 
-    xml_child(test[[x]], y) %>%
-    html_nodes('dd') %>%
-    html_text()
-
-cols <-
-    xml_child(test[[x]], y) %>%
-    html_nodes('dt') %>%
-    html_text()
 
 
-binding <- 
-    try(xml_child(test[[x]], y) %>%
-        html_nodes('.table') %>%
-        html_table() %>%
-        .[[1]] %>%
-        select(col = 1, value = 2) %>%
-        group_by(col) %>%
-        summarise(min = min(value),
-                  max = max(value),
-                  med = median(value)) %>%
-        gather(key, value, -col) %>%
-        unite(key, col, key) %>%
-        arrange(key) %>%
-        spread(key, value))
-
-
-ee <- 
-    tibble(cols, vals) %>%
-    spread(cols, vals) %>%
-    mutate(Name = name)
-    
-
-ifelse(ifelse(class(binding) != "try-error", bind_cols(binding)))
-    
+tt <- 
+    map_df(1:length(xml_contents(df[[1]])), function(x) get_target(df, x=1, y= x))
 
 
 
-        
-    
+get_target <- function(node, x = 1, y = 1){
+    name <- 
+        xml_child(node[[x]], y) %>%
+        html_nodes('strong') %>%
+        html_text()
 
+    vals <- 
+        xml_child(node[[x]], y) %>%
+        html_nodes('dd') %>%
+        html_text()
 
+    cols <-
+        xml_child(node[[x]], y) %>%
+        html_nodes('dt') %>%
+        html_text()
 
+    binding <- 
+        try(
+        xml_child(node[[x]], y) %>%
+            html_nodes('.table.table-sm.table-responsive') %>%
+            html_table() %>%
+            .[[1]] %>%
+            select(col = 1, value = 2) %>%
+            group_by(col) %>%
+            summarise(min = min(value),
+                      max = max(value),
+                      med = median(value)) %>%
+            gather(key, value, -col) %>%
+            unite(key, col, key) %>%
+            arrange(key) %>%
+            spread(key, value)
+        )
 
+    df <- 
+        tibble(cols, vals, Name = name) %>%
+        spread(cols, vals)
 
-
-
-
-
+    if(class(binding)[1] != "try-error"){
+        bind_cols(df, binding)} else {
+            df
+    }
+}
