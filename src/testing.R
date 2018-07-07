@@ -1,106 +1,43 @@
-pacman::p_load(rvest, tidyverse)
-
-drugs <- read_csv("data/drugs.csv")
-
- 
+pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick, rsvg, RColorBrewer)
 
 
-get_selection <- function(query){
-    match <- agrep(pattern = query, x = drugs$name, value = T)[1]
-    selection <- 
-        drugs %>%
-        filter(name == match)
-    return(selection)
-}
-get_nodes <- function(drug){
+setwd("/home/ludwig/R/projects/receptores")
+data_target <- read_csv("data/drugbank_target_parse.csv")
+data_enzyme <- read_csv("data/drugbank_enzyme_parse.csv")
+do_activity_plot <- function(molecule = "Haloperidol", data = data_enzyme){
+    # get specific molecule df
     df <- 
-        url(paste0("https://www.drugbank.ca/drugs/", pull(drug, drugbank_id))) %>%
-        read_html() %>%
-        html_nodes(css ='.bond-list')
-    return(df)
+        data %>%
+        filter(Drug == molecule)
+    # get number of `General Function` to plot
+    n <-
+        length(unique(df$`General Function`))
+    
+    # get molecule image
+    mol_img <-
+        df %>%
+        pull(drugbank_id) %>%
+        unique() %>%
+        paste0('https://www.drugbank.ca/structures/', ., '/image.svg') %>%
+        image_read_svg() %>%
+        image_colorize(opacity = 100, color = '#839496')
+    
+    # plot
+    df %>%
+        select(Name, Actions, `General Function`) %>%
+        mutate(Actions = str_replace_all(.$Actions, pattern = c('([:upper:][:lower:]+)' = "\\1 -"))) %>%
+        separate(Actions, into = c("action1","action2", "action3"), extra = "drop", fill = "left") %>%
+        mutate(action3 = ifelse(action3 == "", NA, action3)) %>%
+        gather(key,Actions, -c(Name, `General Function`), na.rm = T) %>%
+        select(-key) %>%
+        # plot
+        ggplot(aes(x=`Name`, y=Actions, fill=str_remove(`General Function`, ',.+'))) +
+        annotation_custom(rasterGrob(mol_img)) +
+        geom_bin2d(alpha = .6) +
+        # geom_point(size=10, shape=15, alpha = .8) +
+        coord_flip() +
+        scale_fill_manual(values = colorRampPalette(brewer.pal(n = 7, name = 'BuPu'))(n)) +
+        labs(title = str_to_title(molecule), x = "", y="", fill = "Function") +
+        theme_minimal()
 }
-get_targets_df <- function(df, section) {
-    get_target <- function(node, x, y){
-        drug <- 
-            xml_child(node[[x]], y) %>%
-            html_nodes('strong') %>%
-            html_text()
-        
-        vals <- 
-            xml_child(node[[x]], y) %>%
-            html_nodes('dd') %>%
-            html_text()
-        
-        cols <-
-            xml_child(node[[x]], y) %>%
-            html_nodes('dt') %>%
-            html_text()
-        
-        binding <- 
-            try(
-                xml_child(node[[x]], y) %>%
-                    html_nodes('.table.table-sm.table-responsive') %>%
-                    html_table() %>%
-                    .[[1]] %>%
-                    select(col = 1, value = 2) %>%
-                    mutate(value = str_remove(value, pattern = '>'),
-                           value = as.numeric(value)) %>%
-                    group_by(col) %>%
-                    summarise(min = min(value),
-                              max = max(value),
-                              med = median(value)) %>%
-                    gather(key, value, -col) %>%
-                    unite(key, col, key) %>%
-                    arrange(key) %>%
-                    spread(key, value),
-                silent = T)
-        
-        df <- 
-            tibble(cols, vals, Name = drug) %>%
-            spread(cols, vals)
-        
-        if(class(binding)[1] != "try-error"){
-            bind_cols(df, binding)} else {
-                df
-            }
-    }
-    map_df(1:length(xml_contents(df[[section]])), function(x)
-        get_target(df, x = section, y = x)) %>%
-        separate(Name, into = c("on", "Name"), extra = "merge") %>%
-        select(-on) %>%
-        mutate(
-            Actions = str_replace(.$Actions, pattern = '([:upper:][:lower:]+)([:upper:][:lower:]+)',
-                                  '\\1 - \\2')
-        )
-}
-
-do_all <- function(query, section = 1){
-    sel <- get_selection(query)
-    sel %>%
-        get_nodes() %>%
-        get_targets_df(section) %>%
-        mutate(Drug = sel$name,
-               drugbank_id = sel$drugbank_id)
-}
-
-
-
-targets <-
-    pull(drugs, name) %>%
-    map_df(function(x) do_all(x,1))
-
-write_csv(targets, "data/drugbank_target_parse.csv")
-
-
-
-enzymes <-
-    drugs %>%
-    filter(!(name %in% c("Paliperidone", "Varenicline", "Lithium", "Fludiazepam", "Lormetazepam"))) %>%
-    pull(name) %>%
-    map_df(function(x) do_all_enzyme(x,2))
-
-
-
-write_csv(enzymes, "data/drugbank_enzyme_parse.csv")
-
 
