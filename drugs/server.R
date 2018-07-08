@@ -35,19 +35,17 @@ shinyServer(function(input, output) {
         
         # plot
         df %>%
-            select(Name, `Gene Name`, Actions, `General Function`) %>%
+            select(Name, Actions, `General Function`) %>%
             mutate(Actions = str_replace_all(.$Actions, pattern = c('([:upper:][:lower:]+)' = "\\1 -"))) %>%
             separate(Actions, into = c("action1","action2", "action3"), extra = "drop", fill = "left") %>%
             mutate(action3 = ifelse(action3 == "", NA, action3)) %>%
-            gather(key,Actions, -c(Name, `General Function`, `Gene Name`), na.rm = T) %>%
+            gather(key,Actions, -c(Name, `General Function`), na.rm = T) %>%
             select(-key) %>%
             # plot
-            ggplot(aes(x=`Gene Name`, y=Actions, fill=str_remove(`General Function`, ',.+'))) +
+            ggplot(aes(y=`Name`, fill=Actions, x=Actions))+
             annotation_custom(rasterGrob(mol_img)) +
-            geom_bin2d(alpha = .6) +
-            # geom_point(size=10, shape=15, alpha = .8) +
-            coord_flip() +
-            scale_fill_manual(values = colorRampPalette(brewer.pal(n = 7, name = 'BrBG'))(n)) +
+            geom_bin2d(alpha = .65) +
+            scale_fill_manual(values = colorRampPalette(solarized_pal()(8))(n))+
             labs(title = str_to_title(molecule), x = "", y="", fill = "Function") +
             theme_minimal()
   })

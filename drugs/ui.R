@@ -8,7 +8,7 @@
 #
 
 library(shiny)
-
+pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick, rsvg, RColorBrewer)
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
     # Application title
