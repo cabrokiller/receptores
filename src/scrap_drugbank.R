@@ -100,5 +100,6 @@ enzymes <-
     drugs %>%
     get_all_drugs(section = 2)
 
-
-write_csv(enzymes, "data/drugbank_enzyme_parse.csv")
+enzymes %>%
+    select(-'NA') %>%
+write_csv("data/drugbank_enzyme_parse.csv")
