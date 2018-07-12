@@ -83,13 +83,14 @@ for_plot %>%
 
 for_plot %>%
     ggplot(aes(x = fct_reorder(`Gene Name`, `Ki (nM)_med`),
-               y = ifelse(is.na(`Ki (nM)_med`), -log(mean_Ki), -log(`Ki (nM)_med`)),
+               y = ifelse(is.na(`Ki (nM)_med`), -1* -log(mean_Ki), -1 * -log(`Ki (nM)_med`)),
                group = Actions)) +
     geom_line() +
     geom_dotplot(aes(fill = Actions), binaxis = 'x', stackgroups = T, 
                  stackdir = "centerwhole", binpositions = "all") +
     scale_fill_viridis_d(option = "D") +
     labs(title = unique(for_plot$Drug), x = '', y = "Targets", shape = '') +
+    
     theme_minimal()
     
 
