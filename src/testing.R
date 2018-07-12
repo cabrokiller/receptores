@@ -52,22 +52,10 @@ data_full <-
 
 n = 4
 
-data_full %>%
-    filter(Drug == "Clozapine",
-           Type == "target") %>%
-    replace_na(list(Actions = "Other/unknown")) %>%
-    # plot
-    ggplot(aes(y = `Gene Name`, x=1, color = Actions)) +
-    geom_point(size = 3) +
-    geom_point(aes(size = 1/log(`Ki (nM)_med`))) +
-    scale_size_continuous(range = c(3,15)) +
-    scale_color(type = 'qual', palette = 2) +
-    coord_fixed(.75) +
-    theme_minimal()
     
 for_plot <-   
     data_full %>%
-    filter(Drug == "Clozapine",
+    filter(Drug == "Aripiprazole",
            Type == "target") %>%
     mutate(Actions = str_replace_all(.$Actions, pattern = c('([:upper:][:lower:]+)' = "\\1 -"))) %>%
     separate(Actions, into = c("action1","action2", "action3"), extra = "drop", fill = "left") %>%
@@ -100,7 +88,7 @@ for_plot %>%
     geom_line() +
     geom_dotplot(aes(fill = Actions), binaxis = 'x', stackgroups = T, 
                  stackdir = "centerwhole", binpositions = "all") +
-    scale_color_viridis_d(option = "D") +
+    scale_fill_viridis_d(option = "D") +
     labs(title = unique(for_plot$Drug), x = '', y = "Targets", shape = '') +
     theme_minimal()
     
