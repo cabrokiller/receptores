@@ -1,4 +1,4 @@
-pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick, rsvg, RColorBrewer)
+pacman::p_load(rvest, tidyverse, ggthemes, png, RCurl, grid, magick, rsvg, RColorBrewer, scales)
 
 
 data_target <- read_csv("data/drugbank_target_parse.csv")
@@ -44,55 +44,68 @@ do_plot_1 <- function(molecule = "Clozapine", type = "target"){
 
 do_plot_1()
 
-data_full <- 
-    data_target %>%
-    mutate(Type = "target") %>%
-    bind_rows(data_enzyme %>%
-                  mutate(Type = "enzyme"))
+do_plot_2 <- function(molecule = "Clozapine", type = "target"){
+    data_full <- 
+        data_target %>%
+        mutate(Type = "target") %>%
+        bind_rows(data_enzyme %>%
+                      mutate(Type = "enzyme"))
 
-n = 4
+    for_plot <-   
+        data_full %>%
+        filter(Drug == molecule,
+               Type == type) %>%
+        mutate(Actions = str_replace_all(.$Actions, pattern = c('([:upper:][:lower:]+)' = "\\1 -"))) %>%
+        separate(Actions, into = c("action1","action2", "action3"), extra = "drop", fill = "left") %>%
+        mutate(action3 = ifelse(action3 == "", NA, action3)) %>%
+        gather(key,Actions, -c(Name, `Gene Name`:Type), na.rm = T) %>%
+        select(-key) %>%
+        mutate(Pot = ifelse(is.na(`Ki (nM)_med`), 0, -log10(`Ki (nM)_med`)))
 
+    min_pki <- 
+        for_plot %>%
+        pull(Pot) %>%
+        min(., na.rm = T)
+
+
+    for_plot %>%
+        ggplot(aes(y = fct_reorder(`Gene Name`, Pot),
+                   x = ifelse(is.na(`Ki (nM)_med`), 0,  Pot))) +
+        
+        geom_line(aes(group = ifelse(is.na(`Ki (nM)_med`), 'a', 'b'),
+                      linetype = ifelse(is.na(`Ki (nM)_med`), 'a', 'b')),
+                  size = .5) +
+        
+        geom_point(aes(shape = ifelse(is.na(`Ki (nM)_med`), 'a', 'b'))) + 
     
+        geom_dotplot(aes(fill = Actions, group = Actions, x= min_pki - .5), binaxis = 'y', stackgroups = T, 
+                     stackdir = "centerwhole", binpositions = 'all')+
+
+        scale_fill_viridis_d(option = "D") +
+        scale_linetype_manual(values = c(4,1)) +
+        labs(title = unique(for_plot$Drug), x = '', y = "Targets", shape = '') +
+        #coord_fixed(1) +
+        theme_minimal()
+}
+
+do_plot_2("Ziprasidone")
+
+
+
 for_plot <-   
     data_full %>%
-    filter(Drug == "Aripiprazole",
-           Type == "target") %>%
+    filter(Drug == "Ziprasidone",
+           Type == 'target') %>%
     mutate(Actions = str_replace_all(.$Actions, pattern = c('([:upper:][:lower:]+)' = "\\1 -"))) %>%
     separate(Actions, into = c("action1","action2", "action3"), extra = "drop", fill = "left") %>%
     mutate(action3 = ifelse(action3 == "", NA, action3)) %>%
     gather(key,Actions, -c(Name, `Gene Name`:Type), na.rm = T) %>%
-    select(-key)
+    select(-key) %>%
+    mutate(Pot = ifelse(is.na(`Ki (nM)_med`), 0, log10(`Ki (nM)_med`)/`Ki (nM)_med`))
 
-mean_Ki <- 
-    for_plot %>%
-    summarise(mean = mean(`Ki (nM)_med`, na.rm = T)) %>%
-    pull(mean)
-    
+#zz <- 
 for_plot %>%
-    ggplot(aes(y = fct_reorder(`Gene Name`, `Ki (nM)_med`), x = 1, color = Actions, group = Actions)) +
-    geom_point(aes(size = ifelse(is.na(`Ki (nM)_med`), -log(mean_Ki), -log(`Ki (nM)_med`)),
-                   shape = ifelse(is.na(`Ki (nM)_med`),  "Ki unknown", "size = -log(Ki)")),
-               position = position_dodge(1)) +
-    scale_size_continuous(range = c(3,10), guide = F) +
-    scale_shape_manual(values= c(18,19)) +
-    scale_color_viridis_d(option = "D") +
-    labs(title = unique(for_plot$Drug), x = '', y = "Targets", shape = '') +
-    coord_fixed(.5) +
-    theme_minimal()
-
-
-for_plot %>%
-    ggplot(aes(x = fct_reorder(`Gene Name`, `Ki (nM)_med`),
-               y = ifelse(is.na(`Ki (nM)_med`), -1* -log(mean_Ki), -1 * -log(`Ki (nM)_med`)),
-               group = Actions)) +
-    geom_line() +
-    geom_dotplot(aes(fill = Actions), binaxis = 'x', stackgroups = T, 
-                 stackdir = "centerwhole", binpositions = "all") +
-    scale_fill_viridis_d(option = "D") +
-    labs(title = unique(for_plot$Drug), x = '', y = "Targets", shape = '') +
-    
-    theme_minimal()
-    
-
-    
-    
+    select(xx = `Ki (nM)_med`) %>%
+    mutate(xxx = -log10(xx), 
+           xy = log10(xx)/xx) %>%
+    arrange(xx)
