@@ -69,8 +69,8 @@ do_plot_2 <- function(molecule = "Clozapine", type = "target"){
 
 
     for_plot %>%
-        ggplot(aes(y = fct_reorder(`Gene Name`, Pot),
-                   x = ifelse(is.na(`Ki (nM)_med`), 0,  Pot))) +
+        ggplot(aes(y = fct_reorder(`Gene Name`, `Ki (nM)_med`),
+                   x = ifelse(is.na(`Ki (nM)_med`), 0, log10(`Ki (nM)_med`)))) +
         
         geom_line(aes(group = ifelse(is.na(`Ki (nM)_med`), 'a', 'b'),
                       linetype = ifelse(is.na(`Ki (nM)_med`), 'a', 'b')),
@@ -78,13 +78,13 @@ do_plot_2 <- function(molecule = "Clozapine", type = "target"){
         
         geom_point(aes(shape = ifelse(is.na(`Ki (nM)_med`), 'a', 'b'))) + 
     
-        geom_dotplot(aes(fill = Actions, group = Actions, x= min_pki - .5), binaxis = 'y', stackgroups = T, 
+        geom_dotplot(aes(fill = Actions, group = Actions, x= 0), binaxis = 'y', stackgroups = T, 
                      stackdir = "centerwhole", binpositions = 'all')+
 
         scale_fill_viridis_d(option = "D") +
         scale_linetype_manual(values = c(4,1)) +
         labs(title = unique(for_plot$Drug), x = '', y = "Targets", shape = '') +
-        #coord_fixed(1) +
+        scale_x_reverse() +
         theme_minimal()
 }
 
@@ -103,9 +103,9 @@ for_plot <-
     select(-key) %>%
     mutate(Pot = ifelse(is.na(`Ki (nM)_med`), 0, log10(`Ki (nM)_med`)/`Ki (nM)_med`))
 
-#zz <- 
+zz <- 
 for_plot %>%
     select(xx = `Ki (nM)_med`) %>%
-    mutate(xxx = -log10(xx), 
+    mutate(xxx = log10(xx), 
            xy = log10(xx)/xx) %>%
     arrange(xx)
