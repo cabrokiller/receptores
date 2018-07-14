@@ -1,13 +1,14 @@
 library(shiny)
-library(tidyverse)
+library(dplyr)
+library(readr)
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
     # Application title
     title = "dkwkjkjdkw",
-    drugs <- read_csv("../data/drugbank_target_parse.csv") %>%
-        arrange(Drug) %>%
-        pull(Drug),
+    drugs <- read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugs.csv") %>%
+        arrange(name) %>%
+        pull(name),
     
     fluidRow(
         column(5,

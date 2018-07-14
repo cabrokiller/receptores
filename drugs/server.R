@@ -1,12 +1,15 @@
 library(shiny)
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(readr)
 library(ggthemes)
 library(magick)
 library(grid)
-library(scales)
+library(stringr)
+
 
 shinyServer(function(input, output) {
-    pacman::p_load(tidyverse, ggthemes, magick, grid, scales)
     data_enzyme <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_enzyme_parse.csv')
     data_target <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
     
