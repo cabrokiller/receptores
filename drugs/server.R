@@ -37,17 +37,9 @@ shinyServer(function(input, output) {
             mutate(Actions = str_to_title(Actions),
                    known_ki = ifelse(is.na(`Ki (nM)_med`), F, T),
                    max_ki = ifelse(is.infinite(max(`Ki (nM)_med`, na.rm = T)), 1, max(`Ki (nM)_med`, na.rm = T))) %>%
-            arrange(`Ki (nM)_med`) %>%
+            arrange(`Pharmacological action`, `Ki (nM)_med`) %>%
             mutate(`Name` = factor(`Name`, levels = unique(.$Name)))
         
-        col_vec <- 
-            for_plot %>%
-            select(`Pharmacological action`) %>%
-            mutate(col_vec = case_when(
-                `Pharmacological action` == "Yes" ~ solarized_pal("blue")(1),
-                `Pharmacological action` == "Unknown" ~ solarized_pal("orange")(1),
-                TRUE ~ "black")) %>%
-            pull(col_vec)
         
         mol_img <-
             for_plot %>%
@@ -60,19 +52,18 @@ shinyServer(function(input, output) {
         
         for_plot %>%
             ggplot(aes(y = `Name`,
-                       x = Actions, 
-                       group = known_ki)) +
+                       x = Actions)) +
             annotation_custom(rasterGrob(mol_img)) +
-            geom_raster(aes(fill = log10(`Ki (nM)_med`)),
-                        interpolate = F, alpha = .8)+
+            geom_tile(aes(fill = -log10(`Ki (nM)_med`), color = `Pharmacological action`),
+                        interpolate = F, alpha = .8, size = 1) +
+            geom_tile(aes(y = `Pharmacological action`))+
             
             scale_fill_viridis_c(option = "D", na.value="#93a1a1", direction = -1) +
             labs(title = unique(for_plot$Drug), x = '', y = "", fill = '-log10(Ki)') +
             
-            #scale_y_discrete(position = "right") +
+            scale_shape_manual(values = c(1,8, 5, 13)) +
             theme_minimal(base_size = 18) +
-            theme(legend.position="bottom",
-                  axis.text.y = element_text(color = col_vec))
+            theme(legend.position="bottom")
         
         
     })
