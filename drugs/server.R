@@ -37,7 +37,7 @@ shinyServer(function(input, output) {
             mutate(Actions = str_to_title(Actions),
                    known_ki = ifelse(is.na(`Ki (nM)_med`), F, T),
                    max_ki = ifelse(is.infinite(max(`Ki (nM)_med`, na.rm = T)), 1, max(`Ki (nM)_med`, na.rm = T))) %>%
-            arrange(`Pharmacological action`, `Ki (nM)_med`) %>%
+            arrange(`Pharmacological action`, -`Ki (nM)_med`) %>%
             mutate(`Name` = factor(`Name`, levels = unique(.$Name)))
         
         
@@ -49,23 +49,33 @@ shinyServer(function(input, output) {
             image_read_svg() %>%
             image_colorize(opacity = 100, color = '#002b36')
         
-        
-        for_plot %>%
+        plot <- 
+            for_plot %>%
             ggplot(aes(y = `Name`,
                        x = Actions)) +
             annotation_custom(rasterGrob(mol_img)) +
-            geom_tile(aes(fill = -log10(`Ki (nM)_med`), color = `Pharmacological action`),
-                        interpolate = F, alpha = .8, size = 1) +
-            geom_tile(aes(y = `Pharmacological action`))+
-            
-            scale_fill_viridis_c(option = "D", na.value="#93a1a1", direction = -1) +
-            labs(title = unique(for_plot$Drug), x = '', y = "", fill = '-log10(Ki)') +
-            
-            scale_shape_manual(values = c(1,8, 5, 13)) +
-            theme_minimal(base_size = 18) +
-            theme(legend.position="bottom")
+            theme_minimal(base_size = 18)
         
-        
+        if(type == "target"){
+                plot +
+                geom_tile(aes(fill = -log10(`Ki (nM)_med`)),
+                          interpolate = F, alpha = .7) +
+                geom_point(aes(shape = `Pharmacological action`),
+                           size = 5,
+                           alpha = .6) +
+                scale_size_continuous(range = c(1,30)) +
+                
+                geom_line(aes(linetype="unknown")) +
+                guides(linetype=guide_legend("Potency", override.aes=list(color="#93a1a1", size = 10))) +
+                
+                scale_fill_viridis_c(option = "C", na.value="#93a1a1", direction = -1) +
+                labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Potency (-log10(Ki))')
+        }else{
+                plot +
+                geom_tile(interpolate = T, alpha = .7, aes(fill = Actions)) +
+                scale_fill_viridis_d(option = "D", na.value="#93a1a1", direction = -1) +
+                labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Actions')
+            }
     })
     
 })
