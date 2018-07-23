@@ -14,17 +14,17 @@ shinyUI(fluidPage(
     titlePanel("Receptors"),
     fluidRow(
         column(5,
-               h4("Select a molecule"),
-               selectInput("select", label = h3("Drug"), 
+               #h4("Select a molecule"),
+               selectInput("select", label = h4("Drug"), 
                            choices = drugs, 
                            selected = 1)
         ),
         column(4,
-               h4("Molecule"),
-               radioButtons("radio", label = h3("Display type"),
+               #h5("Molecule"),
+               radioButtons("radio", label = h4("Display type"),
                             choices = list("Target" = 1, "Enzymes" = 2), 
-                            selected = 1))
+                            selected = 1, inline = T))
     ),
     hr(),
-    plotOutput("drugPlot", height = "600px", width = "800px")
+    plotOutput("drugPlot", height = "600px", width = "1200px")
 ))
