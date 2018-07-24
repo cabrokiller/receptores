@@ -103,3 +103,4 @@ enzymes <-
 enzymes %>%
     select(-'NA') %>%
 write_csv("data/drugbank_enzyme_parse.csv")
+

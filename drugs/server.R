@@ -9,7 +9,6 @@ library(magick)
 library(grid)
 library(stringr)
 
-
 shinyServer(function(input, output) {
     data_enzyme <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_enzyme_parse.csv')
     data_target <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
@@ -24,7 +23,7 @@ shinyServer(function(input, output) {
             data_target %>%
             mutate(Type = "target") %>%
             bind_rows(data_enzyme %>%
-                          mutate(Type = "enzyme"))
+            mutate(Type = "enzyme"))
         
         for_plot <-   
             data_full %>%
@@ -37,11 +36,8 @@ shinyServer(function(input, output) {
             gather(key,Actions, -c(Name, `Gene Name`:Type), na.rm = T) %>%
             select(-key) %>%
             mutate(Actions = str_to_title(Actions)) %>%
-            arrange(`Pharmacological action`, -`Ki (nM)_med`) %>%
+            arrange(`Pharmacological action`, `Ki (nM)_med`) %>%
             mutate(`Name` = factor(`Name`, levels = unique(.$Name)))
-        
-        
-        
         
         mol_img <-
             for_plot %>%
@@ -65,20 +61,14 @@ shinyServer(function(input, output) {
                 geom_point(aes(shape = `Pharmacological action`, color = log10(`Ki (nM)_med`)),
                            size = 8,
                            alpha = 1) +
-                geom_line(aes(linetype="unknown")) +
+                geom_line(aes(linetype="unknown", group = `Name`), color = NA) +
                 guides(linetype = guide_legend("Potency", order = 2, override.aes=list(color="#93a1a1", size = 10)),
                        fill = guide_colorbar(order = 1, reverse = T),
                        shape = guide_legend(order = 3),
                        color = F) +
                 scale_fill_viridis_c(option = "plasma", na.value="#93a1a1", aesthetics = c("colour", "fill")) +
                 labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Potency [log(Ki)]', shape = 'Actions') +
-               
-                
-                
-                 scale_y_discrete(trans = "reverse", breaks = forcats::fct_rev(for_plot$Name))
-            
-            
-            
+                scale_y_discrete(limits = rev(levels(for_plot$Name)))
             }else{
                 plot +
                 geom_tile(interpolate = T, alpha = .7, aes(fill = Actions)) +
