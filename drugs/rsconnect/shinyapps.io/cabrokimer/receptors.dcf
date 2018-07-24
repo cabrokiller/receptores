@@ -5,8 +5,8 @@ account: cabrokimer
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 386106
-bundleId: 1496621
+bundleId: 1496892
 url: https://cabrokimer.shinyapps.io/receptors/
-when: 1532419556.69602
+when: 1532431293.5496
 asMultiple: FALSE
 asStatic: FALSE

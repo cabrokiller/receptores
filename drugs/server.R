@@ -32,11 +32,12 @@ shinyServer(function(input, output) {
             mutate(Actions = str_replace_all(.$Actions, pattern = c('([:upper:][:lower:]+)' = "\\1 -")),
                    `Pharmacological action` = forcats::fct_inorder(.$`Pharmacological action`)) %>%
             separate(Actions, into = c("action1","action2", "action3"), extra = "drop", fill = "left") %>%
-            mutate(action3 = ifelse(action3 == "" | action3 == "unknown", NA, action3)) %>%
+            mutate(action3 = ifelse(action3 == "" | action3 == "unknown", NA, action3),
+                   `Pharmacological action` = ifelse(`Pharmacological action` == "Yes", "Yes", "unknown")) %>%
             gather(key,Actions, -c(Name, `Gene Name`:Type), na.rm = T) %>%
             select(-key) %>%
             mutate(Actions = str_to_title(Actions)) %>%
-            arrange(`Pharmacological action`, `Ki (nM)_med`) %>%
+            arrange(desc(`Pharmacological action`),`Ki (nM)_med`) %>%
             mutate(`Name` = factor(`Name`, levels = unique(.$Name)))
         
         mol_img <-
@@ -64,8 +65,9 @@ shinyServer(function(input, output) {
                 geom_line(aes(linetype="unknown", group = `Name`), color = NA) +
                 guides(linetype = guide_legend("Potency", order = 2, override.aes=list(color="#93a1a1", size = 10)),
                        fill = guide_colorbar(order = 1, reverse = T),
-                       shape = guide_legend(order = 3),
+                       shape = guide_legend(order = 3, reverse = T),
                        color = F) +
+                scale_shape_manual(values = c(17,16)) +
                 scale_fill_viridis_c(option = "plasma", na.value="#93a1a1", aesthetics = c("colour", "fill")) +
                 labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Potency [log(Ki)]', shape = 'Actions') +
                 scale_y_discrete(limits = rev(levels(for_plot$Name)))
