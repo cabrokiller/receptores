@@ -26,5 +26,5 @@ shinyUI(fluidPage(
                             selected = 1))
     ),
     hr(),
-    plotOutput("drugPlot", height = "600px", width = "800px")
+    plotOutput("drugPlot", height = "600px", width = "1000px")
 ))

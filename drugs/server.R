@@ -58,8 +58,8 @@ shinyServer(function(input, output) {
         
         if(type == "target"){
                 plot +
-                geom_tile(aes(fill = -log10(`Ki (nM)_med`)),
-                          interpolate = F, alpha = .7) +
+                geom_raster(aes(fill = log10(`Ki (nM)_med`)),
+                          interpolate = T, alpha = .7) +
                 geom_point(aes(shape = `Pharmacological action`),
                            size = 5,
                            alpha = .6) +
@@ -68,8 +68,8 @@ shinyServer(function(input, output) {
                 geom_line(aes(linetype="unknown")) +
                 guides(linetype=guide_legend("Potency", override.aes=list(color="#93a1a1", size = 10))) +
                 
-                scale_fill_viridis_c(option = "C", na.value="#93a1a1", direction = -1) +
-                labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Potency (-log10(Ki))')
+                scale_fill_viridis_c(option = "C", na.value="#93a1a1", direction = 1) +
+                labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Potency (log10(Ki))')
         }else{
                 plot +
                 geom_tile(interpolate = T, alpha = .7, aes(fill = Actions)) +
@@ -79,3 +79,4 @@ shinyServer(function(input, output) {
     })
     
 })
+
