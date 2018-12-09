@@ -2,7 +2,6 @@ pacman::p_load(rvest, tidyverse)
 
 drugs <- read_csv("data/drugs.csv")
 
-
 get_selection <- function(query){
     match <- agrep(pattern = query, x = drugs$name, value = T)[1]
     selection <- 
@@ -97,7 +96,6 @@ get_all_drugs <- function(df, section){
 # Scrap!!
 targets <-
     drugs %>%
-    #slice(5) %>%
     get_all_drugs(section = 1)
 
 

@@ -47,12 +47,14 @@ shinyServer(function(input, output) {
             scale_x_continuous(breaks = NULL) +
             scale_y_discrete(position = "right") +
             labs(x = '', y = '', color = 'log(Ki)') +
-            theme_minimal(base_size = 14) +
+            theme_minimal(base_size = 16) +
             facet_grid(cols = vars(Drug), rows = vars(`family`),
                        scales = "free", space = "free", switch = "y") +
-            theme(axis.title.x=element_blank(),
-                  axis.text.x=element_blank(),
-                  axis.ticks.x=element_blank())
+            theme(axis.title.x = element_blank(),
+                  axis.text.x = element_blank(),
+                  axis.ticks.x = element_blank(),
+                  strip.text.y = element_text(angle = 180),
+                  strip.text.x = element_text(size = 20))
     plot
     })
 })

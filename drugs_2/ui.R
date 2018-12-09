@@ -17,19 +17,19 @@ shinyUI(fluidPage(# Application title
                 "select_1",
                 label = h4("Drug"),
                 choices = drugs,
-                selected = 1
+                selected = "Haloperidol"
             ),
             selectInput(
                 "select_2",
                 label = h4("Drug"),
                 choices = drugs,
-                selected = 2
+                selected = "Olanzapine"
             ),
             selectInput(
                 "select_3",
                 label = h4("Drug"),
                 choices = drugs,
-                selected = 3
+                selected = "Perphenazine"
             )
         ),
         column(3,

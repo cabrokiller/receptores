@@ -1,82 +1,82 @@
-name,drugbank_id
-Amphetamine,DB00182
-Nicotine,DB00184
-Lorazepam,DB00186
-Citalopram,DB00215
-Temazepam,DB00231
-Ziprasidone,DB00246
-Cabergoline,DB00248
-Venlafaxine,DB00285
-Morphine,DB00295
-Valproic Acid,DB00313
-Amitriptyline,DB00321
-Methadone,DB00333
-Olanzapine,DB00334
-Sulpiride,DB00391
-Pramipexole,DB00413
-Promazine,DB00420
-Imipramine,DB00458
-Fluoxetine,DB00472
-Duloxetine,DB00476
-Chlorpromazine,DB00477
-Buspirone,DB00490
-Oxycodone,DB00497
-Haloperidol,DB00502
-Nortriptyline,DB00540
-Lamotrigine,DB00555
-Carbamazepine,DB00564
-Clonidine,DB00575
-Lisuride,DB00589
-Fluphenazine,DB00623
-Naltrexone,DB00704
-Paroxetine,DB00715
-Risperidone,DB00734
-Oxcarbazepine,DB00776
-Phenelzine,DB00780
-Fentanyl,DB00813
-Diazepam,DB00829
-Oxazepam,DB00842
-Flupentixol,DB00875
-Triazolam,DB00897
-Ethanol,DB00898
-Cocaine,DB00907
-Buprenorphine,DB00921
-Pindolol,DB00960
-Gabapentin,DB00996
-Melatonin,DB01065
-Clonazepam,DB01068
-Sertraline,DB01104
-Desipramine,DB01151
-Bupropion,DB01156
-Escitalopram,DB01175
-Naloxone,DB01183
-Pergolide,DB01186
-Estazolam,DB01215
-Quetiapine,DB01224
-Aripiprazole,DB01238
-Clomipramine,DB01242
-Paliperidone,DB01267
-Varenicline,DB01273
-Lithium,DB01356
-Flunitrazepam,DB01544
-Bromazepam,DB01558
-Clotiazepam,DB01559
-Fludiazepam,DB01567
-Dextroamphetamine,DB01576
-Methamphetamine,DB01577
-Nitrazepam,DB01595
-Zuclopenthixol,DB01624
-Mianserin,DB06148
-Asenapine,DB06216
-Nalmefene,DB06230
-Agomelatine,DB06594
-Desvenlafaxine,DB06700
-Vortioxetine,DB09068
-Lormetazepam,DB13872
-Clozapine,DB00363
-Mirtazapine,DB00370
-Amisulpride,DB06288
-Sertindole,DB06144
-Perphenazine,DB00850
+name,drugbank_id, fam
+Amphetamine,DB00182, Stimulant
+Nicotine,DB00184, Stimulant
+Lorazepam,DB00186, Depressants
+Citalopram,DB00215, Antidepressant
+Temazepam,DB00231, Depressants
+Ziprasidone,DB00246, Antipsychotic
+Cabergoline,DB00248, Other
+Venlafaxine,DB00285, Antidepressant
+Morphine,DB00295, Depressants
+Valproic Acid,DB00313, Mood stabilizer
+Amitriptyline,DB00321, Antidepressant
+Methadone,DB00333, Opioid
+Olanzapine,DB00334, Antipsychotic
+Sulpiride,DB00391, Antipsychotic
+Pramipexole,DB00413, Other
+Promazine,DB00420, Antipsychotic
+Imipramine,DB00458, Antidepressant
+Fluoxetine,DB00472, Antidepressant
+Duloxetine,DB00476, Antidepressant
+Chlorpromazine,DB00477, Antipsychotic
+Buspirone,DB00490, Other
+Oxycodone,DB00497, Opioid
+Haloperidol,DB00502, Antipsychotic
+Nortriptyline,DB00540, Antidepressant
+Lamotrigine,DB00555, Mood stabilizer
+Carbamazepine,DB00564, Mood stabilizer
+Clonidine,DB00575, Depressants
+Lisuride,DB00589, Antipsychotic
+Fluphenazine,DB00623, Antipsychotic
+Naltrexone,DB00704, Opioid
+Paroxetine,DB00715, Antidepressant
+Risperidone,DB00734, Antipsychotic
+Oxcarbazepine,DB00776, Mood stabilizer
+Phenelzine,DB00780, Antidepressant
+Fentanyl,DB00813, Opioid
+Diazepam,DB00829, Depressants
+Oxazepam,DB00842, Depressants
+Flupentixol,DB00875, Antipsychotic
+Triazolam,DB00897, Depressants
+Ethanol,DB00898, Depressants
+Cocaine,DB00907, Stimulant
+Buprenorphine,DB00921, Opioid
+Pindolol,DB00960, Antidepressant
+Gabapentin,DB00996, Mood stabilizer
+Melatonin,DB01065, Other
+Clonazepam,DB01068, Depressants
+Sertraline,DB01104, Antidepressant
+Desipramine,DB01151, Antidepressant
+Bupropion,DB01156, Antidepressant
+Escitalopram,DB01175, Antidepressant
+Naloxone,DB01183, Opioid
+Pergolide,DB01186, Other
+Estazolam,DB01215, Depressants
+Quetiapine,DB01224, Antipsychotic
+Aripiprazole,DB01238, Antipsychotic
+Clomipramine,DB01242, Antidepressant
+Paliperidone,DB01267, Antipsychotic
+Varenicline,DB01273, Other
+Lithium,DB01356, Mood stabilizer
+Flunitrazepam,DB01544, Depressants
+Bromazepam,DB01558, Depressants
+Clotiazepam,DB01559, Depressants
+Fludiazepam,DB01567, Depressants
+Dextroamphetamine,DB01576, Stimulant
+Methamphetamine,DB01577, Stimulant
+Nitrazepam,DB01595, Depressants
+Zuclopenthixol,DB01624, Antipsychotic
+Mianserin,DB06148, Antidepressant
+Asenapine,DB06216, Antipsychotic
+Nalmefene,DB06230, Opioid
+Agomelatine,DB06594, Antidepressant
+Desvenlafaxine,DB06700, Antidepressant
+Vortioxetine,DB09068, Antidepressant
+Lormetazepam,DB13872, Depressants
+Clozapine,DB00363, Antipsychotic
+Mirtazapine,DB00370, Antidepressant
+Amisulpride,DB06288, Antipsychotic
+Sertindole,DB06144, Antipsychotic
+Perphenazine,DB00850, Antipsychotic
 
 
