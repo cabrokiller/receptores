@@ -12,14 +12,14 @@ get_selection <- function(query){
 }
 get_nodes <- function(drug){
     df <- 
-        url(paste0("https://www.drugbank.ca/drugs/", pull(drug, drugbank_id))) %>%
+        paste0("https://www.drugbank.ca/drugs/", pull(drug, drugbank_id)) %>%
+        html_session() %>%
         read_html() %>%
         html_nodes(css ='.bond-list')
     return(df)
 }
 get_targets_df <- function(df, section) {
     get_target <- function(node, x, y){
-        Sys.sleep(10)
         drug <- 
             xml_child(node[[x]], y) %>%
             html_nodes('strong') %>%

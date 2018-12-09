@@ -3,20 +3,18 @@ pacman::p_load(rvest, tidyverse)
 drugs <- read_csv("data/drugs.csv")
 
 
-get_selection <- function(query){
-    match <- agrep(pattern = query, x = drugs$name, value = T)[1]
-    selection <- 
-        drugs %>%
-        filter(name == match)
-    return(selection)
-}
-get_nodes <- function(drug){
-    df <- 
-        url(paste0("https://www.drugbank.ca/drugs/", pull(drug, drugbank_id))) %>%
-        read_html() %>%
-        html_nodes(css ='.bond-list')
-    return(df)
-}
+drug <- "DB00285"
+
+#df <- 
+    url(paste0("https://www.drugbank.ca/drugs/", drug)) %>%
+    read_html() %>%
+    html_nodes(css ='.bond-list')
+
+
+
+
+
+
 get_targets_df <- function(df, section) {
     get_target <- function(node, x, y){
         drug <- 
