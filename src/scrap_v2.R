@@ -19,22 +19,18 @@ get_nodes <- function(drug){
 }
 get_targets_df <- function(df, section) {
     get_target <- function(node, x, y){
-        Sys.sleep(10)
         drug <- 
             xml_child(node[[x]], y) %>%
             html_nodes('strong') %>%
             html_text()
-        
         vals <- 
             xml_child(node[[x]], y) %>%
             html_nodes('dd') %>%
             html_text()
-        
         cols <-
             xml_child(node[[x]], y) %>%
             html_nodes('dt') %>%
             html_text()
-        
         binding <- 
             try(
                 xml_child(node[[x]], y) %>%
@@ -53,17 +49,14 @@ get_targets_df <- function(df, section) {
                     arrange(key) %>%
                     spread(key, value),
                 silent = T)
-        
         df <- 
             tibble(cols, vals, Name = drug) %>%
             spread(cols, vals)
-        
         if(class(binding)[1] != "try-error"){
             bind_cols(df, binding)} else {
                 df
             }
     }
-    
     
     # catch error
     t <- try(xml_contents(df[[section]]), silent = T)
@@ -77,7 +70,7 @@ get_targets_df <- function(df, section) {
         separate(Name, into = c("on", "Name"), extra = "merge") %>%
         select(-on)
 }
-do_all <- function(query, section){
+do_all <- function(query, section = 1){
     sel <- get_selection(query)
     sel %>%
         get_nodes() %>%
@@ -92,13 +85,33 @@ get_all_drugs <- function(df, section){
         map_df(function(x) do_all(x, section))
 }
 
-
-
-# Scrap!!
 targets <-
     drugs %>%
-    #slice(5) %>%
+    slice(5) %>%
     get_all_drugs(section = 1)
+
+
+
+
+
+
+
+    
+    
+drugs[1:2,] %>%
+    map_df(function(x) {x %>% 
+        get_nodes() %>%
+        get_targets_df(1)
+        mutate(Drug = .$name,
+               drugbank_id = .$drugbank_id)})
+
+
+
+
+
+
+
+
 
 
 write_csv(targets, "data/drugbank_target_parse.csv")
@@ -109,5 +122,5 @@ enzymes <-
 
 enzymes %>%
     select(-'NA') %>%
-write_csv("data/drugbank_enzyme_parse.csv")
+    write_csv("data/drugbank_enzyme_parse.csv")
 

@@ -1,0 +1,12 @@
+name: drugs_2
+title: drugs_2
+username:
+account: cabrokimer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 610688
+bundleId: 1751302
+url: https://cabrokimer.shinyapps.io/drugs_2/
+when: 1544387064.85537
+asMultiple: FALSE
+asStatic: FALSE
