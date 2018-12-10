@@ -8,11 +8,18 @@ library(magick)
 library(grid)
 library(stringr)
 
-shinyServer(function(input, output) {
+shinyServer(function(input, output, session) {
     data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
     
+    observe({
+        x <- input$checkGroup
+        updateSelectInput(session, "select_1",
+                          label = x,
+                          choices = x)
+    })
+    
     output$drugPlot <- renderPlot({
-        molecule <- c(input$select_1, input$select_2, input$select_3)
+        molecule <- c(input$select_1)
         
         for_plot <-
             data_full %>%
@@ -24,7 +31,7 @@ shinyServer(function(input, output) {
                 Actions %in% c("Blocker", "Inhibitor") ~ "Blocker/inhibitor",
                 Actions == "AntagonistPartial agonist" ~ "Partial agonist",
                 is.na(Actions) ~ "Other/unknown",
-                T ~ Actions,
+                T ~ Actions
             )) %>%
             mutate(receptor = str_remove(.$`Uniprot Name`, pattern = "receptor")) %>%
             mutate(family = str_extract(.$`Gene Name`, pattern = "[:upper:]+")) %>%
@@ -33,7 +40,7 @@ shinyServer(function(input, output) {
         plot <- 
             for_plot %>%
             ggplot(aes(y = reorder(`receptor`, desc(Name)), x=0)) +
-            geom_point(aes(shape = Actions, color = log(`Ki (nM)_med`)), size = 4, stroke = 1.4) +
+            geom_point(aes(shape = Actions, color = log(`Ki (nM)_med`)), size = 5, stroke = 1.4) +
             scale_color_viridis_c(option = "B", direction = -1, begin = .1, end = .9, na.value = "gray30") +
             scale_shape_manual(values =  c("Agonist" = 2,
                                            "Antagonist" = 6,
@@ -58,3 +65,4 @@ shinyServer(function(input, output) {
     plot
     })
 })
+
