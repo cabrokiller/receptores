@@ -6,7 +6,7 @@ data_full <-
     )
 
 molecule <-
-    c("Olanzapine", "Haloperidol")
+    c("Clonazepam")
 
 for_plot <-
     data_full %>%
@@ -22,9 +22,9 @@ for_plot <-
             T ~ Actions,
         )
     ) %>%
-    mutate(receptor = str_remove(.$`Uniprot Name`, pattern = "receptor")) %>%
+    mutate(receptor = str_remove(.$`Name`, pattern = "receptor")) %>%
     mutate(family = str_extract(.$`Gene Name`, pattern = "[:upper:]+")) %>%
-    filter(!is.na(family))
+    mutate(family = ifelse(is.na(family), "Other", family))
 
 plot <-
     for_plot %>%
@@ -48,7 +48,8 @@ plot <-
             "Partial agonist" = 11,
             "Inverse agonist" = 13,
             "Binder" = 0,
-            "Potentiator" = 14
+            "Potentiator" = 14,
+            "Positive allosteric modulator" = 5
         )
     ) +
     scale_x_continuous(breaks = NULL) +

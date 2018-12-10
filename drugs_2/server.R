@@ -13,13 +13,25 @@ shinyServer(function(input, output, session) {
     
     observe({
         x <- input$checkGroup
+        drugs <- 
+            read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugs.csv") %>%
+            filter(fam %in% x) %>%
+            arrange(name) %>%
+            pull(name)
+        
         updateSelectInput(session, "select_1",
-                          label = x,
-                          choices = x)
+                          label = 'Drug_1',
+                          choices = drugs)
+        updateSelectInput(session, "select_2",
+                          label = 'Drug_2',
+                          choices = drugs)
+        updateSelectInput(session, "select_3",
+                          label = 'Drug_3',
+                          choices = drugs)
     })
     
     output$drugPlot <- renderPlot({
-        molecule <- c(input$select_1)
+        molecule <- c(input$select_1, input$select_2, input$select_3)
         
         for_plot <-
             data_full %>%
@@ -33,9 +45,9 @@ shinyServer(function(input, output, session) {
                 is.na(Actions) ~ "Other/unknown",
                 T ~ Actions
             )) %>%
-            mutate(receptor = str_remove(.$`Uniprot Name`, pattern = "receptor")) %>%
+            mutate(receptor = str_remove(.$`Name`, pattern = "receptor")) %>%
             mutate(family = str_extract(.$`Gene Name`, pattern = "[:upper:]+")) %>%
-            filter(!is.na(family))
+            mutate(family = ifelse(is.na(family), "Other", family))
         
         plot <- 
             for_plot %>%
@@ -49,7 +61,8 @@ shinyServer(function(input, output, session) {
                                            "Partial agonist" = 11,
                                            "Inverse agonist" = 13,
                                            "Binder" = 0,
-                                           "Potentiator" = 14
+                                           "Potentiator" = 14,
+                                           "Positive allosteric modulator" = 5
             )) +
             scale_x_continuous(breaks = NULL) +
             scale_y_discrete(position = "right") +
