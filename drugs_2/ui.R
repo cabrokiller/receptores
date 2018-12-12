@@ -32,5 +32,5 @@ shinyUI(fluidPage(# Application title
         
         column(6,
                plotOutput("drugPlot",
-                          height = "900px",
-                          width = "1200px")))))
+                          height = "800px",
+                          width = "100%")))))
