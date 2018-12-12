@@ -9,28 +9,30 @@ fams <-
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(# Application title
-    titlePanel("Receptors"),
+    titlePanel("Perfiles farmacodinámicos"),
     fluidRow(
+        h5("Aplicación para visualizar de manera simple el perfil receptorial
+          de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"),
         column(3,
                checkboxGroupInput("checkGroup",
-                                  h4("Select drug categories"),
+                                  h4("Familia de fármacos"),
                                   choices = as.list(fams),
                                   selected = fams),
-               h3('select Drugs'),
+               h3('Selección de fármacos'),
                selectInput("select_1",
-                           label = h4("Drug 1"),
+                           label = h4("Fármaco 1"),
                            choices = c("")),
                selectInput("select_2",
-                           label = h4("Drug 2"),
+                           label = h4("Fármaco 2"),
                            choices = c("a","b"),
                            selected = "a"),
                selectInput("select_3",
-                           label = h4("Drug 3"),
+                           label = h4("Fármaco 3"),
                            choices = c("a","b"),
                            selected = "a")
                ),
         
         column(6,
                plotOutput("drugPlot",
-                          height = "800px",
-                          width = "100%")))))
+                          height = "700px",
+                          width = "900px")))))

@@ -20,13 +20,10 @@ shinyServer(function(input, output, session) {
             pull(name)
         
         updateSelectInput(session, "select_1",
-                          label = 'Drug_1',
                           choices = drugs)
         updateSelectInput(session, "select_2",
-                          label = 'Drug_2',
                           choices = drugs)
         updateSelectInput(session, "select_3",
-                          label = 'Drug_3',
                           choices = drugs)
     })
     
@@ -67,15 +64,15 @@ shinyServer(function(input, output, session) {
             scale_x_continuous(breaks = NULL) +
             scale_y_discrete(position = "right") +
             labs(x = '', y = '', color = 'log(Ki)') +
-            theme_minimal(base_size = 12) +
+            theme_minimal(base_size = 14) +
             facet_grid(cols = vars(Drug), rows = vars(`family`),
                        scales = "free", space = "free", switch = "y") +
             theme(axis.title.x = element_blank(),
                   axis.text.x = element_blank(),
                   axis.ticks.x = element_blank(),
                   strip.text.y = element_text(angle = 180),
-                  strip.text.x = element_text(size = 20))
+                  strip.text.x = element_text(size = 16))
     plot
-    })
+    },height = 800, width = 900)
 })
 
