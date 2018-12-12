@@ -3,24 +3,46 @@ library(dplyr)
 library(readr)
 
 drugs <- 
-    read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugs.csv") %>%
-    group_by(fam) %>%
-    arrange(fam, name)
+    read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugs.csv")
+
+
+get_fam <- function(df,family){
+    df %>%
+        filter(fam %in% family) %>%
+        arrange(name)
+}
+
+ad <- get_fam(drugs, c("Antidepressant", "Mood stabilizer"))
+ap <- get_fam(drugs, "Antipsychotic")
+ot <- get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
+
+
 
 # Define UI for application that draws a histogram
-shinyUI(fluidPage(# Application title
+shinyUI(fluidPage(theme = "bootstrap.css",
     titlePanel("Perfiles farmacodinámicos"),
+    h5("Aplicación para visualizar de manera simple el perfil receptorial
+        de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"),
     fluidRow(
-        h5("Aplicación para visualizar de manera simple el perfil receptorial
-          de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"),
-        column(3,
-               h3('Selección de fármacos'),
-               checkboxGroupInput("checkGroup",
-                                  h4("Familia de fármacos"),
-                                  choices = as.list(drugs$name),
-                                  selected = NULL),
-                ),
-        column(6,
-               plotOutput("drugPlot",
-                          height = "700px",
-                          width = "900px")))))
+            column(2,
+                tabsetPanel(
+                    tabPanel("Antidepresivos/eutimizantes",
+                        checkboxGroupInput("drugs_1",
+                        h4("Antidepresivos / eutimizantes"),
+                        choices = as.list(ad$name))
+                        ),
+                    tabPanel("antipsi",
+                        checkboxGroupInput("drugs_2",
+                        h4("Antipsicóticos"),
+                        choices = as.list(ap$name),
+                        selected = c("Aripiprazole", "Olanzapine", "Sertindole"))
+                        ),
+                    tabPanel("other",
+                        checkboxGroupInput("drugs_3",
+                        h4("Otros"),
+                        choices = as.list(ot$name))
+                ))),
+            column(10,
+            plotOutput("drugPlot",
+                       height = '900px',
+                        width = "100%")))))

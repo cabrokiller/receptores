@@ -10,9 +10,10 @@ library(stringr)
 
 shinyServer(function(input, output, session) {
     data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
-    molecule <- input$checkGroup
-    
     output$drugPlot <- renderPlot({
+        
+        molecule <- c(input$drugs_1,input$drugs_2, input$drugs_3)
+        
         for_plot <-
             data_full %>%
             filter(Drug %in% molecule) %>%
@@ -49,13 +50,13 @@ shinyServer(function(input, output, session) {
             labs(x = '', y = '', color = 'log(Ki)') +
             theme_minimal(base_size = 14) +
             facet_grid(cols = vars(Drug), rows = vars(`family`),
-                       scales = "free", space = "free", switch = "y") +
+                       scales = "free_y", space = "free", switch = "y") +
             theme(axis.title.x = element_blank(),
                   axis.text.x = element_blank(),
                   axis.ticks.x = element_blank(),
                   strip.text.y = element_text(angle = 180),
                   strip.text.x = element_text(size = 16))
     plot
-    },height = 800, width = 900)
+    })
 })
 
