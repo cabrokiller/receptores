@@ -10,26 +10,9 @@ library(stringr)
 
 shinyServer(function(input, output, session) {
     data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
-    
-    observe({
-        x <- input$checkGroup
-        drugs <- 
-            read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugs.csv") %>%
-            filter(fam %in% x) %>%
-            arrange(name) %>%
-            pull(name)
-        
-        updateSelectInput(session, "select_1",
-                          choices = drugs)
-        updateSelectInput(session, "select_2",
-                          choices = drugs)
-        updateSelectInput(session, "select_3",
-                          choices = drugs)
-    })
+    molecule <- input$checkGroup
     
     output$drugPlot <- renderPlot({
-        molecule <- c(input$select_1, input$select_2, input$select_3)
-        
         for_plot <-
             data_full %>%
             filter(Drug %in% molecule) %>%
@@ -49,7 +32,7 @@ shinyServer(function(input, output, session) {
         plot <- 
             for_plot %>%
             ggplot(aes(y = reorder(`receptor`, desc(Name)), x=0)) +
-            geom_point(aes(shape = Actions, color = log(`Ki (nM)_med`)), size = 5, stroke = 1.4) +
+            geom_point(aes(shape = Actions, color = log10(`Ki (nM)_med`)), size = 5, stroke = 1.4) +
             scale_color_viridis_c(option = "B", direction = -1, begin = .1, end = .9, na.value = "gray30") +
             scale_shape_manual(values =  c("Agonist" = 2,
                                            "Antagonist" = 6,
