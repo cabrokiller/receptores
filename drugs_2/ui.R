@@ -16,9 +16,7 @@ get_fam <- function(df, family) {
 
 ad <- get_fam(drugs, c("Antidepressant", "Mood stabilizer"))
 ap <- get_fam(drugs, "Antipsychotic")
-ot <-
-    get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
-
+ot <- get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
 
 
 # Define UI for application that draws a histogram
@@ -27,7 +25,7 @@ shinyUI(fluidPage(
     titlePanel("Perfiles farmacodinámicos"),
     h5(
         "Aplicación para visualizar de manera simple el perfil receptorial
-        de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"
+        de fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"
     ),
     fluidRow(column(
         2,
