@@ -51,8 +51,12 @@ plot_ly(data = for_plot,
         x = ~ Drug,
         y = ~ receptor,
         symbol = ~ Actions,
-        color = ~ potency,
+        symbols = symbols,
+        color = ~ potency) %>%
+    add_trace(
         size = ~ potency,
-        symbols = symbols)
+        sizes = c(10,100)
+        
+    )
 
 

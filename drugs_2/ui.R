@@ -1,6 +1,7 @@
 library(shiny)
 library(dplyr)
 library(readr)
+library(plotly)
 
 drugs <-
     read_csv(
@@ -57,7 +58,7 @@ shinyUI(fluidPage(
     ),
     column(
         10,
-        plotOutput("drugPlot",
+        plotlyOutput("drugPlot",
                    height = '900px',
                    width = "100%")
     ))

@@ -5,65 +5,61 @@ library(tidyr)
 library(readr)
 library(grid)
 library(stringr)
+library(plotly)
 
 shinyServer(function(input, output, session) {
     data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
-    output$drugPlot <- renderPlot({
+    output$drugPlot <- renderPlotly({
         
         molecule <- c(input$drugs_1,input$drugs_2, input$drugs_3)
         
         for_plot <-
             data_full %>%
             filter(Drug %in% molecule) %>%
-            mutate(Actions = case_when(
-                Actions == "AntagonistAgonist" ~ "Antagonist",
-                Actions %in% c("Ligand") ~ "Agonist",
-                Actions %in% c("Other", "Unknown", "AntagonistOther/unknown")  ~ "Other/unknown",
-                Actions %in% c("Blocker", "Inhibitor") ~ "Blocker/inhibitor",
-                Actions == "AntagonistPartial agonist" ~ "Partial agonist",
-                is.na(Actions) ~ "Other/unknown",
-                T ~ Actions
-            )) %>%
-            mutate(receptor = str_remove(.$`Name`, pattern = "receptor")) %>%
-            mutate(family = str_extract(.$`Gene Name`, pattern = "[:upper:]+")) %>%
-            mutate(family = ifelse(is.na(family), "Other", family))
+            mutate(
+                Actions = case_when(
+                    Actions == "AntagonistAgonist" ~ "Antagonist",
+                    Actions %in% c("Ligand") ~ "Agonist",
+                    Actions %in% c("Other", "Unknown", "AntagonistOther/unknown")  ~ "Other/unknown",
+                    Actions %in% c("Blocker", "Inhibitor") ~ "Blocker/inhibitor",
+                    Actions == "AntagonistPartial agonist" ~ "Partial agonist",
+                    is.na(Actions) ~ "Other/unknown",
+                    T ~ Actions
+                ),
+                receptor = str_remove(.$`Name`, pattern = "receptor"),
+                family = str_extract(.$`Gene Name`, pattern = "[:upper:]+"),
+                family = ifelse(is.na(family), "NE", family),
+                symbol = case_when(
+                    Actions == "Agonist" ~ "star-triangle-up",
+                    Actions == "Antagonist" ~ "star-triangle-down",
+                    Actions == "Blocker/inhibitor" ~ "square-x",
+                    Actions == "Other/unknown" ~ "circle-dot",
+                    Actions == "Partial agonist" ~ "hexagram",
+                    Actions == "Inverse agonist" ~ "star-triangle-down-open-dot",
+                    Actions == "Binder" ~ "diamond-wide",
+                    Actions == "Potentiator" ~ "triangle-up",
+                    Actions == "Positive allosteric modulator" ~ "triangle-nw",
+                    TRUE ~ "circle-open"
+                ),
+                potency = -log10(`Ki (nM)_med`)
+            )
         
-        plot <- 
-            for_plot %>%
-            ggplot(aes(y = reorder(`receptor`, desc(Name)), x=0)) +
-            geom_point(aes(shape = Actions, color = log10(`Ki (nM)_med`), fill = ""), size = 5, stroke = 1.4) +
-            
-            scale_color_viridis_c(option = "B", direction = -1, begin = .1, end = .9) +
-            scale_shape_manual(values =  c("Agonist" = 2,
-                                           "Antagonist" = 6,
-                                           "Blocker/inhibitor" = 7,
-                                           "Other/unknown" = 8,
-                                           "Partial agonist" = 11,
-                                           "Inverse agonist" = 13,
-                                           "Binder" = 0,
-                                           "Potentiator" = 14,
-                                           "Positive allosteric modulator" = 5
-            )) +
-            scale_fill_manual(values=NA) +  
-            scale_x_continuous(breaks = NULL) +
-            scale_y_discrete(position = "right") +
-            
-            labs(x = '', y = '', color = 'log(Ki)') +
-            
-            facet_grid(cols = vars(Drug), rows = vars(`family`),
-                       scales = "free_y", space = "free", switch = "y") +
-            
-            theme_minimal(base_size = 14) +
-            theme(axis.title.x = element_blank(),
-                  axis.text.x = element_blank(),
-                  axis.ticks.x = element_blank(),
-                  strip.text.y = element_text(angle = 180),
-                  strip.text.x = element_text(size = 16)) +
-            guides(fill = guide_legend("NA", "right", element_text(size = 10),
-                                       order=3, override.aes=list(color="gray50", shape=15, size=7)),
-                   color = guide_colorbar(order=2),
-                   shape = guide_legend(order=1))
-    plot
+        symbols <- 
+            distinct(for_plot, symbol, .keep_all = T) %>%
+            arrange(Actions) %>%
+            pull(symbol)
+        
+        
+        plot_ly(data = for_plot,
+                type = 'scatter',
+                mode = 'markers',
+                x = ~ Drug,
+                y = ~ receptor, 
+                symbol = ~ Actions,
+                symbols = symbols) %>%
+            add_trace(
+                size = ~ potency,
+                sizes = c(10,100))
     })
 })
 
