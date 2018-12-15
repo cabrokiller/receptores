@@ -39,7 +39,7 @@ shinyUI(fluidPage(
                     "drugs_2",
                     NULL,
                     choices = as.list(ap$name),
-                    selected = c("Aripiprazole", "Olanzapine", "Sertindole")
+                    selected = c("Aripiprazole", "Olanzapine")
                 )
             ),
             tabPanel(
@@ -52,7 +52,8 @@ shinyUI(fluidPage(
                 "Otros",
                 checkboxGroupInput("drugs_3",
                                    NULL,
-                                   choices = as.list(ot$name))
+                                   choices = as.list(ot$name),
+                                   selected = c("Diazepam"))
             )
         )
     ),
