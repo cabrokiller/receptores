@@ -36,7 +36,8 @@ for_plot <-
             Actions == "Positive allosteric modulator" ~ "triangle-nw",
             TRUE ~ "circle-open"
         ),
-        potency = -log10(`Ki (nM)_med`)
+        potency = -log10(`Ki (nM)_med`),
+        Actions = factor(Actions)
     )
 
 symbols <- 
@@ -45,18 +46,24 @@ symbols <-
     pull(symbol)
 
 
-plot_ly(data = for_plot,
-        type = 'scatter',
-        mode = 'markers',
-        x = ~ Drug,
-        y = ~ receptor,
-        symbol = ~ Actions,
-        symbols = symbols,
-        color = ~ potency) %>%
-    add_trace(
-        size = ~ potency,
-        sizes = c(10,100)
-        
-    )
+
+p <-
+for_plot %>%
+    ggplot(aes(x = Drug, y = receptor, color = potency, shape = Actions, size = potency))+
+    geom_point() +
+    scale_shape_manual(values = symbols) +
+    scale_color_viridis_c(option="B", direction = 1)+
+    theme_minimal() +
+    labs(x="", y="")
+
+
+ggplotly(p)
+
+    
+
+
+
+
+
 
 

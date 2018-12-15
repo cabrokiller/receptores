@@ -33,7 +33,7 @@ shinyServer(function(input, output, session) {
                     Actions == "Agonist" ~ "star-triangle-up",
                     Actions == "Antagonist" ~ "star-triangle-down",
                     Actions == "Blocker/inhibitor" ~ "square-x",
-                    Actions == "Other/unknown" ~ "circle-dot",
+                    Actions == "Other/unknown" ~ "circle",
                     Actions == "Partial agonist" ~ "hexagram",
                     Actions == "Inverse agonist" ~ "star-triangle-down-open-dot",
                     Actions == "Binder" ~ "diamond-wide",
@@ -48,18 +48,20 @@ shinyServer(function(input, output, session) {
             distinct(for_plot, symbol, .keep_all = T) %>%
             arrange(Actions) %>%
             pull(symbol)
+    
+        
+        p <-
+            for_plot %>%
+            ggplot(aes(x = Drug, y = receptor, color = potency, shape = Actions, size = potency))+
+            geom_point() +
+            scale_shape_manual(values = symbols) +
+            scale_color_viridis_c(option="B", direction = 1)+
+            theme_minimal() +
+            labs(x="", y="")
         
         
-        plot_ly(data = for_plot,
-                type = 'scatter',
-                mode = 'markers',
-                x = ~ Drug,
-                y = ~ receptor, 
-                symbol = ~ Actions,
-                symbols = symbols) %>%
-            add_trace(
-                size = ~ potency,
-                sizes = c(10,100))
+        ggplotly(p)
+
     })
 })
 
