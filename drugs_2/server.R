@@ -32,9 +32,10 @@ shinyServer(function(input, output, session) {
         
         plot <- 
             for_plot %>%
-            ggplot(aes(y = reorder(`receptor`, desc(Name)), x=0)) +
-            geom_point(aes(shape = Actions, color = log10(`Ki (nM)_med`)), size = 5, stroke = 1.4) +
-            scale_color_viridis_c(option = "B", direction = -1, begin = .1, end = .9, na.value = "gray30") +
+            ggplot(aes(y = receptor, x=Drug)) +
+            geom_point(aes(shape = Actions, color = log10(`Ki (nM)_med`), fill = ""),
+                       size = 5, stroke = 1.4) +
+            scale_color_viridis_c(option = "B", direction = -1, begin = .1, end = .9, na.value = "gray50") +
             scale_shape_manual(values =  c("Agonist" = 2,
                                            "Antagonist" = 6,
                                            "Blocker/inhibitor" = 7,
@@ -45,17 +46,17 @@ shinyServer(function(input, output, session) {
                                            "Potentiator" = 14,
                                            "Positive allosteric modulator" = 5
             )) +
-            scale_x_continuous(breaks = NULL) +
+            scale_x_discrete(position = "top") +
             scale_y_discrete(position = "right") +
-            labs(x = '', y = '', color = 'log(Ki)') +
+            scale_fill_manual(values=NA) +              
+            guides(fill=guide_legend("NA", override.aes=list(colour="gray50"))) +
+            #labs(x = '', y = '', color = 'log(Ki)') +
             theme_minimal(base_size = 14) +
-            facet_grid(cols = vars(Drug), rows = vars(`family`),
-                       scales = "free_y", space = "free", switch = "y") +
-            theme(axis.title.x = element_blank(),
-                  axis.text.x = element_blank(),
-                  axis.ticks.x = element_blank(),
-                  strip.text.y = element_text(angle = 180),
-                  strip.text.x = element_text(size = 16))
+            facet_grid(rows = vars(`family`),
+                       scales = "free_y", space = "free", switch = "y") 
+            theme(strip.text.y = element_text(angle = 180),
+                  strip.text.x = element_text(size = 16),
+                  axis.text.x = element_text(size = 16))
     plot
     })
 })

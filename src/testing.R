@@ -6,7 +6,7 @@ data_full <-
     )
 
 molecule <-
-    c("Clonazepam")
+    c("Aripirazole", "Diazepam", "Olanzapine")
 
 for_plot <-
     data_full %>%
@@ -26,9 +26,9 @@ for_plot <-
     mutate(family = str_extract(.$`Gene Name`, pattern = "[:upper:]+")) %>%
     mutate(family = ifelse(is.na(family), "Other", family))
 
-plot <-
-    for_plot %>%
-    ggplot(aes(y = reorder(`receptor`, desc(Name)), x = 0)) +
+p <- 
+for_plot %>%
+    ggplot(aes(y = receptor, x = Drug)) +
     geom_point(aes(shape = Actions, color = log(`Ki (nM)_med`)),
                size = 4,
                stroke = 1.4) +
@@ -52,20 +52,12 @@ plot <-
             "Positive allosteric modulator" = 5
         )
     ) +
-    scale_x_continuous(breaks = NULL) +
-    scale_y_discrete(position = "right") +
     labs(x = '', y = '', color = 'log(Ki)') +
     theme_minimal(base_size = 14) +
-    facet_grid(
-        cols = vars(Drug),
-        rows = vars(`family`),
-        scales = "free",
-        space = "free",
-        switch = "y"
-    ) +
     theme(
         axis.title.x = element_blank(),
         axis.text.x = element_blank(),
         axis.ticks.x = element_blank()
     )
-plot
+
+ggplotly(p)
