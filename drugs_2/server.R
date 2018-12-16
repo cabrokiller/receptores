@@ -31,39 +31,55 @@ shinyServer(function(input, output, session) {
                 family = str_extract(.$`Gene Name`, pattern = "[:upper:]+"),
                 family = ifelse(is.na(family), "NE", family),
                 symbol = case_when(
-                    Actions == "Agonist" ~ "star-triangle-up-open",
-                    Actions == "Antagonist" ~ "star-triangle-down-open",
-                    Actions == "Blocker/inhibitor" ~ "square-x-open",
+                    Actions == "Agonist" ~ "star-triangle-up",
+                    Actions == "Antagonist" ~ "star-triangle-down",
+                    Actions == "Blocker/inhibitor" ~ "square-x",
                     Actions == "Other/unknown" ~ "circle-dot",
                     Actions == "Partial agonist" ~ "hexagram",
-                    Actions == "Inverse agonist" ~ "star-triangle-down-open-dot",
+                    Actions == "Inverse agonist" ~ "star-triangle-down-dot",
                     Actions == "Binder" ~ "diamond-wide",
-                    Actions == "Potentiator" ~ "triangle-up-open-dot",
-                    Actions == "Allosteric mod (+)" ~ "triangle-up-open",
+                    Actions == "Potentiator" ~ "triangle-up-dot",
+                    Actions == "Allosteric mod (+)" ~ "triangle-up",
                     TRUE ~ "circle-open"
                 ),
-                potency1 = 10-log10(`Ki (nM)_med`),
-                potency2 = ifelse(is.na(potency1), 10, potency1*2)
+                potency = 10-log10(`Ki (nM)_med`),
             )
         
-        symbols <- 
+        my_symbols <- 
             distinct(for_plot, symbol, .keep_all = T) %>%
             arrange(Actions) %>%
             pull(symbol)
     
         
-        plot_ly(
-            data = for_plot,
-            type   = 'scatter',
-            mode   = 'markers',
-            y = ~ receptor,
-            x = ~ Drug,
-            color = ~ potency1,
-            symbol = ~ Actions,
-            symbols = symbols,
-            span = I(2),
-            marker = list(size = 20)
-        )
+        plot_ly(data = for_plot,
+                x = ~ Drug,
+                y = ~ receptor,
+                symbol =  ~ Actions,
+                symbols = my_symbols,
+                sizes = c(4,25)
+                ) %>%
+            add_fun(function(plot){
+                plot %>%
+                    filter(!is.na(potency)) %>%
+                    add_markers(
+                        color = ~ potency,
+                        size = ~potency,
+                        marker = list(sizemode = "diameter",
+                                      line = list(color = "black",
+                                                  width = 2)),
+                        text = ~Organism)
+            }) %>%
+            add_fun(function(plot){
+                plot %>%
+                    filter(is.na(potency)) %>%
+                    add_markers(
+                        marker = list(size = 15, color = "gray",
+                                      line = list(color = "black",
+                                                  width = 2)))
+            })%>%
+            layout(
+                font = list(size = 11)
+            )
 
     })
 })

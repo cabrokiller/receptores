@@ -40,25 +40,50 @@ for_plot <-
         potency = 10-log10(`Ki (nM)_med`)
     )
 
-
-for_plot %>%
-plot_ly(
-    type   = 'scatter',
-    mode   = 'markers',
-    y = ~ receptor,
-    x = ~ Drug,
-    color = ~ potency,
-    colors = "Reds",
-    size = ~replace(potency, is.na(potency),8),
-    sizes = c(6,20),
-    marker = list(sizemode = 'diameter',
-                  symbol = ~symbol,
-                  line = list(width = 2, color = '#000000')),
-    text = ~paste('pot', potency))
-z
+my_symbols <- 
+    distinct(for_plot, symbol, .keep_all = T) %>%
+    arrange(Actions) %>%
+    pull(symbol)
 
 
 
+plot_ly(data = for_plot,
+        type = "scatter",
+        mode = "markers",
+        x = ~ Drug,
+        y = ~ receptor,
+        symbol =  ~ Actions,
+        symbols = my_symbols,
+        visible = "legendonly",
+        opacity = 1,
+        #colors = "Viridis",
+        sizes = c(.1,100),
+        marker = list(size = 12, color = I("black"))) %>%
+    add_fun(function(plot){
+        plot %>%
+            filter(!is.na(potency)) %>%
+            add_markers(
+                inherit = F,
+                x = ~ Drug,
+                y = ~ receptor,
+                color = ~ potency,
+                symbol =  ~ Actions,
+                size = ~potency*2,
+                marker = list(sizemode = "area", opacity =.5),
+                showlegend=F,
+                text = ~potency)
+    }) %>%
+    add_fun(function(plot){
+        plot %>%
+            filter(is.na(potency)) %>%
+            add_markers(
+                inherit = F,
+                x = ~ Drug,
+                y = ~ receptor,
+                symbol =  ~ Actions,
+                marker = list(size = 15, color = "gray"),
+                showlegend=F)
+    })
 
 
 
