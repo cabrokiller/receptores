@@ -49,14 +49,18 @@ shinyServer(function(input, output, session) {
             scale_x_discrete(position = "top") +
             scale_y_discrete(position = "right") +
             scale_fill_manual(values=NA) +              
-            guides(fill=guide_legend("NA", override.aes=list(colour="gray50"))) +
-            #labs(x = '', y = '', color = 'log(Ki)') +
+            guides(fill=guide_legend("NA",
+                                     override.aes=list(colour="gray50", shape=15),
+                                    order = 3, title.position = "right"),
+                   color=guide_colorbar(order = 2),
+                   shape=guide_legend(order = 1)) +
+            labs(x = '', y = '', color = 'log(Ki)') +
             theme_minimal(base_size = 14) +
             facet_grid(rows = vars(`family`),
-                       scales = "free_y", space = "free", switch = "y") 
+                       scales = "free_y", space = "free", switch = "y")+
             theme(strip.text.y = element_text(angle = 180),
                   strip.text.x = element_text(size = 16),
-                  axis.text.x = element_text(size = 16))
+                  axis.text.x = element_text(size = 16, angle=30, vjust=1, hjust=0))
     plot
     })
 })

@@ -17,7 +17,7 @@ get_fam <- function(df, family) {
 
 ad <- get_fam(drugs, c("Antidepressant", "Mood stabilizer"))
 ap <- get_fam(drugs, "Antipsychotic")
-ot <- get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
+ot <- get_fam(drugs, c("Other", "Depressants"))
 
 
 # Define UI for application that draws a histogram
