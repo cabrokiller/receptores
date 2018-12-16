@@ -26,36 +26,39 @@ for_plot <-
         family = str_extract(.$`Gene Name`, pattern = "[:upper:]+"),
         family = ifelse(is.na(family), "NE", family),
         symbol = case_when(
-            Actions == "Agonist" ~ "star-triangle-up-open",
-            Actions == "Antagonist" ~ "star-triangle-down-open",
+            Actions == "Agonist" ~ "star-triangle-up",
+            Actions == "Antagonist" ~ "star-triangle-down",
             Actions == "Blocker/inhibitor" ~ "square-x",
-            Actions == "Other/unknown" ~ "circle-dot",
+            Actions == "Other/unknown" ~ "cross-dot",
             Actions == "Partial agonist" ~ "hexagram",
-            Actions == "Inverse agonist" ~ "star-triangle-down-open-dot",
+            Actions == "Inverse agonist" ~ "star-triangle-down-dot",
             Actions == "Binder" ~ "diamond-wide",
             Actions == "Potentiator" ~ "triangle-up",
-            Actions == "Allosteric mod (+)" ~ "triangle-up",
+            Actions == "Allosteric mod (+)" ~ "triangle-up-dot",
             TRUE ~ "circle-open"
         ),
-        potency = log10(`Ki (nM)_med`)
-    ) %>%
-    select(Drug, receptor, Actions, symbol, potency)
-
-symbols <- 
-    distinct(for_plot, symbol, .keep_all = T) %>%
-    arrange(Actions) %>%
-    pull(symbol)
-
-
+        potency = 10-log10(`Ki (nM)_med`)
+    )
 
 
 for_plot %>%
-    ggplot(aes(x = Drug, y = receptor, color = potency, shape = Actions))+
-    geom_point() +
-    #scale_shape_manual(values = symbols) +
-    scale_color_viridis_c(option="B", direction = 1)+
-    theme_minimal() +
-    labs(x="", y="")
+plot_ly(
+    type   = 'scatter',
+    mode   = 'markers',
+    y = ~ receptor,
+    x = ~ Drug,
+    color = ~ potency,
+    colors = "Reds",
+    size = ~replace(potency, is.na(potency),8),
+    sizes = c(6,20),
+    marker = list(sizemode = 'diameter',
+                  symbol = ~symbol,
+                  line = list(width = 2, color = '#000000')),
+    text = ~paste('pot', potency))
+z
+
+
+
 
 
 
