@@ -42,7 +42,7 @@ shinyServer(function(input, output, session) {
                     Actions == "Allosteric mod (+)" ~ "triangle-up",
                     TRUE ~ "circle-open"
                 ),
-                potency = 10-log10(`Ki (nM)_med`),
+                potency = 10-log10(`Ki (nM)_med`)
             )
         
         my_symbols <- 
@@ -63,10 +63,13 @@ shinyServer(function(input, output, session) {
                     filter(!is.na(potency)) %>%
                     add_markers(
                         color = ~ potency,
+                        colors = "Reds",
                         size = ~potency,
                         marker = list(sizemode = "diameter",
+                                      legendgroup = 'group1',
                                       line = list(color = "black",
                                                   width = 2)),
+                        
                         text = ~Organism)
             }) %>%
             add_fun(function(plot){
@@ -74,11 +77,14 @@ shinyServer(function(input, output, session) {
                     filter(is.na(potency)) %>%
                     add_markers(
                         marker = list(size = 15, color = "gray",
+                                      legendgroup = 'group2',
                                       line = list(color = "black",
-                                                  width = 2)))
+                                                  width = 2)),
+                        text = ~Organism)
             })%>%
             layout(
-                font = list(size = 11)
+                font = list(size = 11),
+                legend = list(tracegroupgap = 10)
             )
 
     })
