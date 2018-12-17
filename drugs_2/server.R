@@ -54,37 +54,40 @@ shinyServer(function(input, output, session) {
         plot_ly(data = for_plot,
                 x = ~ Drug,
                 y = ~ receptor,
-                symbol =  ~ Actions,
+                symbol =  ~Actions,
                 symbols = my_symbols,
                 sizes = c(4,25)
                 ) %>%
-            add_fun(function(plot){
+            add_fun(function(plot){   #add non NA points
                 plot %>%
                     filter(!is.na(potency)) %>%
                     add_markers(
                         color = ~ potency,
-                        colors = "Reds",
+                        colors = viridis::inferno(length(for_plot)),
                         size = ~potency,
+                        legendgroup = ~Actions,
+                        text = ~Organism,
                         marker = list(sizemode = "diameter",
-                                      legendgroup = 'group1',
+                                      opacity = .85,
                                       line = list(color = "black",
-                                                  width = 2)),
-                        
-                        text = ~Organism)
+                                                  width = 2)))
             }) %>%
-            add_fun(function(plot){
+            add_fun(function(plot){  #add NA points
                 plot %>%
                     filter(is.na(potency)) %>%
                     add_markers(
-                        marker = list(size = 15, color = "gray",
-                                      legendgroup = 'group2',
+                        legendgroup = ~Actions,
+                        text = ~Organism,      
+                        name = ~paste(Actions, ", Ki = NA"),
+                        marker = list(size = 15, color = "lightgray",
+                                      opacity = .85,
                                       line = list(color = "black",
-                                                  width = 2)),
-                        text = ~Organism)
+                                                  width = 2)))
             })%>%
             layout(
                 font = list(size = 11),
-                legend = list(tracegroupgap = 10)
+                legend = list(tracegroupgap = 10),
+                grid = list(xside = "top plot")
             )
 
     })
