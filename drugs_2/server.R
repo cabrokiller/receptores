@@ -6,6 +6,7 @@ library(readr)
 library(grid)
 library(stringr)
 library(plotly)
+library(viridisLite)
 
 shinyServer(function(input, output, session) {
     data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
@@ -56,14 +57,14 @@ shinyServer(function(input, output, session) {
                 y = ~ receptor,
                 symbol =  ~Actions,
                 symbols = my_symbols,
-                sizes = c(4,25)
+                sizes = c(3,25)
                 ) %>%
             add_fun(function(plot){   #add non NA points
                 plot %>%
                     filter(!is.na(potency)) %>%
                     add_markers(
                         color = ~ potency,
-                        colors = viridis::inferno(length(for_plot)),
+                        colors = plasma(length(for_plot)),
                         size = ~potency,
                         legendgroup = ~Actions,
                         text = ~Organism,
@@ -78,16 +79,24 @@ shinyServer(function(input, output, session) {
                     add_markers(
                         legendgroup = ~Actions,
                         text = ~Organism,      
-                        name = ~paste(Actions, ", Ki = NA"),
-                        marker = list(size = 15, color = "lightgray",
+                        name = ~paste(Actions, ", (Ki = NA)"),
+                        marker = list(size = 13, color = "lightgray",
                                       opacity = .85,
                                       line = list(color = "black",
                                                   width = 2)))
             })%>%
             layout(
-                font = list(size = 11),
-                legend = list(tracegroupgap = 10),
-                grid = list(xside = "top plot")
+                autosize = T,
+                legend = list(tracegroupgap = 20),
+                xaxis = list(
+                    title = 'Drugs',
+                    side = "top",
+                    tickfont = list(size = 18)),
+                yaxis = list(
+                    title='',
+                    tickfont = list(size = 10)),
+                margin = list(t=80),
+                barmode = list(orientation = 'v')
             )
 
     })
