@@ -9,9 +9,9 @@ get_selection <- function(query){
         filter(name == match)
     return(selection)
 }
-get_nodes <- function(drug){
+get_nodes <- function(drugbank_id){
     df <- 
-        paste0("https://www.drugbank.ca/drugs/", pull(drug, drugbank_id)) %>%
+        paste0("https://www.drugbank.ca/drugs/", drugbank_id) %>%
         html_session() %>%
         read_html() %>%
         html_nodes(css ='.bond-list')
@@ -79,6 +79,7 @@ get_targets_df <- function(df, section) {
 do_all <- function(query, section){
     sel <- get_selection(query)
     sel %>%
+        pull(drugbank_id) %>%
         get_nodes() %>%
         get_targets_df(section) %>%
         mutate(Drug = sel$name,
@@ -93,17 +94,26 @@ get_all_drugs <- function(df, section){
 
 
 
+
 # Scrap!!
 targets <-
     drugs %>%
     get_all_drugs(section = 1)
 
-
-write_csv(targets, "data/drugbank_target_parse.csv")
-
 enzymes <-
     drugs %>%
     get_all_drugs(section = 2)
+
+
+
+get_nodes("DB00334") -> zz
+
+
+get_target(zz, 1, 32)
+
+
+
+write_csv(targets, "data/drugbank_target_parse.csv")
 
 enzymes %>%
     select(-'NA') %>%
