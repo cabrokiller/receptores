@@ -30,37 +30,24 @@ shinyUI(fluidPage(
         "Aplicación para visualizar de manera simple el perfil receptorial
         de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"
     ),
-    fluidRow(column(
-        2,
-        tabsetPanel(
-            tabPanel(
-                "Antipsicóticos",
-                checkboxGroupInput(
-                    "drugs_2",
-                    NULL,
-                    choices = as.list(ap$name),
-                    selected = c("Aripiprazole", "Olanzapine")
-                )
+    fluidRow(
+        column(
+            2,
+            selectInput(
+                'drugs',
+                "select drugs",
+                choices = as.list(drugs$name),
+                selected = c("Aripiprazole", "Olanzapine", "Sertindole"),
+                multiple = T
+                
             ),
-            tabPanel(
-                "Antidepresivos/eutimizantes",
-                checkboxGroupInput("drugs_1",
-                                   NULL,
-                                   choices = as.list(ad$name))
-            ),
-            tabPanel(
-                "Otros",
-                checkboxGroupInput("drugs_3",
-                                   NULL,
-                                   choices = as.list(ot$name),
-                                   selected = c("Diazepam"))
-            )
-        )
-    ),
-    column(
-        10,
-        plotlyOutput("drugPlot",
+            textOutput("click")
+        ),
+        column(10,
+               plotlyOutput(
+                   "drugPlot",
                    height = '900px',
-                   width = "100%")
+                   width = "100%"
+               ))
+    )
     ))
-))

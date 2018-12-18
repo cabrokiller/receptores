@@ -12,7 +12,7 @@ shinyServer(function(input, output, session) {
     data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
     output$drugPlot <- renderPlotly({
         
-        molecule <- c(input$drugs_1,input$drugs_2, input$drugs_3)
+        molecule <- c(input$drugs)
         
         for_plot <-
             data_full %>%
@@ -52,10 +52,15 @@ shinyServer(function(input, output, session) {
             pull(symbol)
     
         
+ 
         plot_ly(data = for_plot,
                 x = ~ Drug,
                 y = ~ receptor,
+                key = ~ `Specific Function`,
                 symbol =  ~Actions,
+                text = ~ paste0("Ki: ", `Ki (nM)_min`, " - ", `Ki (nM)_max`,
+                                "<br>Kd: ", `Kd (nM)_min`, " - ", `Kd (nM)_max`),
+                hoverinfo = 'text',
                 symbols = my_symbols,
                 sizes = c(3,25)
                 ) %>%
@@ -67,7 +72,6 @@ shinyServer(function(input, output, session) {
                         colors = plasma(length(for_plot)),
                         size = ~potency,
                         legendgroup = ~Actions,
-                        text = ~Organism,
                         marker = list(sizemode = "diameter",
                                       opacity = .85,
                                       line = list(color = "black",
@@ -78,7 +82,6 @@ shinyServer(function(input, output, session) {
                     filter(is.na(potency)) %>%
                     add_markers(
                         legendgroup = ~Actions,
-                        text = ~Organism,      
                         name = ~paste(Actions, ", (Ki = NA)"),
                         marker = list(size = 13, color = "lightgray",
                                       opacity = .85,
@@ -98,7 +101,12 @@ shinyServer(function(input, output, session) {
                 margin = list(t=80),
                 barmode = list(orientation = 'v')
             )
-
+    })
+    
+    output$click <- renderText({
+        d <- event_data("plotly_click")
+        if (is.null(d)) "Receptor function" else paste0(d$y, ":", d$key)
     })
 })
+
 
