@@ -5,6 +5,11 @@ data_full <-
         'https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv'
     )
 
+data_enzyme <-
+    read_csv(
+        'https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_enzyme_parse.csv'
+    )
+
 molecule <-
     c("Aripiprazole", "Lorazepam", "Diazepam")
 
@@ -88,3 +93,41 @@ plot_ly(data = for_plot,
 
 
 
+
+
+
+
+## enzymes
+
+for_plot_enz <-
+    data_enzyme %>%
+    filter(Drug %in% molecule) %>%
+    mutate(
+        receptor = str_remove(.$`Name`, pattern = "receptor"),
+        family = str_extract(.$`Gene Name`, pattern = "[:upper:]+"),
+        family = ifelse(is.na(family), "NE", family),
+        symbol = case_when(
+            Actions == "Substrate" ~ "star-triangle-up",
+            Actions == "Inhibitor" ~ "star-triangle-down",
+            Actions == "SubstrateInhibitor" ~ "star-triangle-down-dot",
+            TRUE ~ "circle-open"
+        )
+    )
+
+my_symbols <- 
+    distinct(for_plot_enz, symbol, .keep_all = T) %>%
+    arrange(Actions) %>%
+    pull(symbol)
+
+
+plot_ly(
+    data = for_plot_enz,
+    type = "scatter",
+    mode = "markers",
+    x = ~ Drug,
+    y = ~ receptor,
+    symbol =  ~ Actions,
+    symbols = my_symbols,
+    marker = list(size = 14,
+                  line = list(color = 'black',
+                              width = 2)))

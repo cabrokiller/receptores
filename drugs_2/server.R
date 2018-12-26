@@ -9,8 +9,17 @@ library(plotly)
 library(viridisLite)
 
 shinyServer(function(input, output, session) {
-    data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
-    output$drugPlot <- renderPlotly({
+    data_full <-
+        read_csv(
+            'https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv'
+        )
+    data_enzyme <-
+        read_csv(
+            'https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_enzyme_parse.csv'
+        )
+    
+    
+    output$plot_target <- renderPlotly({
         
         molecule <- c(input$drugs)
         
@@ -56,7 +65,7 @@ shinyServer(function(input, output, session) {
         plot_ly(data = for_plot,
                 x = ~ Drug,
                 y = ~ receptor,
-                key = ~ `Specific Function`,
+                key = ~ full_function,
                 symbol =  ~Actions,
                 text = ~ paste0("Ki: ", `Ki (nM)_min`, " - ", `Ki (nM)_max`,
                                 "<br>Kd: ", `Kd (nM)_min`, " - ", `Kd (nM)_max`),
@@ -102,6 +111,62 @@ shinyServer(function(input, output, session) {
                 barmode = list(orientation = 'v')
             )
     })
+    
+    output$plot_enzyme <- renderPlotly({
+    
+        molecule <- c(input$drugs)
+        
+        for_plot_enz <-
+            data_enzyme %>%
+            filter(Drug %in% molecule) %>%
+            mutate(
+                receptor = str_remove(.$`Name`, pattern = "receptor"),
+                family = str_extract(.$`Gene Name`, pattern = "[:upper:]+"),
+                family = ifelse(is.na(family), "NE", family),
+                symbol = case_when(
+                    Actions == "Substrate" ~ "star-triangle-up",
+                    Actions == "Inhibitor" ~ "star-triangle-down",
+                    Actions == "SubstrateInhibitor" ~ "star-triangle-down-dot",
+                    TRUE ~ "circle-open"
+                )
+            )
+        
+        my_symbols <- 
+            distinct(for_plot_enz, symbol, .keep_all = T) %>%
+            arrange(Actions) %>%
+            pull(symbol)
+        
+        
+        plot_ly(
+            data = for_plot_enz,
+            type = "scatter",
+            mode = "markers",
+            x = ~ Drug,
+            y = ~ receptor,
+            symbol =  ~ Actions,
+            symbols = my_symbols,
+            marker = list(size = 14,
+                          line = list(color = 'black',
+                                      width = 2))) %>%
+            layout(
+                autosize = T,
+                legend = list(tracegroupgap = 20),
+                xaxis = list(
+                    title = 'Drugs',
+                    side = "top",
+                    tickfont = list(size = 18)),
+                yaxis = list(
+                    title='',
+                    tickfont = list(size = 10)),
+                margin = list(t=80),
+                barmode = list(orientation = 'v')
+            )
+        
+        
+          
+    })
+    
+    
     
     output$click <- renderText({
         d <- event_data("plotly_click")

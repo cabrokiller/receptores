@@ -24,6 +24,11 @@ get_targets_df <- function(df, section) {
             html_nodes('strong') %>%
             html_text()
         
+        link <- 
+            xml_child(node[[x]], y) %>%
+            html_nodes('strong a') %>%
+            html_attr('href')
+        
         vals <- 
             xml_child(node[[x]], y) %>%
             html_nodes('dd') %>%
@@ -54,7 +59,7 @@ get_targets_df <- function(df, section) {
                 silent = T)
         
         df <- 
-            tibble(cols, vals, Name = drug) %>%
+            tibble(cols, vals, Name = drug, Link = ifelse(is.null(link), NA, link)) %>%
             spread(cols, vals)
         
         if(class(binding)[1] != "try-error"){
@@ -76,6 +81,7 @@ get_targets_df <- function(df, section) {
         separate(Name, into = c("on", "Name"), extra = "merge") %>%
         select(-on)
 }
+
 do_all <- function(query, section){
     sel <- get_selection(query)
     sel %>%
@@ -93,8 +99,6 @@ get_all_drugs <- function(df, section){
 }
 
 
-
-
 # Scrap!!
 targets <-
     drugs %>%
@@ -106,16 +110,52 @@ enzymes <-
 
 
 
-get_nodes("DB00334") -> zz
+get_func <- function(link) {
+    if(is.na(link)) {
+        return(NA)
+    } else {
+        nom <-
+            paste0("https://www.drugbank.ca", link) %>%
+            html_session() %>%
+            read_html()
+        
+        func <-
+            bind_cols(
+                key =
+                    nom %>%
+                    html_nodes(css = "dt") %>%
+                    html_text(),
+                value =
+                    nom %>%
+                    html_nodes(css = "dd") %>%
+                    html_text()
+            ) %>%
+            as.data.frame() %>%
+            filter(key == "Specific Function") %>%
+            pull(value)
+        
+        ifelse(is.null(func), NA, func)
+    }
+}
 
 
-get_target(zz, 1, 32)
+new_targets <- 
+targets %>%
+    rowwise() %>%
+    mutate(full_function = get_func(Link))
+
+
+new_enzymes <- 
+    enzymes %>%
+    rowwise() %>%
+    mutate(full_function = get_func(Link))
 
 
 
-write_csv(targets, "data/drugbank_target_parse.csv")
+write_csv(new_targets, "data/drugbank_target_parse.csv")
 
 enzymes %>%
     select(-'NA') %>%
 write_csv("data/drugbank_enzyme_parse.csv")
+
 
