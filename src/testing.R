@@ -1,4 +1,4 @@
-pacman::p_load(tidyverse, grid)
+pacman::p_load(tidyverse, grid, plotly)
 
 data_full <-
     read_csv("data/drugbank_target_parse.csv")
