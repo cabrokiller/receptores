@@ -1,9 +1,7 @@
 pacman::p_load(tidyverse, grid)
 
 data_full <-
-    read_csv(
-        'https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv'
-    )
+    read_csv("data/drugbank_target_parse.csv")
 
 molecule <-
     c("Aripirazole", "Diazepam", "Olanzapine")
