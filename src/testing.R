@@ -1,60 +1,88 @@
 pacman::p_load(tidyverse, grid, plotly)
 
-data_full <-read_csv("data/drugbank_target_parse.csv")
+# source("src/preproc.R")
+load("data/clean")
 
 molecule <-
-    c("Aripirazole", "Diazepam", "Olanzapine")
+    c("Aripiprazole", "Lurasidone", "Cariprazine")
 
-for_plot <-
-    data_full %>%
-    filter(Drug %in% molecule) %>%
-    mutate(
-        Actions = case_when(
-            Actions == "AntagonistAgonist" ~ "Antagonist",
-            Actions %in% c("Ligand") ~ "Agonist",
-            Actions %in% c("Other", "Unknown", "AntagonistOther/unknown")  ~ "Other/unknown",
-            Actions %in% c("Blocker", "Inhibitor") ~ "Blocker/inhibitor",
-            Actions == "AntagonistPartial agonist" ~ "Partial agonist",
-            is.na(Actions) ~ "Other/unknown",
-            T ~ Actions,
-        )
-    ) %>%
-    mutate(receptor = str_remove(.$`Name`, pattern = "receptor")) %>%
-    mutate(family = str_extract(.$`Gene Name`, pattern = "[:upper:]+")) %>%
-    mutate(family = ifelse(is.na(family), "Other", family))
+my_family <- 
+    c("DRD", "HTR")
 
-p <- 
-for_plot %>%
-    ggplot(aes(y = receptor, x = Drug)) +
-    geom_point(aes(shape = Actions, color = log(`Ki (nM)_med`)),
-               size = 4,
-               stroke = 1.4) +
-    scale_color_viridis_c(
-        option = "B",
-        direction = -1,
-        begin = .1,
-        end = .9,
-        na.value = "gray30"
-    ) +
-    scale_shape_manual(
-        values =  c(
-            "Agonist" = 2,
-            "Antagonist" = 6,
-            "Blocker/inhibitor" = 7,
-            "Other/unknown" = 8,
-            "Partial agonist" = 11,
-            "Inverse agonist" = 13,
-            "Binder" = 0,
-            "Potentiator" = 14,
-            "Positive allosteric modulator" = 5
-        )
-    ) +
-    labs(x = '', y = '', color = 'log(Ki)') +
-    theme_minimal(base_size = 14) +
-    theme(
-        axis.title.x = element_blank(),
-        axis.text.x = element_blank(),
-        axis.ticks.x = element_blank()
+
+for_plot <- 
+    clean_data %>%
+    filter(
+        drug_name %in% molecule,
+        family %in% my_family,
+        `Pharmacological action` %in% c("Yes", "Unknown")
     )
 
-ggplotly(p)
+my_symbols <- 
+    distinct(for_plot, symbol, .keep_all = T) %>%
+    arrange(Actions) %>%
+    pull(symbol)
+
+
+# library(radarchart)
+
+plot_ly(data = for_plot,
+        x = ~ drug_name,
+        y = ~ receptor,
+        symbol =  ~ Actions,
+        symbols = my_symbols,
+        sizes = c(3,25)
+) %>%
+    add_fun(function(plot){   #add non NA points
+        plot %>%
+            filter(!is.na(potency)) %>%
+            add_markers(
+                color = ~ potency,
+                colors = plasma(length(for_plot)),
+                size = ~ potency,
+                legendgroup = ~ Actions,
+                hoverinfo = 'text',
+                text= ~ paste0(
+                    '<b>Receptor:</b> ', Name,
+                    '</br><b>Action:</b> ', Actions,
+                    '</br><b>Function:</b> ', show_text
+                ),
+                marker = list(sizemode = "diameter",
+                              opacity = .85,
+                              line = list(color = "black",
+                                          width = 2)))
+    }) %>%
+    add_fun(function(plot){  #add NA points
+        plot %>%
+            filter(is.na(potency)) %>%
+            add_markers(
+                legendgroup = ~ Actions,
+                hoverinfo = 'text',
+                text= ~ paste0(
+                    '<b>Receptor:</b> ', Name,
+                    '</br><b>Action:</b> ', Actions,
+                    '</br><b>Function:</b> ', show_text
+                    ),
+                name = ~ paste(Actions, ", (when <i>Ki</i> is unknown)"),
+                marker = list(size = 15, color = "lightgray",
+                              opacity = .85,
+                              line = list(color = "black",
+                                          width = 2)))
+    })%>%
+    layout(
+        autosize = T,
+        legend = list(tracegroupgap = 20),
+        xaxis = list(
+            title = 'Drugs',
+            side = "top",
+            tickfont = list(size = 18)),
+        yaxis = list(
+            title='',
+            tickfont = list(size = 12)),
+        margin = list(t=80),
+        barmode = list(orientation = 'v')
+    )
+
+
+
+

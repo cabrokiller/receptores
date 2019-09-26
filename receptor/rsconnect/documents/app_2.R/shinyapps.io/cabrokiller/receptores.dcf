@@ -1,0 +1,13 @@
+name: receptores
+title: receptores
+username:
+account: cabrokiller
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1251362
+bundleId: 2448418
+url: https://cabrokiller.shinyapps.io/receptores/
+when: 1569532613.7635
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R

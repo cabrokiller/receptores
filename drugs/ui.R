@@ -7,7 +7,6 @@ drugs <-
     read_csv(
         "https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugs.csv"
     )
-s
 
 get_fam <- function(df, family) {
     df %>%
