@@ -16,7 +16,7 @@ shinyServer(function(input, output, session) {
         
         for_plot <-
             data_full %>%
-            filter(Drug %in% molecule) %>%
+            filter(drug_name %in% molecule) %>%
             mutate(Actions = case_when(
                 Actions == "AntagonistAgonist" ~ "Antagonist",
                 Actions %in% c("Ligand") ~ "Agonist",
@@ -32,7 +32,7 @@ shinyServer(function(input, output, session) {
         
         plot <- 
             for_plot %>%
-            ggplot(aes(y = receptor, x=Drug)) +
+            ggplot(aes(y = receptor, x=drug_name)) +
             geom_point(aes(shape = Actions, color = log10(`Ki (nM)_med`), fill = ""),
                        size = 5, stroke = 1.4) +
             scale_color_viridis_c(option = "B", direction = -1, begin = .1, end = .9, na.value = "gray50") +

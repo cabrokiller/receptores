@@ -3,100 +3,102 @@ library(dplyr)
 library(ggplot2)
 library(tidyr)
 library(readr)
-library(ggthemes)
-library(rsvg)
-library(magick)
 library(grid)
 library(stringr)
+library(plotly)
+library(viridisLite)
 
-shinyServer(function(input, output) {
-    data_enzyme <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_enzyme_parse.csv')
-    data_target <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
-    
-    output$drugPlot <- renderPlot({
-        molecule <- input$select
-        ifelse(input$radio == 1,
-               type <- "target",
-               type <- "enzyme")
+shinyServer(function(input, output, session) {
+    data_full <- read_csv('https://raw.githubusercontent.com/cabrokiller/receptores/master/data/drugbank_target_parse.csv')
+    output$drugPlot <- renderPlotly({
         
-        data_full <- 
-            data_target %>%
-            mutate(Type = "target") %>%
-            bind_rows(data_enzyme %>%
-            mutate(Type = "enzyme"))
+        molecule <- c(input$drugs_1, input$drugs_2, input$drugs_3)
         
-        for_plot <-   
+        for_plot <-
             data_full %>%
-            filter(Drug == molecule,
-                   Type == type) %>%
-            mutate(Actions = str_replace_all(.$Actions, pattern = c('([:upper:][:lower:]+)' = "\\1 -")),
-                   `Pharmacological action` = forcats::fct_inorder(.$`Pharmacological action`)) %>%
-            separate(Actions, into = c("action1","action2", "action3"), extra = "drop", fill = "left") %>%
-            mutate(action3 = ifelse(action3 == "" | action3 == "unknown", NA, action3),
-                   `Pharmacological action` = ifelse(`Pharmacological action` == "Yes", "Yes", "unknown")) %>%
-            gather(key,Actions, -c(Name, `Gene Name`:Type), na.rm = T) %>%
-            select(-key) %>%
-            mutate(Actions = str_to_title(Actions)) %>%
-            arrange(desc(`Pharmacological action`),`Ki (nM)_med`) %>%
-            mutate(`Name` = factor(`Name`, levels = unique(.$Name)))
+            filter(drug_name %in% molecule) %>%
+            mutate(
+                Actions = case_when(
+                    Actions == "AntagonistAgonist" ~ "Antagonist",
+                    Actions %in% c("Ligand") ~ "Agonist",
+                    Actions %in% c("Other", "Unknown", "AntagonistOther/unknown")  ~ "Other/unknown",
+                    Actions %in% c("Blocker", "Inhibitor") ~ "Blocker/inhibitor",
+                    Actions == "AntagonistPartial agonist" ~ "Partial agonist",
+                    Actions == "Positive allosteric modulator" ~ "Allosteric mod (+)",
+                    is.na(Actions) ~ "Other/unknown",
+                    T ~ Actions
+                ),
+                receptor = str_remove(.$`Name`, pattern = "receptor"),
+                family = str_extract(.$`Gene Name`, pattern = "[:upper:]+"),
+                family = ifelse(is.na(family), "NE", family),
+                symbol = case_when(
+                    Actions == "Agonist" ~ "star-triangle-up",
+                    Actions == "Antagonist" ~ "star-triangle-down",
+                    Actions == "Blocker/inhibitor" ~ "square-x",
+                    Actions == "Other/unknown" ~ "circle-dot",
+                    Actions == "Partial agonist" ~ "hexagram",
+                    Actions == "Inverse agonist" ~ "star-triangle-down-dot",
+                    Actions == "Binder" ~ "diamond-wide",
+                    Actions == "Potentiator" ~ "triangle-up-dot",
+                    Actions == "Allosteric mod (+)" ~ "triangle-up",
+                    TRUE ~ "circle-open"
+                ),
+                potency = 10-log10(`Ki (nM)_med`)
+            )
         
-        mol_img <-
-            for_plot %>%
-            pull(drugbank_id) %>%
-            unique() %>%
-            paste0('https://www.drugbank.ca/structures/', ., '/image.svg') %>%
-            magick::image_read_svg() %>%
-            magick::image_colorize(opacity = 100, color = '#002b36')
+        my_symbols <- 
+            distinct(for_plot, symbol, .keep_all = T) %>%
+            arrange(Actions) %>%
+            pull(symbol)
         
-        plot <- 
-            for_plot %>%
-            ggplot(aes(y = `Name`,
-                       x = Actions)) +
-            annotation_custom(rasterGrob(mol_img)) +
-            theme_minimal(base_size = 18)
         
-        if(type == "target"){
-                plot +
-                geom_raster(aes(fill = log10(`Ki (nM)_med`)),
-<<<<<<< HEAD
-                          interpolate = T, alpha = .7) +
-                geom_point(aes(shape = `Pharmacological action`),
-                           size = 5,
-                           alpha = .6) +
-                scale_size_continuous(range = c(1,30)) +
-                
-                geom_line(aes(linetype="unknown")) +
-                guides(linetype=guide_legend("Potency", override.aes=list(color="#93a1a1", size = 10))) +
-                
-                scale_fill_viridis_c(option = "C", na.value="#93a1a1", direction = 1) +
-                labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Potency (log10(Ki))')
-        }else{
-=======
-                          interpolate = T, alpha = .6) +
-                geom_point(aes(shape = `Pharmacological action`, color = log10(`Ki (nM)_med`)),
-                           size = 8,
-                           alpha = 1) +
-                geom_line(aes(linetype="unknown", group = `Name`), color = NA) +
-                guides(linetype = guide_legend("Potency", order = 2, override.aes=list(color="#93a1a1", size = 10)),
-                       fill = guide_colorbar(order = 1, reverse = T),
-                       shape = guide_legend(order = 3, reverse = T),
-                       color = F) +
-                scale_shape_manual(values = c(17,16)) +
-                scale_fill_viridis_c(option = "plasma", na.value="#93a1a1", aesthetics = c("colour", "fill")) +
-                labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Potency [log(Ki)]', shape = 'Actions') +
-                scale_y_discrete(limits = rev(levels(for_plot$Name)))
-            }else{
->>>>>>> 9efb1f5081244411a6bcae829b5fc0fb26c57553
-                plot +
-                geom_tile(interpolate = T, alpha = .7, aes(fill = Actions)) +
-                scale_fill_viridis_d(option = "D", na.value="#93a1a1", direction = -1) +
-                labs(title = unique(for_plot$Drug), x = '', y = "", fill = 'Actions')
-            }
+        plot_ly(data = for_plot,
+                x = ~ drug_name,
+                y = ~ receptor,
+                symbol =  ~ Actions,
+                symbols = my_symbols,
+                sizes = c(3,25)
+        ) %>%
+            add_fun(function(plot){   #add non NA points
+                plot %>%
+                    filter(!is.na(potency)) %>%
+                    add_markers(
+                        color = ~ potency,
+                        colors = plasma(length(for_plot)),
+                        size = ~potency,
+                        legendgroup = ~Actions,
+                        text = ~Organism,
+                        marker = list(sizemode = "diameter",
+                                      opacity = .85,
+                                      line = list(color = "black",
+                                                  width = 2)))
+            }) %>%
+            add_fun(function(plot){  #add NA points
+                plot %>%
+                    filter(is.na(potency)) %>%
+                    add_markers(
+                        legendgroup = ~ Actions,
+                        text = ~ Organism,      
+                        name = ~ paste(Actions, ", (Ki = NA)"),
+                        marker = list(size = 13, color = "lightgray",
+                                      opacity = .85,
+                                      line = list(color = "black",
+                                                  width = 2)))
+            })%>%
+            layout(
+                autosize = T,
+                legend = list(tracegroupgap = 20),
+                xaxis = list(
+                    title = 'Drugs',
+                    side = "top",
+                    tickfont = list(size = 18)),
+                yaxis = list(
+                    title='',
+                    tickfont = list(size = 12)),
+                margin = list(t=80),
+                barmode = list(orientation = 'v')
+            )
+        
     })
-    
-<<<<<<< HEAD
 })
 
-=======
-})
->>>>>>> 9efb1f5081244411a6bcae829b5fc0fb26c57553

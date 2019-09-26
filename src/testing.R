@@ -1,7 +1,6 @@
 pacman::p_load(tidyverse, grid, plotly)
 
-data_full <-
-    read_csv("data/drugbank_target_parse.csv")
+data_full <-read_csv("data/drugbank_target_parse.csv")
 
 molecule <-
     c("Aripirazole", "Diazepam", "Olanzapine")
