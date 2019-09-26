@@ -36,4 +36,4 @@ clean_data <-
     ) %>%
     select(drug_name, Name, receptor, Actions, `Gene Name`, `Pharmacological action`, potency, family, symbol, show_text)
 
-save(clean_data, file =  "data/clean")
+write_csv(clean_data, "data/clean.csv")

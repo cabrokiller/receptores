@@ -7,7 +7,8 @@ library(shinyWidgets)
 
 # source("src/preproc.R")
 
-load("../data/clean")
+clean_data <- 
+    read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/clean.csv")
 
 my_family <-
     c("DRD", "HTR")
