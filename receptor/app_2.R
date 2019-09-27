@@ -32,7 +32,7 @@ ot <- get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
 
 
 ui <- fluidPage(
-    theme = "bootstrap.css",
+    #theme = "bootstrap.css",
     titlePanel("Perfiles farmacodinámicos"),
     h5(
         "Aplicación para visualizar de manera simple el perfil receptorial
@@ -136,9 +136,9 @@ server <- function(input, output) {
                 plot %>%
                     filter(!is.na(potency)) %>%
                     add_markers(
-                        color = ~ potency,
+                        color = ~ log10(Ki),
                         colors = plasma(length(for_plot)),
-                        size = ~ potency,
+                        #size = ~ potency,
                         legendgroup = ~ Actions,
                         hoverinfo = 'text',
                         text = ~ paste0(
@@ -146,12 +146,14 @@ server <- function(input, output) {
                             Name,
                             '</br><b>Action:</b> ',
                             Actions,
+                            '</br><b>Ki min:</b>', Ki_min, '<b> | Ki med: </b>', Ki, '<b> | Ki max: </b>', Ki_max,
                             '</br><b>Function:</b> ',
                             show_text
                         ),
                         marker = list(
-                            sizemode = "diameter",
-                            opacity = .85,
+                            #sizemode = "diameter",
+                            size = 20,
+                            opacity = .95,
                             line = list(color = "black",
                                         width = 2)
                         )
@@ -174,9 +176,9 @@ server <- function(input, output) {
                         ),
                         name = ~ paste(Actions, ", (when <i>Ki</i> is unknown)"),
                         marker = list(
-                            size = 15,
+                            size = 20,
                             color = "lightgray",
-                            opacity = .85,
+                            opacity = .95,
                             line = list(color = "black",
                                         width = 2)
                         )
@@ -188,10 +190,14 @@ server <- function(input, output) {
                 xaxis = list(
                     title = 'Drugs',
                     side = "top",
-                    tickfont = list(size = 18)
+                    tickfont = list(size = 20)
                 ),
-                yaxis = list(title = '',
-                             tickfont = list(size = 12)),
+                yaxis = list(
+                    title = '',
+                    tickfont = list(
+                        size = 16),
+                    automargin = TRUE
+                    ),
                 margin = list(t = 80),
                 barmode = list(orientation = 'v')
             )
