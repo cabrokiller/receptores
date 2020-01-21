@@ -121,6 +121,7 @@ drugs %>%
 
 
 # fix (protein groups)
+
 fix_prot <- function(link) {
     paste0('https://www.drugbank.ca/bio_entities/', link) %>%
         html_session() %>%
