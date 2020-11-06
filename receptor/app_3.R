@@ -92,7 +92,7 @@ ui <- fluidPage(
     ),
     column(
         10,
-        plotlyOutput("drugPlot",
+        plotOutput("drugPlot",
                      height = '100%',
                      width = "100%", 
                      inline = T)
@@ -118,7 +118,7 @@ server <- function(input, output) {
             )
     })
     
-    output$drugPlot <- renderPlotly({
+    output$drugPlot <- renderPlot({
         molecule <- c(input$drugs_1, input$drugs_2, input$drugs_3)
         families <- c(input$families)
         for_plot <-
@@ -130,90 +130,17 @@ server <- function(input, output) {
             )
         
         my_symbols <-
-            distinct(for_plot, symbol, .keep_all = T) %>%
+            distinct(for_plot, symbol_2, .keep_all = T) %>%
             arrange(Actions) %>%
             pull(symbol)
         
-        plot_ly(
-            data = for_plot,
-            x = ~ drug_name,
-            y = ~ receptor,
-            symbol =  ~ Actions,
-            symbols = my_symbols,
-            size = 1,
-            #width = 800,
-            height = 800
-        ) %>%
-            add_fun(function(plot) {
-                #add non NA points
-                plot %>%
-                    filter(!is.na(potency)) %>%
-                    add_markers(
-                        color = ~ log10(Ki),
-                        colors = plasma(length(for_plot), direction = -1),
-                        legendgroup = ~ Actions,
-                        hoverinfo = 'text',
-                        text = ~ paste0(
-                            '<b>Receptor:</b> ',
-                            Name,
-                            '</br><b>Action:</b> ',
-                            Actions,
-                            '</br><b>Ki min:</b>', Ki_min, '<b> | Ki med: </b>', Ki, '<b> | Ki max: </b>', Ki_max,
-                            '</br><b>Function:</b> ',
-                            show_text
-                        ),
-                        marker = list(
-                            #sizemode = "diameter",
-                            size = 20,
-                            opacity = 1,
-                            line = list(color = "black",
-                                        width = 1)
-                        )
-                    )
-            }) %>%
-            add_fun(function(plot) {
-                #add NA points
-                plot %>%
-                    filter(is.na(potency)) %>%
-                    add_markers(
-                        legendgroup = ~ Actions,
-                        hoverinfo = 'text',
-                        text = ~ paste0(
-                            '<b>Receptor:</b> ',
-                            Name,
-                            '</br><b>Action:</b> ',
-                            Actions,
-                            '</br><b>Function:</b> ',
-                            show_text
-                        ),
-                        name = ~ paste(Actions, ", (when <i>Ki</i> is unknown)"),
-                        marker = list(
-                            size = 20,
-                            color = "grey",
-                            opacity = 1,
-                            line = list(color = "black",
-                                        width = 1)
-                        )
-                    )
-            }) %>%
-            layout(
-                autosize = T,
-                legend = list(tracegroupgap = 20),
-                xaxis = list(
-                    title = 'Drugs',
-                    side = "top",
-                    tickfont = list(size = 15),
-                    constraintoward  = "center"
-                    ),
-                yaxis = list(
-                    title = '',
-                    tickfont = list(
-                        size = 12),
-                        automargin = TRUE
-                        ),
-                margin = list(t = 80),
-                barmode = list(orientation = 'v')
-            )
+        
+        for_plot %>%
+            ggplot(aes(x = drug_name, y = receptor, shape = Actions, color = log(Ki))) +
+            geom_point(size = 8) +
+            scale_shape_manual(values = my_symbols) +
+            scale_color_viridis_c(direction = -1, na.value = "gray40", option = "B") +
+            theme_minimal()
     })
 }
 

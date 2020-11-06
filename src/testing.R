@@ -55,64 +55,43 @@ plot_ly(
                         width = 2)
         )
     )
+
+
+#########################
  
-
-
-############################# single
-
-pacman::p_load(ggthemes, cowplot, png, RCurl)
-ax <- 7
-my_name = "Vortioxetine"
-
-for_plot <- 
-clean %>%
+for_plot_2 <- 
+for_plot %>%
     mutate(
-        action_plot = case_when(
-            Actions == "Antagonist" ~ -5,
-            Actions == "Agonist" ~ 5,
-            Actions == "Other/unknown" ~ 0,
-            Actions == "Blocker/inhibitor" ~ -3,
-            Actions == "Partial agonist" ~ 3,
-            Actions == "Partial agonist" ~ 3,
-            Actions == "Allosteric mod (+)" ~ 3
-        )
-    ) %>%
-    filter(drug_name == my_name,
-           `Pharmacological action` %in% c("Yes", "Unknown", "No"))
-    
+        symbol_2 =
+            case_when(
+                Actions == "Agonist" ~ '\u2bc5',
+                Actions == "Antagonist" ~ '\u2bc6',
+                Actions == "Blocker/inhibitor" ~ '\u2bbf',
+                Actions == "Other/unknown" ~ '\u2b57',
+                Actions == "Partial agonist" ~ '\u2b1f',
+                Actions == "Partial antagonist" ~ '\u2bc2',
+                Actions == "Inverse agonist" ~ '\u2b9f',
+                Actions == "Binder" ~ '\u2b2c',
+                Actions == "Potentiator" ~ '\u2bed',
+                Actions == "Allosteric mod (+)" ~ '\u2b99',
+                TRUE ~ '\u2bc0'
+            )
+    )
+
+my_symbols <- 
+    distinct(for_plot_2, symbol_2, .keep_all = T) %>%
+    arrange(Actions) %>%
+    pull(symbol_2)
+
+my_symbols
+
+############## ggplot
+for_plot_2 %>%
+    ggplot(aes(x = drug_name, y = receptor, shape = Actions, color = log(Ki))) +
+    geom_point(size = 8) +
+    scale_shape_manual(values = my_symbols) +
+    scale_color_viridis_c(direction = -1, na.value = "gray40", option = "B") +
+    theme_minimal()
 
 
-img <- 
-    drugs %>%
-    filter(name == my_name) %>%
-    pull(drugbank_id) %>%
-    paste0('https://go.drugbank.com/structures/', ., '/image.png') %>%
-    getURLContent() %>%
-    readPNG() %>%
-    rasterGrob(interpolate = T)
-
-
-
-for_plot %>%    
-    ggplot(aes(x = `Gene Name`, y = action_plot, group = `Gene Name`, color = Actions)) +
-    geom_point(aes(shape = Actions), size = 5) +
-    geom_segment(aes(xend = `Gene Name`, yend = 0), size = 5) +
-    #geom_text(aes(label = `Gene Name`), nudge_y = 1) +
-    geom_hline(yintercept = 0, size = 2) +
-    annotation_custom(img, xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=Inf) +
-    ylim(-5,4)
-
-
-
-
-######## por receptores
-clean %>%
-    filter(family == "HTR", 
-           `Pharmacological action` %in% c("Yes", "Unknown")) %>%
-    ggplot(aes(y = drug_name, x = 0, color = Actions, shape = Actions)) +
-    geom_point(size = 3) +
-    facet_grid(~ `Gene Name`) +
-    scale_colour_viridis_d() +
-    theme_cowplot()
-    
 
