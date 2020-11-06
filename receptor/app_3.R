@@ -33,11 +33,11 @@ ot <- get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
 
 ui <- fluidPage(
     #theme = "bootstrap.css",
-    titlePanel("Perfiles farmacodinámicos"),
-    h5(
-        "Aplicación para visualizar de manera simple el perfil receptorial
-        de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"
-    ),
+    # titlePanel("Perfiles farmacodinámicos"),
+    # h5(
+    #     "Aplicación para visualizar de manera simple el perfil receptorial
+    #     de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"
+    # ),
     fluidRow(
         column(
             2,
@@ -93,8 +93,9 @@ ui <- fluidPage(
     column(
         10,
         plotlyOutput("drugPlot",
-                     height = '1000px',
-                     width = "100%")
+                     height = '100%',
+                     width = "100%", 
+                     inline = T)
     ))
 )
 
@@ -104,7 +105,7 @@ server <- function(input, output) {
         families <- 
             clean_data %>%
             filter(drug_name %in% c(input$drugs_1, input$drugs_2, input$drugs_3),
-                   `Pharmacological action` %in% c("Yes", "Unknown")) %>%
+                   `Pharmacological action` %in% input$pharma) %>%
             dplyr::distinct(family) %>%
             pull(family) %>%
             as.list()
@@ -139,7 +140,9 @@ server <- function(input, output) {
             y = ~ receptor,
             symbol =  ~ Actions,
             symbols = my_symbols,
-            size = 1
+            size = 1,
+            #width = 800,
+            height = 800
         ) %>%
             add_fun(function(plot) {
                 #add non NA points
@@ -199,14 +202,15 @@ server <- function(input, output) {
                 xaxis = list(
                     title = 'Drugs',
                     side = "top",
-                    tickfont = list(size = 20)
-                ),
+                    tickfont = list(size = 15),
+                    constraintoward  = "center"
+                    ),
                 yaxis = list(
                     title = '',
                     tickfont = list(
-                        size = 16),
-                    automargin = TRUE
-                    ),
+                        size = 12),
+                        automargin = TRUE
+                        ),
                 margin = list(t = 80),
                 barmode = list(orientation = 'v')
             )
