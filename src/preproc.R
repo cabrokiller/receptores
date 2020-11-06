@@ -50,7 +50,7 @@ clean_data <-
         potency = 10 - log10(`Ki (nM)_med`),
         show_text = str_wrap(.$full_function, width = 60),
     ) %>%
-    select(drug_name, Name, receptor, Actions, `Gene Name`, `Pharmacological action`, potency, family, symbol, show_text,
+    select(drug_name, Name, receptor, Actions, `Gene Name`, `Pharmacological action`, potency, family, symbol_2, show_text,
            Ki = `Ki (nM)_med`, Ki_min = `Ki (nM)_min`, Ki_max = `Ki (nM)_max`)
 
 write_csv(clean_data, "data/clean.csv")

@@ -3,12 +3,14 @@ library(tidyverse)
 library(plotly)
 library(viridisLite)
 library(shinyWidgets)
+library(cowplot)
 
 
 # source("src/preproc.R")
 
 clean_data <- 
-    read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/clean.csv")
+    #read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/clean.csv")
+    read_csv("../data/clean.csv")
 
 my_family <-
     c("DRD", "HTR")
@@ -41,7 +43,6 @@ ui <- fluidPage(
     fluidRow(
         column(
             2,
-            
             "Antipsicóticos",
             pickerInput(
                 inputId = "drugs_2",
@@ -92,10 +93,7 @@ ui <- fluidPage(
     ),
     column(
         10,
-        plotOutput("drugPlot",
-                     height = '100%',
-                     width = "100%", 
-                     inline = T)
+        plotlyOutput("drugPlot", width = "80%", height = "800px", inline = F)
     ))
 )
 
@@ -118,9 +116,10 @@ server <- function(input, output) {
             )
     })
     
-    output$drugPlot <- renderPlot({
+    output$drugPlot <- renderPlotly({
         molecule <- c(input$drugs_1, input$drugs_2, input$drugs_3)
         families <- c(input$families)
+        
         for_plot <-
             clean_data %>%
             filter(
@@ -132,15 +131,17 @@ server <- function(input, output) {
         my_symbols <-
             distinct(for_plot, symbol_2, .keep_all = T) %>%
             arrange(Actions) %>%
-            pull(symbol)
+            pull(symbol_2)
         
         
         for_plot %>%
-            ggplot(aes(x = drug_name, y = receptor, shape = Actions, color = log(Ki))) +
-            geom_point(size = 8) +
+            ggplot(aes(x = `Pharmacological action`, y = receptor, shape = Actions, color = log(Ki))) +
+            geom_point(size = 10) +
+            #scale_size_continuous(range = c(10,20), trans = "log1p") +
             scale_shape_manual(values = my_symbols) +
             scale_color_viridis_c(direction = -1, na.value = "gray40", option = "B") +
-            theme_minimal()
+            facet_grid(family ~ drug_name, scales = "free_y", space = "free_y", shrink = T) +
+            theme_minimal_grid()
     })
 }
 
