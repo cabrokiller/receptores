@@ -138,7 +138,7 @@ reduced physical activity upon treatment with synthetic
 opioids. Plays a role in the regulation of salivation in
 response to synthetic opioids. May play a role in arousal
 and regulation of autonomic and neuroendocrine functions.",NA,NA,NA
-Amitriptyline,High affinity nerve growth factor receptor,High affinity nerve growth factor ,AgonistActivator,NTRK1,Unknown,NA,NTRK,⯀,"Receptor tyrosine kinase involved in the development and
+Amitriptyline,High affinity nerve growth factor receptor,High affinity nerve growth factor ,Agonist,NTRK1,Unknown,NA,NTRK,⯅,"Receptor tyrosine kinase involved in the development and
 the maturation of the central and peripheral nervous systems
 through regulation of proliferation, differentiation and
 survival of sympathetic and nervous neurons. High affinity
@@ -192,7 +192,7 @@ it is able to suppress anoikis, the apoptosis resulting from
 loss of cell-matrix interactions. May also play a role in
 neutrophin-dependent calcium signaling in glial cells and
 mediate communication between neurons and glia.",NA,NA,NA
-Amitriptyline,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,AntagonistInhibitor,ADRA1A,No,NA,ADRA,⯀,"This alpha-adrenergic receptor mediates its action
+Amitriptyline,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,No,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear

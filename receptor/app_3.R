@@ -4,6 +4,7 @@ library(plotly)
 library(viridisLite)
 library(shinyWidgets)
 library(cowplot)
+library(ggiraph)
 
 
 # source("src/preproc.R")
@@ -48,6 +49,7 @@ ui <- fluidPage(
                 inputId = "drugs_2",
                 label = "Select/deselect all + format selected",
                 choices = as.list(ap$name),
+                selected = c("Aripiprazole"),
                 options = list(
                     `actions-box` = TRUE,
                     size = 10,
@@ -93,7 +95,7 @@ ui <- fluidPage(
     ),
     column(
         10,
-        plotlyOutput("drugPlot", width = "80%", height = "800px", inline = F)
+        girafeOutput("drugPlot")
     ))
 )
 
@@ -116,7 +118,7 @@ server <- function(input, output) {
             )
     })
     
-    output$drugPlot <- renderPlotly({
+    output$drugPlot <- renderGirafe({
         molecule <- c(input$drugs_1, input$drugs_2, input$drugs_3)
         families <- c(input$families)
         
@@ -133,15 +135,17 @@ server <- function(input, output) {
             arrange(Actions) %>%
             pull(symbol_2)
         
-        
+        q <- 
         for_plot %>%
             ggplot(aes(x = `Pharmacological action`, y = receptor, shape = Actions, color = log(Ki))) +
-            geom_point(size = 10) +
+            geom_point_interactive(size = 10, aes(tooltip = show_text)) +
             #scale_size_continuous(range = c(10,20), trans = "log1p") +
             scale_shape_manual(values = my_symbols) +
             scale_color_viridis_c(direction = -1, na.value = "gray40", option = "B") +
             facet_grid(family ~ drug_name, scales = "free_y", space = "free_y", shrink = T) +
-            theme_minimal_grid()
+            theme_minimal()
+        
+        girafe(ggobj = q)
     })
 }
 

@@ -7,8 +7,8 @@ clean_data <-
     mutate(
         Actions = case_when(
             Actions == "AntagonistAgonist" ~ "Antagonist",
-            Actions %in% c("AntagonistLigand", "AntagonistBinder", "Inverse agonist") ~ "Antagonist",
-            Actions %in% c("Ligand", "Activator") ~ "Agonist",
+            Actions %in% c("AntagonistLigand", "AntagonistBinder", "Inverse agonist", "AntagonistInhibitor") ~ "Antagonist",
+            Actions %in% c("Ligand", "Activator", "AgonistActivator") ~ "Agonist",
             Actions %in% c("Other", "Unknown", "AntagonistOther/unknown")  ~ "Other/unknown",
             Actions %in% c("Blocker", "Inhibitor", "InhibitorInducer", "Negative modulator", "Binder") ~ "Blocker/inhibitor",
             Actions == "AntagonistPartial agonist" ~ "Partial antagonist",
