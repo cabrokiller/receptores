@@ -1,0 +1,12 @@
+name: receptor_2
+title: receptor_2
+username:
+account: cabrokiller
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3213386
+bundleId: 3849252
+url: https://cabrokiller.shinyapps.io/receptor_2/
+when: 1605133059.11993
+asMultiple: FALSE
+asStatic: FALSE

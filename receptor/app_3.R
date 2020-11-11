@@ -45,6 +45,7 @@ ui <-
               fluidRow(
                   column(
                       2,
+                      align = "left", 
                       wellPanel(
                           h3("Pharma profiles"),
                           p(
@@ -55,6 +56,8 @@ ui <-
                               "You may choose different molecules to display their receptor binding profile.
                             You can hover over the different receptor activities to get more information displayed in the right pane"
                           ),
+                          HTML("<hr>"),
+                          h4("Drugs"),
                           pickerInput(
                               inputId = "drugs_2",
                               label = "Select/deselect - Antipsychotics",
@@ -89,9 +92,11 @@ ui <-
                               ),
                               multiple = TRUE
                           ),
+                          HTML("<hr>"),
+                          h4("Pharmacological action"),
                           checkboxGroupInput(
                               inputId = "pharma",
-                              label = "Pharmacological Actions",
+                              label = NULL,
                               choices = c(
                                   "Yes" = "Yes",
                                   "No" = "No",
@@ -100,6 +105,8 @@ ui <-
                               selected = c("Yes", "No", "Unknown"),
                               inline = F
                           ),
+                          HTML("<hr>"),
+                          h4("Receptor Families"),
                           uiOutput("families"),
                       ),
                       #p(strong("Information")),
@@ -115,12 +122,14 @@ ui <-
                           "drugPlot",
                           height = "900px",
                           width = "1000px",
-                          hover = hoverOpts("hover_txt", delay = 50, delayType = "debounce")
+                          hover = hoverOpts("hover_txt", delay = 300, delayType = "debounce")
                       )
                   ),
-                  column(3,
-                         wellPanel(h3("Information"),
-                                   uiOutput("txt")))
+                  column(
+                      3,
+                      align = "left",
+                      wellPanel(h3("Information"),
+                                uiOutput("txt")))
                   
               ))
 
@@ -142,7 +151,7 @@ server <- function(input, output) {
         
         pickerInput(
             "families",
-            label = "Receptor Families",
+            label = NULL,
             choices = families,
             selected = families,
             options = list(
@@ -210,7 +219,6 @@ server <- function(input, output) {
                     addDist = TRUE
                 )
             texto <-
-                HTML(
                     paste0(
                         "<b>Ki min:</b> ",
                         my_row$Ki_min,
@@ -218,11 +226,31 @@ server <- function(input, output) {
                         my_row$Ki_max,
                         "<br> <b>INFO</b>: ",
                         my_row$show_text
-                    )
+                    
                 )
-        texto
+            
+            # render html
+            if(nrow(my_row)==0){
+                HTML("Select a point in the plot for more information")
+                
+            } else {
+                
+                id <- 
+                    drugs %>%
+                    filter(name == my_row$drug_name) %>%
+                    pull(drugbank_id)
+                
+                img_url <- 
+                    paste0("https://go.drugbank.com/structures/", id,"/image.png")
+                
+                img <- paste0('<img src=', img_url,' style="width:300px;height:300px">')
+                
+            HTML(paste0(
+                h2(my_row$drug_name), '<br>',
+                img,'<br>',
+                h4(paste0(my_row$receptor, ' ', my_row$Actions, ' ', my_row$symbol_2)), '<br>',
+                texto))}
         })
-
 
 }
 
