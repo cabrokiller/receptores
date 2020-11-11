@@ -3,18 +3,18 @@ library(tidyverse)
 library(plotly)
 library(viridisLite)
 library(shinyWidgets)
-library(cowplot)
-library(ggiraph)
+library(ggthemes)
+library(shinythemes)
+
 
 
 # source("src/preproc.R")
 
-clean_data <- 
+clean_data <-
     #read_csv("https://raw.githubusercontent.com/cabrokiller/receptores/master/data/clean.csv")
-    read_csv("../data/clean.csv")
+    read_csv("../data/clean.csv") %>%
+    mutate(`Pharmacological action` = factor(`Pharmacological action`, levels = c("Yes", "Unknown", "No")))
 
-my_family <-
-    c("DRD", "HTR")
 
 
 drugs <-
@@ -30,95 +30,130 @@ get_fam <- function(df, family) {
 
 ad <- get_fam(drugs, c("Antidepressant", "Mood stabilizer"))
 ap <- get_fam(drugs, "Antipsychotic")
-ot <- get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
+ot <-
+    get_fam(drugs, c("Other", "Stimulant", "Opioid", "Depressants"))
 
 
 
-ui <- fluidPage(
-    #theme = "bootstrap.css",
-    # titlePanel("Perfiles farmacodinámicos"),
-    # h5(
-    #     "Aplicación para visualizar de manera simple el perfil receptorial
-    #     de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"
-    # ),
-    fluidRow(
-        column(
-            2,
-            "Antipsicóticos",
-            pickerInput(
-                inputId = "drugs_2",
-                label = "Select/deselect all + format selected",
-                choices = as.list(ap$name),
-                selected = c("Aripiprazole"),
-                options = list(
-                    `actions-box` = TRUE,
-                    size = 10,
-                    `selected-text-format` = "count > 1"
-                ),
-                multiple = TRUE
-            ),
-            "Antidepresivos/eutimizantes",
-            pickerInput(
-                inputId = "drugs_1",
-                label = "Select/deselect all + format selected",
-                choices = as.list(ad$name),
-                options = list(
-                    `actions-box` = TRUE,
-                    size = 10,
-                    `selected-text-format` = "count > 1"
-                ),
-                multiple = TRUE
-            ),
-            "Otros",
-            pickerInput(
-                inputId = "drugs_3",
-                label = "Select/deselect all + format selected",
-                choices = as.list(ot$name),
-                options = list(
-                    `actions-box` = TRUE,
-                    size = 10,
-                    `selected-text-format` = "count > 1"
-                ),
-                multiple = TRUE
-            ),
-            checkboxGroupInput(
-                inputId = "pharma",
-                label = "Acción farmacológica",
-                choices = c("Si" = "Yes",
-                            "No" = "No",
-                            "Desconocida" = "Unknown"),
-                selected = c("Yes", "No", "Unknown"),
-                inline = T
-            ),
-            p(strong("Receptor family")),
-            uiOutput("families")
-    ),
-    column(
-        10,
-        girafeOutput("drugPlot")
-    ))
-)
+ui <-
+    fluidPage(theme = shinytheme("simplex"),
+              #titlePanel("Perfiles farmacodinámicos"),
+              # h5(
+              #     "Aplicación para visualizar de manera simple el perfil receptorial
+              #     de hasta 3 fármacos. Es posible seleccionar la familia de fármacos a desplegar en las listas"
+              # ),
+              fluidRow(
+                  column(
+                      2,
+                      wellPanel(
+                          h3("Pharma profiles"),
+                          p(
+                              "This app is designed to show the pharmacological receptor
+                            profiles of different drugs used in Psychiatry"
+                          ),
+                          p(
+                              "You may choose different molecules to display their receptor binding profile.
+                            You can hover over the different receptor activities to get more information displayed in the right pane"
+                          ),
+                          pickerInput(
+                              inputId = "drugs_2",
+                              label = "Select/deselect - Antipsychotics",
+                              choices = as.list(ap$name),
+                              selected = c("Aripiprazole", "Clozapine"),
+                              options = list(
+                                  `actions-box` = TRUE,
+                                  size = 10,
+                                  `selected-text-format` = "count > 1"
+                              ),
+                              multiple = TRUE
+                          ),
+                          pickerInput(
+                              inputId = "drugs_1",
+                              label = "Select/deselect  - Mood/AD",
+                              choices = as.list(ad$name),
+                              options = list(
+                                  `actions-box` = TRUE,
+                                  size = 10,
+                                  `selected-text-format` = "count > 1"
+                              ),
+                              multiple = TRUE
+                          ),
+                          pickerInput(
+                              inputId = "drugs_3",
+                              label = "Select/deselect all - Other Meds",
+                              choices = as.list(ot$name),
+                              options = list(
+                                  `actions-box` = TRUE,
+                                  size = 10,
+                                  `selected-text-format` = "count > 1"
+                              ),
+                              multiple = TRUE
+                          ),
+                          checkboxGroupInput(
+                              inputId = "pharma",
+                              label = "Pharmacological Actions",
+                              choices = c(
+                                  "Yes" = "Yes",
+                                  "No" = "No",
+                                  "Unknown" = "Unknown"
+                              ),
+                              selected = c("Yes", "No", "Unknown"),
+                              inline = F
+                          ),
+                          uiOutput("families"),
+                      ),
+                      #p(strong("Information")),
+                      
+                      #uiOutput("txt")
+                  ),
+                  
+                  # PLOT
+                  column(
+                      7,
+                      align = "center",
+                      plotOutput(
+                          "drugPlot",
+                          height = "900px",
+                          width = "1000px",
+                          hover = hoverOpts("hover_txt", delay = 50, delayType = "debounce")
+                      )
+                  ),
+                  column(3,
+                         wellPanel(h3("Information"),
+                                   uiOutput("txt")))
+                  
+              ))
+
+
+
+
 
 server <- function(input, output) {
     output$families <- renderUI({
-        
-        families <- 
+        families <-
             clean_data %>%
-            filter(drug_name %in% c(input$drugs_1, input$drugs_2, input$drugs_3),
-                   `Pharmacological action` %in% input$pharma) %>%
+            filter(
+                drug_name %in% c(input$drugs_1, input$drugs_2, input$drugs_3),
+                `Pharmacological action` %in% input$pharma
+            ) %>%
             dplyr::distinct(family) %>%
             pull(family) %>%
             as.list()
         
-        checkboxGroupInput(
+        pickerInput(
             "families",
-            NULL,
+            label = "Receptor Families",
             choices = families,
             selected = families,
-            )
+            options = list(
+                `actions-box` = TRUE,
+                size = 10,
+                `selected-text-format` = "count > 1"
+            ),
+            multiple = TRUE
+        )
     })
-    
-    output$drugPlot <- renderGirafe({
+    output$drugPlot <- renderPlot({
         molecule <- c(input$drugs_1, input$drugs_2, input$drugs_3)
         families <- c(input$families)
         
@@ -135,20 +170,61 @@ server <- function(input, output) {
             arrange(Actions) %>%
             pull(symbol_2)
         
-        q <- 
-        for_plot %>%
-            ggplot(aes(x = `Pharmacological action`, y = receptor, shape = Actions, color = log(Ki))) +
-            geom_point_interactive(size = 10, aes(tooltip = show_text)) +
+        q <-
+            for_plot %>%
+            ggplot(aes(
+                x = `Pharmacological action`,
+                y = receptor,
+                shape = Actions,
+                color = log(Ki)
+            )) +
+            geom_point(size = 9) +
             #scale_size_continuous(range = c(10,20), trans = "log1p") +
-            scale_shape_manual(values = my_symbols) +
-            scale_color_viridis_c(direction = -1, na.value = "gray40", option = "B") +
-            facet_grid(family ~ drug_name, scales = "free_y", space = "free_y", shrink = T) +
-            theme_minimal()
+            scale_shape_manual(values = my_symbols,
+                               guide = guide_legend(override.aes = list(color = "gray60"))) +
+            scale_color_viridis_c(direction = -1,
+                                  na.value = "gray60",
+                                  option = "B") +
+            facet_grid(
+                family ~ drug_name,
+                scales = "free_y",
+                space = "free_y",
+                shrink = T
+            ) +
+            theme_solarized_2(light = F, base_size = 14) +
+            theme(axis.title.y = element_blank(),
+                  strip.text.x = element_text(size = 20))
         
-        girafe(ggobj = q)
+        q
+        
     })
+    
+    output$txt <-
+        renderUI({
+            my_row <-
+                nearPoints(
+                    clean_data,
+                    input$hover_txt,
+                    threshold = 10,
+                    maxpoints = 1,
+                    addDist = TRUE
+                )
+            texto <-
+                HTML(
+                    paste0(
+                        "<b>Ki min:</b> ",
+                        my_row$Ki_min,
+                        "<b>  -  Ki max:</b>",
+                        my_row$Ki_max,
+                        "<br> <b>INFO</b>: ",
+                        my_row$show_text
+                    )
+                )
+        texto
+        })
+
+
 }
 
 # Run the application
 shinyApp(ui = ui, server = server)
-

@@ -115,7 +115,7 @@ drugs %>%
     get_all_drugs()
 
 
-# complete receptor info
+# now complete receptor info
 
 
 
