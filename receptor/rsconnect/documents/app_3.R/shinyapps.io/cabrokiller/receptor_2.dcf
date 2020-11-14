@@ -5,8 +5,9 @@ account: cabrokiller
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3213386
-bundleId: 3849252
+bundleId: 3849727
 url: https://cabrokiller.shinyapps.io/receptor_2/
-when: 1605133059.11993
+when: 1605143825.80313
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: app_2.R|app.R
