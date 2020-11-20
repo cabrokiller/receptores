@@ -45,6 +45,7 @@ clean_data <-
                 Actions == "Binder" ~ '\u2b2c',
                 Actions == "Potentiator" ~ '\u2bed',
                 Actions == "Allosteric mod (+)" ~ '\u2b99',
+                Actions == "Modulator" ~ '\u2b14',
                 TRUE ~ '\u2bc0'
             ),
         potency = 10 - log10(`Ki (nM)_med`),
@@ -54,4 +55,6 @@ clean_data <-
            Ki = `Ki (nM)_med`, Ki_min = `Ki (nM)_min`, Ki_max = `Ki (nM)_max`)
 
 write_csv(clean_data, "data/clean.csv")
+
+print("\u2bc0")
 

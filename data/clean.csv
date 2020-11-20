@@ -848,10 +848,10 @@ neurotransmitter release by reducing calcium ion currents
 and increasing potassium ion conductance. Plays a role in
 the perception of pain and in opiate-mediated analgesia.
 Plays a role in developing analgesic tolerance to morphine.",NA,NA,NA
-Aripiprazole,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Modulator,SLC6A3,Unknown,NA,SLC,⯀,"Amine transporter. Terminates the action of dopamine by its
+Aripiprazole,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Modulator,SLC6A3,Unknown,NA,SLC,⬔,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
-Aripiprazole,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Modulator,SLC6A4,Unknown,NA,SLC,⯀,"Serotonin transporter whose primary function in the central
+Aripiprazole,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Modulator,SLC6A4,Unknown,NA,SLC,⬔,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -1081,103 +1081,6 @@ reduced physical activity upon treatment with synthetic
 opioids. Plays a role in the regulation of salivation in
 response to synthetic opioids. May play a role in arousal
 and regulation of autonomic and neuroendocrine functions.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,NA,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit alpha-4,Gamma-aminobutyric acid  subunit alpha-4,Potentiator,GABRA4,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit alpha-6,Gamma-aminobutyric acid  subunit alpha-6,Potentiator,GABRA6,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,NA,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Bromazepam,Gamma-aminobutyric acid receptor subunit theta,Gamma-aminobutyric acid  subunit theta,Potentiator,GABRQ,Yes,NA,GABRQ,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
 Buprenorphine,Mu-type opioid receptor,Mu-type opioid ,Partial agonist,OPRM1,Yes,NA,OPRM,⬟,"Receptor for endogenous opioids such as beta-endorphin
 and endomorphin. Receptor for natural and synthetic
 opioids including morphine, heroin, DAMGO, fentanyl,
@@ -1748,15 +1651,6 @@ Clomipramine,Glutathione S-transferase P,Glutathione S-transferase P,Blocker/inh
 of exogenous and endogenous hydrophobic electrophiles.
 Regulates negatively CDK5 activity via p25/p35 translocation
 to prevent neurodegeneration.",NA,NA,NA
-Clonazepam,Translocator protein,Translocator protein,Other/unknown,TSPO,Unknown,NA,TSPO,⭗,"Can bind protoporphyrin IX and may play a role in the
-transport of porphyrins and heme (By similarity). Promotes
-the transport of cholesterol across mitochondrial membranes
-and may play a role in lipid metabolism (PubMed:24814875),
-but its precise physiological role is controversial. It is
-apparently not required for steroid hormone biosynthesis.
-Was initially identified as peripheral-type benzodiazepine
-receptor; can also bind isoquinoline carboxamides
-(PubMed:1847678).",NA,NA,NA
 Clonazepam,Nuclear receptor subfamily 1 group I member 2,Nuclear  subfamily 1 group I member 2,Partial agonist,NR1I2,Unknown,NA,NR,⬟,"Nuclear receptor that binds and is activated by variety of
 endogenous and xenobiotic compounds. Transcription factor
 that activates the transcription of multiple genes involved
@@ -1803,91 +1697,6 @@ ADRA1A-ADRA1B heterooligomers regulate phenylephrine (PE)-
 stimulated ERK signaling in cardiac myocytes.",316.2278,316.2278,316.2278
 Clonidine,Alpha-1D adrenergic receptor,Alpha-1D adrenergic ,Agonist,ADRA1D,Unknown,7.900000142057633,ADRA,⯅,"This alpha-adrenergic receptor mediates its effect through
 the influx of extracellular calcium.",125.8925,125.8925,125.8925
-Clotiazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,NA,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,NA,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Clotiazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
 Clozapine,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,7.85078088734462,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",141,28,138000
 Clozapine,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Antagonist,HTR2A,Yes,9.186419011431807,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
@@ -2255,116 +2064,12 @@ are likely to be involved in a variety of physiological
 functions that have yet to be fully understood. The signal
 transduced by this receptor is mediated by the G(s)-class of
 G-proteins which activate adenylate cyclase.",NA,NA,NA
-Dextroamphetamine,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Other/unknown,ADRA1A,Unknown,NA,ADRA,⭗,"This alpha-adrenergic receptor mediates its action
-by association with G proteins that activate a
-phosphatidylinositol-calcium second messenger system. Its
-effect is mediated by G(q) and G(11) proteins. Nuclear
-ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
-stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
 Dextroamphetamine,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Antagonist,ADRA1B,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine (PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,8.84924356013969,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",14.15,12,16.8
-Diazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,8.769551078621726,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",17,15,33
-Diazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,8.823908740944319,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",15,6.6,7000
-Diazepam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Gamma-aminobutyric acid receptor subunit theta,Gamma-aminobutyric acid  subunit theta,Potentiator,GABRQ,Yes,NA,GABRQ,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Diazepam,Translocator protein,Translocator protein,Potentiator,TSPO,Unknown,NA,TSPO,⯭,"Can bind protoporphyrin IX and may play a role in the
-transport of porphyrins and heme (By similarity). Promotes
-the transport of cholesterol across mitochondrial membranes
-and may play a role in lipid metabolism (PubMed:24814875),
-but its precise physiological role is controversial. It is
-apparently not required for steroid hormone biosynthesis.
-Was initially identified as peripheral-type benzodiazepine
-receptor; can also bind isoquinoline carboxamides
-(PubMed:1847678).",NA,NA,NA
 Duloxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.337242168318426,SLC,⮿,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
@@ -2467,91 +2172,6 @@ terminals.",NA,NA,NA
 Escitalopram,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,No,NA,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,NA,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,NA,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Estazolam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
 Ethanol,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Agonist,GABRA1,Yes,NA,GABRA,⯅,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
@@ -3001,56 +2621,6 @@ Fludiazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric ac
 vertebrate brain, mediates neuronal inhibition by binding
 to the GABA/benzodiazepine receptor and opening an integral
 chloride channel.",NA,NA,NA
-Flunitrazepam,Translocator protein,Translocator protein,Agonist,TSPO,Yes,NA,TSPO,⯅,"Can bind protoporphyrin IX and may play a role in the
-transport of porphyrins and heme (By similarity). Promotes
-the transport of cholesterol across mitochondrial membranes
-and may play a role in lipid metabolism (PubMed:24814875),
-but its precise physiological role is controversial. It is
-apparently not required for steroid hormone biosynthesis.
-Was initially identified as peripheral-type benzodiazepine
-receptor; can also bind isoquinoline carboxamides
-(PubMed:1847678).",NA,NA,NA
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit alpha-4,Gamma-aminobutyric acid  subunit alpha-4,Agonist,GABRA4,Yes,NA,GABRA,⯅,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit alpha-6,Gamma-aminobutyric acid  subunit alpha-6,Potentiator,GABRA6,Yes,6.221848749616356,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",6000,2000,10000
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,8.995678626217357,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",10.1,4.5,15.7
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Agonist,GABRA1,Unknown,9.341988603342887,GABRA,⯅,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",4.55,2.2,11.5
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Agonist,GABRB3,Unknown,NA,GABRB,⯅,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Flunitrazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Agonist,GABRG2,Unknown,9.455931955649724,GABRG,⯅,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",3.5,1.1,2000
 Fluoxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.657577319177793,SLC,⮿,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
@@ -3129,7 +2699,7 @@ vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",NA,NA,NA
 Flupentixol,Dopamine D1 receptor,Dopamine D1 ,Antagonist,DRD1,Yes,9.455931955649724,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",3.5,3,4
-Flupentixol,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,Yes,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
+Flupentixol,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
@@ -3603,12 +3173,6 @@ their distribution and availability. Appears to function
 in modulating the activity of the immune system during the
 acute-phase reaction.",NA,NA,NA
 Lamotrigine,Voltage-dependent R-type calcium channel subunit alpha-1E (CACNA1E),Voltage-dependent R-type calcium channel subunit alpha-1E (CACNA1E),Blocker/inhibitor,CACNA1E,Yes,NA,CACNA,⮿,Calcium channel activity,NA,NA,NA
-Lamotrigine,Sodium channel protein type 2 subunit alpha,Sodium channel protein type 2 subunit alpha,Blocker/inhibitor,SCN2A,Unknown,NA,SCN,⮿,"Mediates the voltage-dependent sodium ion permeability of
-excitable membranes. Assuming opened or closed conformations
-in response to the voltage difference across the membrane,
-the protein forms a sodium-selective channel through which
-Na(+) ions may pass in accordance with their electrochemical
-gradient.",NA,NA,NA
 Lamotrigine,Adenosine receptor A1,Adenosine  A1,Blocker/inhibitor,ADORA1,Unknown,NA,ADORA,⮿,"Receptor for adenosine. The activity of this receptor is
 mediated by G proteins which inhibit adenylyl cyclase.",NA,NA,NA
 Lamotrigine,Adenosine receptor A2a,Adenosine  A2a,Blocker/inhibitor,ADORA2A,Unknown,NA,ADORA,⮿,"Receptor for adenosine. The activity of this receptor is
@@ -3633,9 +3197,9 @@ activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
-Lamotrigine,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,NA,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Lamotrigine,Dopamine D2 receptor,Dopamine D2 ,AgonistInhibitor,DRD2,Unknown,NA,DRD,⯀,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",NA,NA,NA
-Lamotrigine,Histamine H1 receptor,Histamine H1 ,Blocker/inhibitor,HRH1,Unknown,NA,HRH,⮿,"In peripheral tissues, the H1 subclass of histamine
+Lamotrigine,Histamine H1 receptor,Histamine H1 ,Antagonist,HRH1,Unknown,NA,HRH,⯆,"In peripheral tissues, the H1 subclass of histamine
 receptors mediates the contraction of smooth muscles,
 increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
@@ -3657,6 +3221,10 @@ reduced physical activity upon treatment with synthetic
 opioids. Plays a role in the regulation of salivation in
 response to synthetic opioids. May play a role in arousal
 and regulation of autonomic and neuroendocrine functions.",NA,NA,NA
+Lamotrigine,Acetylcholine receptor subunit alpha,Acetylcholine  subunit alpha,Blocker/inhibitor,CHRNA1,Unknown,NA,CHRNA,⮿,"After binding acetylcholine, the AChR responds by an
+extensive change in conformation that affects all subunits
+and leads to opening of an ion-conducting channel across the
+plasma membrane.",NA,NA,NA
 Lamotrigine,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Blocker/inhibitor,HTR2A,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including mescaline,
@@ -3685,6 +3253,18 @@ This receptor is a ligand-gated ion channel, which when
 activated causes fast, depolarizing responses in neurons. It
 is a cation-specific, but otherwise relatively nonselective,
 ion channel.",NA,NA,NA
+Lamotrigine,Glutamate receptor 1,Glutamate  1,Blocker/inhibitor,GRIA1,Unknown,NA,GRIA,⮿,"Ionotropic glutamate receptor. L-glutamate acts as an
+excitatory neurotransmitter at many synapses in the central
+nervous system. Binding of the excitatory neurotransmitter
+L-glutamate induces a conformation change, leading to the
+opening of the cation channel, and thereby converts the
+chemical signal to an electrical impulse. The receptor
+then desensitizes rapidly and enters a transient inactive
+state, characterized by the presence of bound agonist.
+In the presence of CACNG4 or CACNG7 or CACNG8, shows
+resensitization which is characterized by a delayed
+accumulation of current flux upon continued application of
+glutamate.",NA,NA,NA
 Lisuride,Dopamine D2 receptor,Dopamine D2 ,Agonist,DRD2,Yes,10.187086643357144,DRD,⯅,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",0.65,0.5,0.8
 Lisuride,Dopamine D3 receptor,Dopamine D3 ,Agonist,DRD3,Yes,9.769551078621726,DRD,⯅,"Dopamine receptor whose activity is mediated by G proteins
@@ -3925,41 +3505,6 @@ agonist. In the presence of CACNG4 or CACNG7 or CACNG8,
 shows resensitization which is characterized by a delayed
 accumulation of current flux upon continued application of
 glutamate.",NA,NA,NA
-Lorazepam,Translocator protein,Translocator protein,Other/unknown,TSPO,Unknown,NA,TSPO,⭗,"Can bind protoporphyrin IX and may play a role in the
-transport of porphyrins and heme (By similarity). Promotes
-the transport of cholesterol across mitochondrial membranes
-and may play a role in lipid metabolism (PubMed:24814875),
-but its precise physiological role is controversial. It is
-apparently not required for steroid hormone biosynthesis.
-Was initially identified as peripheral-type benzodiazepine
-receptor; can also bind isoquinoline carboxamides
-(PubMed:1847678).",NA,NA,NA
-Lormetazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Allosteric mod (+),GABRA2,Yes,NA,GABRA,⮙,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Lormetazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Allosteric mod (+),GABRG2,Yes,NA,GABRG,⮙,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Lormetazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Allosteric mod (+),GABRA3,Yes,NA,GABRA,⮙,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Lormetazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Allosteric mod (+),GABRA5,Yes,NA,GABRA,⮙,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Lormetazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Allosteric mod (+),GABRA1,Yes,NA,GABRA,⮙,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
 Melatonin,Melatonin receptor type 1A,Melatonin  type 1A,Agonist,MTNR1A,Yes,10.553618187777557,MTNR,⯅,"High affinity receptor for melatonin. Likely to mediates
 the reproductive and circadian actions of melatonin.
 The activity of this receptor is mediated by pertussis
@@ -4848,103 +4393,6 @@ opioids. Plays a role in the regulation of salivation in
 response to synthetic opioids. May play a role in arousal
 and regulation of autonomic and neuroendocrine functions.",10,10,10
 Naltrexone,"HCG20471, isoform CRA_c","HCG20471, isoform CRA_c",Antagonist,SIGMAR1,Yes,NA,SIGMAR,⯆,Not Available,NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,NA,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit alpha-4,Gamma-aminobutyric acid  subunit alpha-4,Potentiator,GABRA4,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit alpha-6,Gamma-aminobutyric acid  subunit alpha-6,Potentiator,GABRA6,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,NA,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Nitrazepam,Gamma-aminobutyric acid receptor subunit theta,Gamma-aminobutyric acid  subunit theta,Potentiator,GABRQ,Yes,NA,GABRQ,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
 Nitrazepam,Sodium channel protein type 1 subunit alpha,Sodium channel protein type 1 subunit alpha,Other/unknown,SCN1A,Unknown,NA,SCN,⭗,"Mediates the voltage-dependent sodium ion permeability of
 excitable membranes. Assuming opened or closed conformations
 in response to the voltage difference across the membrane,
@@ -5015,35 +4463,7 @@ ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
 Nortriptyline,Alpha-1D adrenergic receptor,Alpha-1D adrenergic ,Antagonist,ADRA1D,No,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its effect through
 the influx of extracellular calcium.",NA,NA,NA
-Nortriptyline,Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine  M1,Antagonist,CHRM1,No,8.397940008672037,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is Pi turnover.",40,40,40
-Nortriptyline,Muscarinic acetylcholine receptor M2,Muscarinic acetylcholine  M2,Antagonist,CHRM2,No,8.133712660915805,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation
-of potassium channels through the action of G proteins.
-Primary transducing effect is adenylate cyclase inhibition.
-Signaling promotes phospholipase C activity, leading to the
-release of inositol trisphosphate (IP3); this then triggers
-calcium ion release into the cytosol.",73.5,37,110
-Nortriptyline,Muscarinic acetylcholine receptor M3,Muscarinic acetylcholine  M3,Antagonist,CHRM3,No,8.301029995663981,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is Pi turnover.",50,50,50
-Nortriptyline,Muscarinic acetylcholine receptor M4,Muscarinic acetylcholine  M4,Antagonist,CHRM4,No,8.075720713938118,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is inhibition of adenylate cyclase.",84,84,84
-Nortriptyline,Muscarinic acetylcholine receptor M5,Muscarinic acetylcholine  M5,Antagonist,CHRM5,No,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is Pi turnover.",NA,NA,NA
-Nortriptyline,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Antagonist,HTR2C,Unknown,8.387216143280265,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
+Nortriptyline,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,AntagonistDownregulator,HTR2C,Unknown,8.387216143280265,HTR,⯀,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including ergot alkaloid
 derivatives, 1-2,5,-dimethoxy-4-iodophenyl-2-aminopropane
@@ -5065,15 +4485,6 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",41,41,41
-Nortriptyline,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Blocker/inhibitor,HTR6,Unknown,7.669586226650809,HTR,⮿,"This is one of the several different receptors for 5-
-hydroxytryptamine (serotonin), a biogenic hormone that
-functions as a neurotransmitter, a hormone, and a mitogen.
-The activity of this receptor is mediated by G proteins
-that stimulate adenylate cyclase. It has a high affinity
-for tricyclic psychotropic drugs (By similarity). Controls
-pyramidal neurons migration during corticogenesis, through
-the regulation of CDK5 activity (By similarity). Is an
-activator of TOR signaling (PubMed:23027611).",214,214,214
 Nortriptyline,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Antagonist,ADRA1B,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
@@ -5219,103 +4630,6 @@ cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is inhibition of adenylate cyclase.",32,10,350
-Oxazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,NA,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit alpha-4,Gamma-aminobutyric acid  subunit alpha-4,Potentiator,GABRA4,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit alpha-6,Gamma-aminobutyric acid  subunit alpha-6,Potentiator,GABRA6,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,NA,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Oxazepam,Gamma-aminobutyric acid receptor subunit theta,Gamma-aminobutyric acid  subunit theta,Potentiator,GABRQ,Yes,NA,GABRQ,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
 Oxycodone,Mu-type opioid receptor,Mu-type opioid ,Agonist,OPRM1,Yes,NA,OPRM,⯅,"Receptor for endogenous opioids such as beta-endorphin
 and endomorphin. Receptor for natural and synthetic
 opioids including morphine, heroin, DAMGO, fentanyl,
@@ -5593,7 +4907,7 @@ Pergolide,Dopamine D2 receptor,Dopamine D2 ,Agonist,DRD2,Yes,8.568636235841012,D
 which inhibit adenylyl cyclase.",27,4,50
 Pergolide,Dopamine D3 receptor,Dopamine D3 ,Agonist,DRD3,Yes,9.397940008672037,DRD,⯅,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase. Promotes cell proliferation.",4,4,4
-Pergolide,Dopamine D4 receptor,Dopamine D4 ,Agonist,DRD4,Unknown,NA,DRD,⯅,"Dopamine receptor responsible for neuronal signaling in
+Pergolide,Dopamine D4 receptor,Dopamine D4 ,Agonist,DRD4,Yes,NA,DRD,⯅,"Dopamine receptor responsible for neuronal signaling in
 the mesolimbic system of the brain, an area of the brain
 that regulates emotion and complex behavior. Its activity
 is mediated by G proteins which inhibit adenylyl cyclase.
@@ -5678,30 +4992,9 @@ Regulates the release of 5-hydroxytryptamine in the brain,
 and thereby affects neural activity. May also play a role in
 regulating the release of other neurotransmitters. May play
 a role in vasoconstriction.",NA,NA,NA
-Pergolide,Alpha-2B adrenergic receptor,Alpha-2B adrenergic ,Agonist,ADRA2B,Unknown,NA,ADRA,⯅,"Alpha-2 adrenergic receptors mediate the catecholamine-
-induced inhibition of adenylate cyclase through the action
-of G proteins. The rank order of potency for agonists of
-this receptor is clonidine > norepinephrine > epinephrine
-= oxymetazoline > dopamine > p-tyramine = phenylephrine >
-serotonin > p-synephrine / p-octopamine. For antagonists,
-the rank order is yohimbine > chlorpromazine > phentolamine
-> mianserine > spiperone > prazosin > alprenolol >
-propanolol > pindolol.",NA,NA,NA
-Pergolide,Alpha-2A adrenergic receptor,Alpha-2A adrenergic ,Agonist,ADRA2A,Unknown,NA,ADRA,⯅,"Alpha-2 adrenergic receptors mediate the catecholamine-
-induced inhibition of adenylate cyclase through the action
-of G proteins. The rank order of potency for agonists of
-this receptor is oxymetazoline > clonidine > epinephrine
-> norepinephrine > phenylephrine > dopamine > p-synephrine
-> p-tyramine > serotonin = p-octopamine. For antagonists,
-the rank order is yohimbine > phentolamine = mianserine
-> chlorpromazine = spiperone = prazosin > propanolol >
-alprenolol = pindolol.",NA,NA,NA
-Pergolide,Alpha-2C adrenergic receptor,Alpha-2C adrenergic ,Agonist,ADRA2C,Unknown,NA,ADRA,⯅,"Alpha-2 adrenergic receptors mediate the catecholamine-
-induced inhibition of adenylate cyclase through the action
-of G proteins.",NA,NA,NA
-Pergolide,Dopamine D5 receptor,Dopamine D5 ,Agonist,DRD5,Unknown,NA,DRD,⯅,"Dopamine receptor whose activity is mediated by G proteins
+Pergolide,Dopamine D5 receptor,Dopamine D5 ,Agonist,DRD5,Yes,NA,DRD,⯅,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
-Pergolide,Dopamine D1 receptor,Dopamine D1 ,Agonist,DRD1,Unknown,6.694648630553376,DRD,⯅,"Dopamine receptor whose activity is mediated by G proteins
+Pergolide,Dopamine D1 receptor,Dopamine D1 ,Agonist,DRD1,Yes,6.694648630553376,DRD,⯅,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",2020,2020,2020
 Pergolide,5-hydroxytryptamine receptor 1B,5-hydroxytryptamine  1B,Agonist,HTR1B,Unknown,NA,HTR,⯅,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for ergot alkaloid
@@ -5924,63 +5217,23 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",15.87,15.87,15.87
-Promazine,Dopamine D1 receptor,Dopamine D1 ,Antagonist,DRD1,Unknown,NA,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
-which activate adenylyl cyclase.",NA,NA,NA
-Promazine,Dopamine D4 receptor,Dopamine D4 ,Antagonist,DRD4,Unknown,NA,DRD,⯆,"Dopamine receptor responsible for neuronal signaling in
-the mesolimbic system of the brain, an area of the brain
-that regulates emotion and complex behavior. Its activity
-is mediated by G proteins which inhibit adenylyl cyclase.
-Modulates the circadian rhythm of contrast sensitivity by
-regulating the rhythmic expression of NPAS2 in the retinal
-ganglion cells (By similarity).",NA,NA,NA
-Promazine,Muscarinic acetylcholine receptor M4,Muscarinic acetylcholine  M4,Antagonist,CHRM4,Unknown,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is inhibition of adenylate cyclase.",NA,NA,NA
-Promazine,Muscarinic acetylcholine receptor M2,Muscarinic acetylcholine  M2,Antagonist,CHRM2,Unknown,7.824995836585533,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation
-of potassium channels through the action of G proteins.
-Primary transducing effect is adenylate cyclase inhibition.
-Signaling promotes phospholipase C activity, leading to the
-release of inositol trisphosphate (IP3); this then triggers
-calcium ion release into the cytosol.",149.625,149.25,150
-Promazine,Muscarinic acetylcholine receptor M3,Muscarinic acetylcholine  M3,Antagonist,CHRM3,Unknown,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is Pi turnover.",NA,NA,NA
-Promazine,Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine  M1,Antagonist,CHRM1,Unknown,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is Pi turnover.",NA,NA,NA
-Promazine,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Antagonist,ADRA1B,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
-by association with G proteins that activate a
-phosphatidylinositol-calcium second messenger system. Its
-effect is mediated by G(q) and G(11) proteins. Nuclear
-ADRA1A-ADRA1B heterooligomers regulate phenylephrine (PE)-
-stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Promazine,Muscarinic acetylcholine receptor M5,Muscarinic acetylcholine  M5,Antagonist,CHRM5,Unknown,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is Pi turnover.",NA,NA,NA
 Promazine,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
+Promazine,Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine  M1,Antagonist,CHRM1,Unknown,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
+cellular responses, including inhibition of adenylate
+cyclase, breakdown of phosphoinositides and modulation of
+potassium channels through the action of G proteins. Primary
+transducing effect is Pi turnover.",NA,NA,NA
 Promazine,Histamine H1 receptor,Histamine H1 ,Antagonist,HRH1,Unknown,9.698970004336019,HRH,⯆,"In peripheral tissues, the H1 subclass of histamine
 receptors mediates the contraction of smooth muscles,
 increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",2,2,2
-Promazine,Alpha-1D adrenergic receptor,Alpha-1D adrenergic ,Antagonist,ADRA1D,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its effect through
-the influx of extracellular calcium.",NA,NA,NA
 Quetiapine,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Antagonist,HTR2A,Yes,7.920818753952375,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including mescaline,
@@ -6170,7 +5423,7 @@ transducing effect is Pi turnover.",NA,NA,NA
 Reboxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.958607314841775,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",11,0.3,15.8
-Risperidone,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Antagonist,HTR2A,Yes,10.3767507096021,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
+Risperidone,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Antagonist,HTR2A,Yes,NA,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including mescaline,
 psilocybin, 1-(2,5-dimethoxy-4-iodophenyl)-2-aminopropane
@@ -6190,58 +5443,16 @@ behavior, including responses to anxiogenic situations
 and psychoactive substances. Plays a role in intestinal
 smooth muscle contraction, and may play a role in arterial
 vasoconstriction.(Microbial infection) Acts as a receptor
-for human JC polyomavirus/JCPyV.",0.42,0.14,7
-Risperidone,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,9.537602002101044,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
-which inhibit adenylyl cyclase.",2.9000000000000004,0.44,6.4
-Risperidone,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,Unknown,9.55284196865778,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
-by association with G proteins that activate a
-phosphatidylinositol-calcium second messenger system. Its
-effect is mediated by G(q) and G(11) proteins. Nuclear
-ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
-stimulated ERK signaling in cardiac myocytes.",2.8,2.8,2.8
-Risperidone,Dopamine D3 receptor,Dopamine D3 ,Antagonist,DRD3,Unknown,8.853871964321762,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
-which inhibit adenylyl cyclase. Promotes cell proliferation.",14,6.7,31
-Risperidone,Dopamine D4 receptor,Dopamine D4 ,Antagonist,DRD4,Unknown,9.11069829749369,DRD,⯆,"Dopamine receptor responsible for neuronal signaling in
-the mesolimbic system of the brain, an area of the brain
-that regulates emotion and complex behavior. Its activity
-is mediated by G proteins which inhibit adenylyl cyclase.
-Modulates the circadian rhythm of contrast sensitivity by
-regulating the rhythmic expression of NPAS2 in the retinal
-ganglion cells (By similarity).",7.75,6.2,16
+for human JC polyomavirus/JCPyV.",NA,NA,NA
+Risperidone,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,NA,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
+which inhibit adenylyl cyclase.",NA,NA,NA
 Risperidone,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Antagonist,ADRA1B,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine (PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Risperidone,5-hydroxytryptamine receptor 1D,5-hydroxytryptamine  1D,Antagonist,HTR1D,Unknown,8.142969201727375,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
-(serotonin). Also functions as a receptor for ergot alkaloid
-derivatives, various anxiolytic and antidepressant drugs
-and other psychoactive substances. Ligand binding causes
-a conformation change that triggers signaling via guanine
-nucleotide-binding proteins (G proteins) and modulates
-the activity of down-stream effectors, such as adenylate
-cyclase. Signaling inhibits adenylate cyclase activity.
-Regulates the release of 5-hydroxytryptamine in the brain,
-and thereby affects neural activity. May also play a role in
-regulating the release of other neurotransmitters. May play
-a role in vasoconstriction.",71.95,3.9,140
-Risperidone,Histamine H1 receptor,Histamine H1 ,Antagonist,HRH1,Unknown,8.721246399047171,HRH,⯆,"In peripheral tissues, the H1 subclass of histamine
-receptors mediates the contraction of smooth muscles,
-increase in capillary permeability due to contraction of
-terminal venules, and catecholamine release from adrenal
-medulla, as well as mediating neurotransmission in the
-central nervous system.",19,2.6,88
-Risperidone,Alpha-2A adrenergic receptor,Alpha-2A adrenergic ,Antagonist,ADRA2A,Unknown,8.782516055786093,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
-induced inhibition of adenylate cyclase through the action
-of G proteins. The rank order of potency for agonists of
-this receptor is oxymetazoline > clonidine > epinephrine
-> norepinephrine > phenylephrine > dopamine > p-synephrine
-> p-tyramine > serotonin = p-octopamine. For antagonists,
-the rank order is yohimbine > phentolamine = mianserine
-> chlorpromazine = spiperone = prazosin > propanolol >
-alprenolol = pindolol.",16.5,8,150.8
-Risperidone,Alpha-2B adrenergic receptor,Alpha-2B adrenergic ,Antagonist,ADRA2B,Unknown,8.236197775925408,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Risperidone,Alpha-2B adrenergic receptor,Alpha-2B adrenergic ,Antagonist,ADRA2B,Unknown,NA,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is clonidine > norepinephrine > epinephrine
@@ -6249,11 +5460,23 @@ this receptor is clonidine > norepinephrine > epinephrine
 serotonin > p-synephrine / p-octopamine. For antagonists,
 the rank order is yohimbine > chlorpromazine > phentolamine
 > mianserine > spiperone > prazosin > alprenolol >
-propanolol > pindolol.",58.05,8.5,107.6
-Risperidone,Alpha-2C adrenergic receptor,Alpha-2C adrenergic ,Agonist,ADRA2C,Unknown,9.494850021680094,ADRA,⯅,"Alpha-2 adrenergic receptors mediate the catecholamine-
+propanolol > pindolol.",NA,NA,NA
+Risperidone,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
+by association with G proteins that activate a
+phosphatidylinositol-calcium second messenger system. Its
+effect is mediated by G(q) and G(11) proteins. Nuclear
+ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
+stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
+Risperidone,Alpha-2C adrenergic receptor,Alpha-2C adrenergic ,Antagonist,ADRA2C,Unknown,NA,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
-of G proteins.",3.2,1.3,9.1
-Risperidone,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Antagonist,HTR2C,Unknown,8.537602002101044,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
+of G proteins.",NA,NA,NA
+Risperidone,Histamine H1 receptor,Histamine H1 ,Antagonist,HRH1,Unknown,NA,HRH,⯆,"In peripheral tissues, the H1 subclass of histamine
+receptors mediates the contraction of smooth muscles,
+increase in capillary permeability due to contraction of
+terminal venules, and catecholamine release from adrenal
+medulla, as well as mediating neurotransmission in the
+central nervous system.",NA,NA,NA
+Risperidone,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Antagonist,HTR2C,Unknown,NA,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including ergot alkaloid
 derivatives, 1-2,5,-dimethoxy-4-iodophenyl-2-aminopropane
@@ -6274,8 +5497,20 @@ of pro-opiomelacortin neurons and the release of CRH that
 then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
-sensitivity and glucose homeostasis.",29,6.4,64
-Risperidone,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Antagonist,HTR1A,Unknown,7.596879478824182,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
+sensitivity and glucose homeostasis.",NA,NA,NA
+Risperidone,5-hydroxytryptamine receptor 1D,5-hydroxytryptamine  1D,Antagonist,HTR1D,Unknown,NA,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
+(serotonin). Also functions as a receptor for ergot alkaloid
+derivatives, various anxiolytic and antidepressant drugs
+and other psychoactive substances. Ligand binding causes
+a conformation change that triggers signaling via guanine
+nucleotide-binding proteins (G proteins) and modulates
+the activity of down-stream effectors, such as adenylate
+cyclase. Signaling inhibits adenylate cyclase activity.
+Regulates the release of 5-hydroxytryptamine in the brain,
+and thereby affects neural activity. May also play a role in
+regulating the release of other neurotransmitters. May play
+a role in vasoconstriction.",NA,NA,NA
+Risperidone,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Antagonist,HTR1A,Unknown,NA,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -6292,14 +5527,14 @@ and 5-hydroxytryptamine metabolism. Plays a role in the
 regulation of dopamine and 5-hydroxytryptamine levels
 in the brain, and thereby affects neural activity, mood
 and behavior. Plays a role in the response to anxiogenic
-stimuli.",253,21,427.5
-Risperidone,Dopamine D1 receptor,Dopamine D1 ,Antagonist,DRD1,Unknown,7.281498311132726,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
-which activate adenylyl cyclase.",523,21,620
-Risperidone,5-hydroxytryptamine receptor 7,5-hydroxytryptamine  7,Other/unknown,HTR7,Unknown,9.366531544420413,HTR,⭗,"This is one of the several different receptors for 5-
+stimuli.",NA,NA,NA
+Risperidone,5-hydroxytryptamine receptor 7,5-hydroxytryptamine  7,Antagonist,HTR7,Unknown,NA,HTR,⯆,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
-stimulate adenylate cyclase.",4.3,4.3,4.3
+stimulate adenylate cyclase.",NA,NA,NA
+Risperidone,Dopamine D1 receptor,Dopamine D1 ,Antagonist,DRD1,Unknown,NA,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
+which activate adenylyl cyclase.",NA,NA,NA
 Sertindole,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,9.40616033891873,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",3.9250000000000003,0.45,7.4
 Sertindole,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Antagonist,HTR2A,Yes,10.314258261397736,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
@@ -6428,218 +5663,6 @@ upper villous epithelium during proton-coupled peptide
 absorption. Stimulates the chloride-bicarbonate exchange
 activity of SLC26A6.",40,40,40000
 Sulpiride,Carbonic anhydrase 3,Carbonic anhydrase 3,Blocker/inhibitor,CA3,Unknown,5.97469413473523,CA,⮿,Reversible hydration of carbon dioxide.,10600,10600,10600
-Temazepam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,NA,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit alpha-4,Gamma-aminobutyric acid  subunit alpha-4,Potentiator,GABRA4,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit alpha-6,Gamma-aminobutyric acid  subunit alpha-6,Potentiator,GABRA6,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,NA,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Gamma-aminobutyric acid receptor subunit theta,Gamma-aminobutyric acid  subunit theta,Potentiator,GABRQ,Yes,NA,GABRQ,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Temazepam,Translocator protein,Translocator protein,Other/unknown,TSPO,Unknown,NA,TSPO,⭗,"Can bind protoporphyrin IX and may play a role in the
-transport of porphyrins and heme (By similarity). Promotes
-the transport of cholesterol across mitochondrial membranes
-and may play a role in lipid metabolism (PubMed:24814875),
-but its precise physiological role is controversial. It is
-apparently not required for steroid hormone biosynthesis.
-Was initially identified as peripheral-type benzodiazepine
-receptor; can also bind isoquinoline carboxamides
-(PubMed:1847678).",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Potentiator,GABRA1,Yes,9.906578314837764,GABRA,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",1.24,0.68,1.8
-Triazolam,Gamma-aminobutyric acid receptor subunit alpha-2,Gamma-aminobutyric acid  subunit alpha-2,Potentiator,GABRA2,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit alpha-3,Gamma-aminobutyric acid  subunit alpha-3,Potentiator,GABRA3,Yes,9.657577319177793,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",2.2,1.4,3
-Triazolam,Gamma-aminobutyric acid receptor subunit alpha-4,Gamma-aminobutyric acid  subunit alpha-4,Potentiator,GABRA4,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit alpha-5,Gamma-aminobutyric acid  subunit alpha-5,Potentiator,GABRA5,Yes,NA,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit alpha-6,Gamma-aminobutyric acid  subunit alpha-6,Potentiator,GABRA6,Yes,6,GABRA,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",10000,10000,10000
-Triazolam,Gamma-aminobutyric acid receptor subunit beta-1,Gamma-aminobutyric acid  subunit beta-1,Potentiator,GABRB1,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit beta-2,Gamma-aminobutyric acid  subunit beta-2,Potentiator,GABRB2,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit beta-3,Gamma-aminobutyric acid  subunit beta-3,Potentiator,GABRB3,Yes,NA,GABRB,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit gamma-1,Gamma-aminobutyric acid  subunit gamma-1,Potentiator,GABRG1,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit gamma-2,Gamma-aminobutyric acid  subunit gamma-2,Potentiator,GABRG2,Yes,10.229147988357855,GABRG,⯭,"Component of the heteropentameric receptor for GABA, the
-major inhibitory neurotransmitter in the vertebrate brain.
-Functions also as histamine receptor and mediates cellular
-responses to histamine. Functions as receptor for diazepines
-and various anesthetics, such as pentobarbital; these
-are bound at a separate allosteric effector binding site.
-Functions as ligand-gated chloride channel.",0.59,0.59,0.59
-Triazolam,Gamma-aminobutyric acid receptor subunit gamma-3,Gamma-aminobutyric acid  subunit gamma-3,Potentiator,GABRG3,Yes,NA,GABRG,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit delta,Gamma-aminobutyric acid  subunit delta,Potentiator,GABRD,Yes,NA,GABRD,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit epsilon,Gamma-aminobutyric acid  subunit epsilon,Potentiator,GABRE,Yes,NA,GABRE,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit pi,Gamma-aminobutyric acid  subunit pi,Potentiator,GABRP,Yes,NA,GABRP,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. In the uterus, the function of the
-receptor appears to be related to tissue contractility.
-The binding of this pI subunit with other GABA(A) receptor
-subunits alters the sensitivity of recombinant receptors to
-modulatory agents such as pregnanolone.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit rho-1,Gamma-aminobutyric acid  subunit rho-1,Potentiator,GABRR1,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-1 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit rho-2,Gamma-aminobutyric acid  subunit rho-2,Potentiator,GABRR2,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel. Rho-2 GABA receptor could play a role in
-retinal neurotransmission.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric acid  subunit rho-3,Potentiator,GABRR3,Yes,NA,GABRR,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Gamma-aminobutyric acid receptor subunit theta,Gamma-aminobutyric acid  subunit theta,Potentiator,GABRQ,Yes,NA,GABRQ,⯭,"GABA, the major inhibitory neurotransmitter in the
-vertebrate brain, mediates neuronal inhibition by binding
-to the GABA/benzodiazepine receptor and opening an integral
-chloride channel.",NA,NA,NA
-Triazolam,Translocator protein,Translocator protein,Other/unknown,TSPO,Unknown,NA,TSPO,⭗,"Can bind protoporphyrin IX and may play a role in the
-transport of porphyrins and heme (By similarity). Promotes
-the transport of cholesterol across mitochondrial membranes
-and may play a role in lipid metabolism (PubMed:24814875),
-but its precise physiological role is controversial. It is
-apparently not required for steroid hormone biosynthesis.
-Was initially identified as peripheral-type benzodiazepine
-receptor; can also bind isoquinoline carboxamides
-(PubMed:1847678).",NA,NA,NA
 Valproic Acid,"Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial","Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial",Blocker/inhibitor,ACADSB,Unknown,NA,ACADSB,⮿,"Has greatest activity toward short branched chain acyl-
 CoA derivative such as (s)-2-methylbutyryl-CoA, isobutyryl-
 CoA, and 2-methylhexanoyl-CoA as well as toward short
@@ -6854,7 +5877,7 @@ is mediated by G proteins which inhibit adenylyl cyclase.
 Modulates the circadian rhythm of contrast sensitivity by
 regulating the rhythmic expression of NPAS2 in the retinal
 ganglion cells (By similarity).",35.5,32,39
-Ziprasidone,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Agonist,HTR1A,Unknown,9.096910013008056,HTR,⯅,"G-protein coupled receptor for 5-hydroxytryptamine
+Ziprasidone,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Agonist,HTR1A,Yes,9.096910013008056,HTR,⯅,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -6887,7 +5910,7 @@ hydroxytryptamine, dopamine and acetylcholine in the brain,
 and thereby affects neural activity, nociceptive processing,
 pain perception, mood and behavior. Besides, plays a role in
 vasoconstriction of cerebral arteries.",0.99,0.99,0.99
-Ziprasidone,5-hydroxytryptamine receptor 1D,5-hydroxytryptamine  1D,Antagonist,HTR1D,Unknown,9.425968732272281,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
+Ziprasidone,5-hydroxytryptamine receptor 1D,5-hydroxytryptamine  1D,Antagonist,HTR1D,Yes,9.425968732272281,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for ergot alkaloid
 derivatives, various anxiolytic and antidepressant drugs
 and other psychoactive substances. Ligand binding causes
@@ -6906,7 +5929,7 @@ a conformation change that triggers signaling via guanine
 nucleotide-binding proteins (G proteins) and modulates
 the activity of down-stream effectors, such as adenylate
 cyclase. Signaling inhibits adenylate cyclase activity.",360,360,360
-Ziprasidone,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Antagonist,HTR2C,Unknown,10.045757490560675,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
+Ziprasidone,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Antagonist,HTR2C,Yes,10.045757490560675,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including ergot alkaloid
 derivatives, 1-2,5,-dimethoxy-4-iodophenyl-2-aminopropane
@@ -6928,13 +5951,6 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",0.9,0.55,13
-Ziprasidone,5-hydroxytryptamine receptor 3A,5-hydroxytryptamine  3A,Antagonist,HTR3A,Unknown,NA,HTR,⯆,"This is one of the several different receptors for 5-
-hydroxytryptamine (serotonin), a biogenic hormone that
-functions as a neurotransmitter, a hormone, and a mitogen.
-This receptor is a ligand-gated ion channel, which when
-activated causes fast, depolarizing responses in neurons. It
-is a cation-specific, but otherwise relatively nonselective,
-ion channel.",NA,NA,NA
 Ziprasidone,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Antagonist,HTR6,Unknown,8.214670164989233,HTR,⯆,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
@@ -6949,25 +5965,25 @@ hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",NA,NA,NA
-Ziprasidone,Histamine H1 receptor,Histamine H1 ,Antagonist,HRH1,No,8.537602002101044,HRH,⯆,"In peripheral tissues, the H1 subclass of histamine
+Ziprasidone,Histamine H1 receptor,Histamine H1 ,Antagonist,HRH1,Unknown,8.537602002101044,HRH,⯆,"In peripheral tissues, the H1 subclass of histamine
 receptors mediates the contraction of smooth muscles,
 increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",29,4.6,510
-Ziprasidone,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,No,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
+Ziprasidone,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Antagonist,ADRA1A,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Ziprasidone,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Antagonist,ADRA1B,No,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
+Ziprasidone,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Antagonist,ADRA1B,Unknown,NA,ADRA,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine (PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Ziprasidone,Alpha-2A adrenergic receptor,Alpha-2A adrenergic ,Antagonist,ADRA2A,No,7.804100347590767,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Ziprasidone,Alpha-2A adrenergic receptor,Alpha-2A adrenergic ,Antagonist,ADRA2A,Unknown,7.804100347590767,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is oxymetazoline > clonidine > epinephrine
@@ -6976,7 +5992,7 @@ this receptor is oxymetazoline > clonidine > epinephrine
 the rank order is yohimbine > phentolamine = mianserine
 > chlorpromazine = spiperone = prazosin > propanolol >
 alprenolol = pindolol.",157,154,160
-Ziprasidone,Alpha-2B adrenergic receptor,Alpha-2B adrenergic ,Antagonist,ADRA2B,No,8.318758762624412,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Ziprasidone,Alpha-2B adrenergic receptor,Alpha-2B adrenergic ,Antagonist,ADRA2B,Unknown,8.318758762624412,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is clonidine > norepinephrine > epinephrine
@@ -6985,15 +6001,15 @@ serotonin > p-synephrine / p-octopamine. For antagonists,
 the rank order is yohimbine > chlorpromazine > phentolamine
 > mianserine > spiperone > prazosin > alprenolol >
 propanolol > pindolol.",48,48,48
-Ziprasidone,Alpha-2C adrenergic receptor,Alpha-2C adrenergic ,Antagonist,ADRA2C,No,8.167491087293763,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Ziprasidone,Alpha-2C adrenergic receptor,Alpha-2C adrenergic ,Antagonist,ADRA2C,Unknown,8.167491087293763,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins.",68,59,77
-Ziprasidone,Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine  M1,Antagonist,CHRM1,No,6.292429823902063,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
+Ziprasidone,Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine  M1,Antagonist,CHRM1,Unknown,6.292429823902063,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",5100,300,10000
-Ziprasidone,Muscarinic acetylcholine receptor M2,Muscarinic acetylcholine  M2,Antagonist,CHRM2,No,6.565431095965801,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
+Ziprasidone,Muscarinic acetylcholine receptor M2,Muscarinic acetylcholine  M2,Antagonist,CHRM2,Unknown,6.565431095965801,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation
 of potassium channels through the action of G proteins.
@@ -7001,21 +6017,25 @@ Primary transducing effect is adenylate cyclase inhibition.
 Signaling promotes phospholipase C activity, leading to the
 release of inositol trisphosphate (IP3); this then triggers
 calcium ion release into the cytosol.",2720,2440,3000
-Ziprasidone,Muscarinic acetylcholine receptor M3,Muscarinic acetylcholine  M3,Antagonist,CHRM3,No,6.247951552180561,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
+Ziprasidone,Muscarinic acetylcholine receptor M3,Muscarinic acetylcholine  M3,Antagonist,CHRM3,Unknown,6.247951552180561,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",5650,1300,10000
-Ziprasidone,Muscarinic acetylcholine receptor M4,Muscarinic acetylcholine  M4,Antagonist,CHRM4,No,6.795880017344075,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
+Ziprasidone,Muscarinic acetylcholine receptor M4,Muscarinic acetylcholine  M4,Antagonist,CHRM4,Unknown,6.795880017344075,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is inhibition of adenylate cyclase.",1600,1600,1600
-Ziprasidone,Muscarinic acetylcholine receptor M5,Muscarinic acetylcholine  M5,Antagonist,CHRM5,No,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
+Ziprasidone,Muscarinic acetylcholine receptor M5,Muscarinic acetylcholine  M5,Antagonist,CHRM5,Unknown,NA,CHRM,⯆,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
+Ziprasidone,5-hydroxytryptamine receptor 5A,5-hydroxytryptamine  5A,Antagonist,HTR5A,Unknown,NA,HTR,⯆,"This is one of the several different receptors for 5-
+hydroxytryptamine (serotonin), a biogenic hormone that
+functions as a neurotransmitter, a hormone, and a mitogen.
+The activity of this receptor is mediated by G proteins.",NA,NA,NA
 Zuclopenthixol,Dopamine D1 receptor,Dopamine D1 ,Antagonist,DRD1,Yes,NA,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
 Zuclopenthixol,Dopamine D5 receptor,Dopamine D5 ,Antagonist,DRD5,Yes,NA,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
@@ -7355,6 +6375,20 @@ role in synaptic plasticity, synaptogenesis, excitotoxicity,
 memory acquisition and learning. It mediates neuronal
 functions in glutamate neurotransmission. Is involved in the
 cell surface targeting of NMDA receptors (By similarity).",NA,NA,NA
+Bromazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Bromazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
 Buspirone,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Partial agonist,NA,Unknown,NA,NE,⬟,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
@@ -7413,7 +6447,28 @@ Also binds synthetic drugs and influences their distribution
 and availability in the body. Appears to function in
 modulating the activity of the immune system during the
 acute-phase reaction.",NA,NA,NA
-Clonazepam,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+Clonazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Clonazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Clotiazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Clotiazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -7435,7 +6490,20 @@ this receptor is oxymetazoline > clonidine > epinephrine
 the rank order is yohimbine > phentolamine = mianserine
 > chlorpromazine = spiperone = prazosin > propanolol >
 alprenolol = pindolol.",NA,NA,NA
-Diazepam,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+Dextroamphetamine,Alpha adrenergic receptor (Protein Group),Alpha adrenergic  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"This alpha-adrenergic receptor mediates its action
+by association with G proteins that activate a
+phosphatidylinositol-calcium second messenger system. Its
+effect is mediated by G(q) and G(11) proteins. Nuclear
+ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
+stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
+Diazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Diazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -7457,7 +6525,28 @@ this receptor is oxymetazoline > clonidine > epinephrine
 the rank order is yohimbine > phentolamine = mianserine
 > chlorpromazine = spiperone = prazosin > propanolol >
 alprenolol = pindolol.",NA,NA,NA
-Estazolam,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+Estazolam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Estazolam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Flunitrazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Flunitrazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -7467,28 +6556,50 @@ Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
 Gabapentin,Voltage-dependent N-type calcium channel (Protein Group),Voltage-dependent N-type calcium channel (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,Voltage-gated calcium channel activity,NA,NA,NA
 Imipramine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
+Lamotrigine,Voltage-gated sodium channel alpha subunit (Protein Group),Voltage-gated sodium channel alpha subunit (Protein Group),Blocker/inhibitor,NA,Yes,NA,NE,⮿,"Mediates the voltage-dependent sodium ion permeability of
+excitable membranes. Assuming opened or closed conformations
+in response to the voltage difference across the membrane,
+the protein forms a sodium-selective channel through which
+Na(+) ions may pass in accordance with their electrochemical
+gradient.",NA,NA,NA
 Lamotrigine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
-Lamotrigine,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Component of the heteropentameric receptor for GABA, the
+Lamotrigine,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),AntagonistInducer,NA,Unknown,NA,NE,⯀,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Lamotrigine,GABA-A receptor (benzodiazepine site) (Protein Group),GABA-A  (benzodiazepine site) (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Component of the heteropentameric receptor for GABA, the
+Lamotrigine,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Lamotrigine,Muscarinic acetylcholine receptor (Protein Group),Muscarinic acetylcholine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"The muscarinic acetylcholine receptor mediates various
-cellular responses, including inhibition of adenylate
-cyclase, breakdown of phosphoinositides and modulation of
-potassium channels through the action of G proteins. Primary
-transducing effect is Pi turnover.",NA,NA,NA
-Lorazepam,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+Lorazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Lorazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Lormetazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Lormetazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -7516,6 +6627,20 @@ phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
+Nitrazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Nitrazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
 Nortriptyline,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
@@ -7531,6 +6656,11 @@ proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
 Nortriptyline,Sigma receptor (Protein Group),Sigma  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,Receptor for progesterone.,NA,NA,NA
+Nortriptyline,Muscarinic acetylcholine receptor (Protein Group),Muscarinic acetylcholine  (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"The muscarinic acetylcholine receptor mediates various
+cellular responses, including inhibition of adenylate
+cyclase, breakdown of phosphoinositides and modulation of
+potassium channels through the action of G proteins. Primary
+transducing effect is Pi turnover.",NA,NA,NA
 Olanzapine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
 Olanzapine,Beta adrenergic receptor (Protein Group),Beta adrenergic  (Protein Group),Blocker/inhibitor,NA,No,NA,NE,⮿,"Beta-adrenergic receptors mediate the catecholamine-induced
@@ -7556,14 +6686,21 @@ regulation of dopamine and 5-hydroxytryptamine levels
 in the brain, and thereby affects neural activity, mood
 and behavior. Plays a role in the response to anxiogenic
 stimuli.",NA,NA,NA
-Olanzapine,GABA-A receptor (benzodiazepine site) (Protein Group),GABA-A  (benzodiazepine site) (Protein Group),Blocker/inhibitor,NA,No,NA,NE,⮿,"Component of the heteropentameric receptor for GABA, the
+Olanzapine,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Blocker/inhibitor,NA,No,NA,NE,⮿,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Oxazepam,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+Oxazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Oxazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -7621,6 +6758,15 @@ potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
 Paroxetine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Other/unknown,NA,Unknown,NA,NE,⭗,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
+Pergolide,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Agonist,NA,Unknown,NA,NE,⯅,"Alpha-2 adrenergic receptors mediate the catecholamine-
+induced inhibition of adenylate cyclase through the action
+of G proteins. The rank order of potency for agonists of
+this receptor is oxymetazoline > clonidine > epinephrine
+> norepinephrine > phenylephrine > dopamine > p-synephrine
+> p-tyramine > serotonin = p-octopamine. For antagonists,
+the rank order is yohimbine > phentolamine = mianserine
+> chlorpromazine = spiperone = prazosin > propanolol >
+alprenolol = pindolol.",NA,NA,NA
 Quetiapine,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
@@ -7628,14 +6774,28 @@ effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
 Sertraline,Sigma receptor (Protein Group),Sigma  (Protein Group),InhibitorBinder,NA,Unknown,NA,NE,⯀,Receptor for progesterone.,NA,NA,NA
-Temazepam,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+Temazepam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Triazolam,GABA-A receptor (anion channel) (Protein Group),GABA-A  (anion channel) (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+Temazepam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Unknown,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Triazolam,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),Allosteric mod (+),NA,Yes,NA,NE,⮙,"Component of the heteropentameric receptor for GABA, the
+major inhibitory neurotransmitter in the vertebrate brain.
+Functions also as histamine receptor and mediates cellular
+responses to histamine. Functions as receptor for diazepines
+and various anesthetics, such as pentobarbital; these
+are bound at a separate allosteric effector binding site.
+Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
+Triazolam,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Agonist,NA,Yes,NA,NE,⯅,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -7648,3 +6808,10 @@ in response to the voltage difference across the membrane,
 the protein forms a sodium-selective channel through which
 Na(+) ions may pass in accordance with their electrochemical
 gradient.",NA,NA,NA
+Ziprasidone,5-hydroxytryptamine 3 receptor (Protein Group),5-hydroxytryptamine 3  (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"This is one of the several different receptors for 5-
+hydroxytryptamine (serotonin), a biogenic hormone that
+functions as a neurotransmitter, a hormone, and a mitogen.
+This receptor is a ligand-gated ion channel, which when
+activated causes fast, depolarizing responses in neurons. It
+is a cation-specific, but otherwise relatively nonselective,
+ion channel.",NA,NA,NA
