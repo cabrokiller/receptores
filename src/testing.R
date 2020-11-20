@@ -26,28 +26,34 @@ my_symbols <-
 
 
 ### test for fa
-my_symbols <- 
-fontawesome(c("fa-caret-up", "fa-caret-down", "fa-caret-square-o-up", "fa-caret-square-o-down"))
-
-
 
 
 
 
 ggplot(for_plot, aes(x = `Pharmacological action`, y = receptor, shape = symbol_2, color = log(Ki))) +
-geom_point(size = 
+    geom_point(size = 
                8) +
-scale_shape_manual(values = my_symbols) +
+    scale_shape_manual(values = my_symbols) +
     scale_size(range = c(10,20)) +
     scale_color_viridis_c(direction = -1, na.value = "gray40", option = "B") +
     facet_grid(family ~ drug_name, scales = "free_y", space = "free_y") +
     ggthemes::theme_solarized_2(light = F) +
-    theme(text = element_text(family = "serif"))
+    theme(text = element_text(family="Arial Unicode MS"))
 
 
 
 
 ######## 
 
+
+
+ggplot(for_plot, aes(x = `Pharmacological action`, y = receptor)) +
+    geom_point(size = 8, aes(shape = Actions)) +
+    geom_text(size = 10, aes(label = symbol_2, family="Arial Unicode MS", color = log(Ki))) +
+    scale_shape_manual(values = my_symbols) +
+    scale_color_viridis_c(direction = -1, na.value = "gray40", option = "B") +
+    facet_grid(family ~ drug_name, scales = "free_y", space = "free_y") +
+    ggthemes::theme_solarized_2(light = F) +
+    theme(text = element_text(family="Arial Unicode MS"))
 
 

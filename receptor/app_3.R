@@ -5,7 +5,6 @@ library(viridisLite)
 library(shinyWidgets)
 library(ggthemes)
 library(shinythemes)
-#library(Cairo)
 
 
 
@@ -188,8 +187,8 @@ server <- function(input, output) {
                 shape = Actions,
                 color = log(Ki)
             )) +
-            geom_point(size = 9) +
-            #scale_size_continuous(range = c(10,20), trans = "log1p") +
+            geom_point(size = 8) +
+            #geom_text(size = 10, aes(label = symbol_2, family="Arial Unicode MS", color = log(Ki))) +
             scale_shape_manual(values = my_symbols,
                                guide = guide_legend(override.aes = list(color = "gray60"))) +
             scale_color_viridis_c(direction = -1,
@@ -204,7 +203,9 @@ server <- function(input, output) {
             theme_solarized_2(light = F, base_size = 14) +
             theme(axis.title.y = element_blank(),
                   strip.text.x = element_text(size = 20),
-                  text=element_text(family="Helvetica"))
+                  text=element_text(family="Arial Black"))
+        
+        
         
         q
         

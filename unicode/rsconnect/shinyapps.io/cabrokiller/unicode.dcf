@@ -1,0 +1,12 @@
+name: unicode
+title: unicode
+username:
+account: cabrokiller
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3268041
+bundleId: 3882019
+url: https://cabrokiller.shinyapps.io/unicode/
+when: 1605818479.6778
+asMultiple: FALSE
+asStatic: FALSE
