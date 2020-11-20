@@ -37,7 +37,7 @@ clean_data <-
         symbol_2 = case_when(
                 Actions == "Agonist" ~ '\u2bc5',
                 Actions == "Antagonist" ~ '\u2bc6',
-                Actions == "Blocker/inhibitor" ~ '\u2bbf',
+                Actions == "Blocker/inhibitor" ~ '\u2b59',
                 Actions == "Other/unknown" ~ '\u2b57',
                 Actions == "Partial agonist" ~ '\u2b1f',
                 Actions == "Partial antagonist" ~ '\u2bc2',
@@ -56,5 +56,4 @@ clean_data <-
 
 write_csv(clean_data, "data/clean.csv")
 
-print("\u2bc0")
 

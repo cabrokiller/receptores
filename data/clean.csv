@@ -61,10 +61,10 @@ and psychoactive substances. Plays a role in intestinal
 smooth muscle contraction, and may play a role in arterial
 vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",8304,8304,8304
-Amitriptyline,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.455931955649724,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Amitriptyline,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.455931955649724,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",35,13.3,102
-Amitriptyline,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.505149978319906,SLC,⮿,"Serotonin transporter whose primary function in the central
+Amitriptyline,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.505149978319906,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -93,7 +93,7 @@ and psychoactive substances. Plays a role in intestinal
 smooth muscle contraction, and may play a role in arterial
 vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",NA,NA,NA
-Amitriptyline,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,7.346787486224656,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Amitriptyline,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,7.346787486224656,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -215,7 +215,7 @@ increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",0.95,0.67,1.12
-Amitriptyline,Potassium voltage-gated channel subfamily KQT member 2,Potassium voltage-gated channel subfamily KQT member 2,Blocker/inhibitor,KCNQ2,No,NA,KCNQ,⮿,"Probably important in the regulation of neuronal
+Amitriptyline,Potassium voltage-gated channel subfamily KQT member 2,Potassium voltage-gated channel subfamily KQT member 2,Blocker/inhibitor,KCNQ2,No,NA,KCNQ,⭙,"Probably important in the regulation of neuronal
 excitability. Associates with KCNQ3 to form a potassium
 channel with essentially identical properties to the channel
 underlying the native M-current, a slowly activating and
@@ -227,7 +227,7 @@ and activated by the anticonvulsant retigabine. Muscarinic
 agonist oxotremorine-M strongly suppress KCNQ2/KCNQ3
 current in cells in which cloned KCNQ2/KCNQ3 channels were
 coexpressed with M1 muscarinic receptors.",NA,NA,NA
-Amitriptyline,Potassium voltage-gated channel subfamily A member 1,Potassium voltage-gated channel subfamily A member 1,Blocker/inhibitor,KCNA1,No,NA,KCNA,⮿,"Voltage-gated potassium channel that mediates transmembrane
+Amitriptyline,Potassium voltage-gated channel subfamily A member 1,Potassium voltage-gated channel subfamily A member 1,Blocker/inhibitor,KCNA1,No,NA,KCNA,⭙,"Voltage-gated potassium channel that mediates transmembrane
 potassium transport in excitable membranes, primarily in
 the brain and the central nervous system, but also in the
 kidney (PubMed:19903818). Contributes to the regulation of
@@ -290,7 +290,7 @@ in the reabsorption of Mg(2+) in the distal convoluted
 tubules in the kidney and in magnesium ion homeostasis,
 probably via its effect on the membrane potential
 (PubMed:23903368, PubMed:19307729).",NA,NA,NA
-Amitriptyline,Histamine H2 receptor,Histamine H2 ,Blocker/inhibitor,HRH2,Unknown,NA,HRH,⮿,"The H2 subclass of histamine receptors mediates gastric
+Amitriptyline,Histamine H2 receptor,Histamine H2 ,Blocker/inhibitor,HRH2,Unknown,NA,HRH,⭙,"The H2 subclass of histamine receptors mediates gastric
 acid secretion. Also appears to regulate gastrointestinal
 motility and intestinal secretion. Possible role in
 regulating cell growth and differentiation. The activity
@@ -298,7 +298,7 @@ of this receptor is mediated by G proteins which activate
 adenylyl cyclase and, through a separate G protein-dependent
 mechanism, the phosphoinositide/protein kinase (PKC)
 signaling pathway (By similarity).",NA,NA,NA
-Amitriptyline,Histamine H4 receptor,Histamine H4 ,Blocker/inhibitor,HRH4,Unknown,8.473660722610155,HRH,⮿,"The H4 subclass of histamine receptors could mediate
+Amitriptyline,Histamine H4 receptor,Histamine H4 ,Blocker/inhibitor,HRH4,Unknown,8.473660722610155,HRH,⭙,"The H4 subclass of histamine receptors could mediate
 the histamine signals in peripheral tissues. Displays a
 significant level of constitutive activity (spontaneous
 activity in the absence of agonist).",33.6,33.6,33.6
@@ -352,7 +352,7 @@ hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",NA,NA,NA
-Amitriptyline,5-hydroxytryptamine receptor 1D,5-hydroxytryptamine  1D,Blocker/inhibitor,HTR1D,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Amitriptyline,5-hydroxytryptamine receptor 1D,5-hydroxytryptamine  1D,Blocker/inhibitor,HTR1D,Unknown,NA,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for ergot alkaloid
 derivatives, various anxiolytic and antidepressant drugs
 and other psychoactive substances. Ligand binding causes
@@ -364,7 +364,7 @@ Regulates the release of 5-hydroxytryptamine in the brain,
 and thereby affects neural activity. May also play a role in
 regulating the release of other neurotransmitters. May play
 a role in vasoconstriction.",NA,NA,NA
-Amitriptyline,Mu-type opioid receptor,Mu-type opioid ,Blocker/inhibitor,OPRM1,Unknown,NA,OPRM,⮿,"Receptor for endogenous opioids such as beta-endorphin
+Amitriptyline,Mu-type opioid receptor,Mu-type opioid ,Blocker/inhibitor,OPRM1,Unknown,NA,OPRM,⭙,"Receptor for endogenous opioids such as beta-endorphin
 and endomorphin. Receptor for natural and synthetic
 opioids including morphine, heroin, DAMGO, fentanyl,
 etorphine, buprenorphin and methadone. Agonist binding
@@ -413,7 +413,7 @@ GNAS and is proposed to be involved in excitatory effects.
 Isoform 16 and isoform 17 do not bind agonists but may
 act through oligomerization with binding-competent OPRM1
 isoforms and reduce their ligand binding activity.",NA,NA,NA
-Amitriptyline,5-hydroxytryptamine receptor 1B,5-hydroxytryptamine  1B,Blocker/inhibitor,HTR1B,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Amitriptyline,5-hydroxytryptamine receptor 1B,5-hydroxytryptamine  1B,Blocker/inhibitor,HTR1B,Unknown,NA,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for ergot alkaloid
 derivatives, various anxiolytic and antidepressant drugs
 and other psychoactive substances, such as lysergic acid
@@ -437,7 +437,7 @@ for tricyclic psychotropic drugs (By similarity). Controls
 pyramidal neurons migration during corticogenesis, through
 the regulation of CDK5 activity (By similarity). Is an
 activator of TOR signaling (PubMed:23027611).",103.125,65,141.25
-Amitriptyline,Potassium voltage-gated channel subfamily KQT member 3,Potassium voltage-gated channel subfamily KQT member 3,Blocker/inhibitor,KCNQ3,Unknown,NA,KCNQ,⮿,"Probably important in the regulation of neuronal
+Amitriptyline,Potassium voltage-gated channel subfamily KQT member 3,Potassium voltage-gated channel subfamily KQT member 3,Blocker/inhibitor,KCNQ3,Unknown,NA,KCNQ,⭙,"Probably important in the regulation of neuronal
 excitability. Associates with KCNQ2 or KCNQ5 to form a
 potassium channel with essentially identical properties
 to the channel underlying the native M-current, a slowly
@@ -467,12 +467,12 @@ then regulates the release of corticosterone. Plays a
 role in the regulation of appetite and feeding behavior,
 responses to anxiogenic stimuli and stress. Plays a role in
 insulin sensitivity and glucose homeostasis.",NA,NA,NA
-Amphetamine,Synaptic vesicular amine transporter,Synaptic vesicular amine transporter,Blocker/inhibitor,SLC18A2,Yes,NA,SLC,⮿,"Involved in the ATP-dependent vesicular transport of
+Amphetamine,Synaptic vesicular amine transporter,Synaptic vesicular amine transporter,Blocker/inhibitor,SLC18A2,Yes,NA,SLC,⭙,"Involved in the ATP-dependent vesicular transport of
 biogenic amine neurotransmitters. Pumps cytosolic monoamines
 including dopamine, norepinephrine, serotonin, and histamine
 into synaptic vesicles. Requisite for vesicular amine
 storage prior to secretion via exocytosis.",NA,NA,NA
-Amphetamine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,7.815308569182401,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Amphetamine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,7.815308569182401,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",153,24.8,10000
 Amphetamine,Cocaine- and amphetamine-regulated transcript protein,Cocaine- and amphetamine-regulated transcript protein,Agonist,CARTPT,Yes,NA,CARTPT,⯅,"Satiety factor closely associated with the actions of leptin
@@ -498,14 +498,14 @@ G-proteins which activate adenylate cyclase.",NA,NA,NA
 Amphetamine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Stimulator,SLC6A2,Unknown,9.148741651280925,SLC,⯀,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",7.1,7.1,7.1
-Amphetamine,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,NA,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Amphetamine,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,NA,DRD,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",NA,NA,NA
-Amphetamine,Amine oxidase [flavin-containing] B,Amine oxidase [flavin-containing] B,Blocker/inhibitor,MAOB,Unknown,NA,MAOB,⮿,"Catalyzes the oxidative deamination of biogenic and
+Amphetamine,Amine oxidase [flavin-containing] B,Amine oxidase [flavin-containing] B,Blocker/inhibitor,MAOB,Unknown,NA,MAOB,⭙,"Catalyzes the oxidative deamination of biogenic and
 xenobiotic amines and has important functions in the
 metabolism of neuroactive and vasoactive amines in the
 central nervous system and peripheral tissues. MAOB
 preferentially degrades benzylamine and phenylethylamine.",NA,NA,NA
-Amphetamine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Unknown,NA,SLC,⮿,"Serotonin transporter whose primary function in the central
+Amphetamine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Unknown,NA,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -1044,10 +1044,10 @@ activation of adenylate cyclase through the action of G
 proteins. The beta-2-adrenergic receptor binds epinephrine
 with an approximately 30-fold greater affinity than it does
 norepinephrine.",NA,NA,NA
-Atomoxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,NA,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Atomoxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,NA,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
-Atomoxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Unknown,NA,SLC,⮿,"Serotonin transporter whose primary function in the central
+Atomoxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Unknown,NA,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -1055,7 +1055,7 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",NA,NA,NA
-Atomoxetine,G protein-activated inward rectifier potassium channel 1,G protein-activated inward rectifier potassium channel 1,Blocker/inhibitor,KCNJ3,Unknown,NA,KCNJ,⮿,"This potassium channel is controlled by G proteins. Inward
+Atomoxetine,G protein-activated inward rectifier potassium channel 1,G protein-activated inward rectifier potassium channel 1,Blocker/inhibitor,KCNJ3,Unknown,NA,KCNJ,⭙,"This potassium channel is controlled by G proteins. Inward
 rectifier potassium channels are characterized by a greater
 tendency to allow potassium to flow into the cell rather
 than out of it. Their voltage dependence is regulated by
@@ -1169,17 +1169,17 @@ alternative signaling pathways that lead to the activation
 of MAP kinases. Plays a role in modulating nociception and
 the perception of pain. Plays a role in the regulation of
 locomotor activity by the neuropeptide nociceptin.",NA,NA,NA
-Bupropion,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,7.171984935776023,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Bupropion,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,7.171984935776023,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",673,441,1800
-Bupropion,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,6.071348153346305,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Bupropion,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,6.071348153346305,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",8485,6970,10000
 Bupropion,Neuronal acetylcholine receptor subunit alpha-3,Neuronal acetylcholine  subunit alpha-3,Antagonist,CHRNA3,Unknown,NA,CHRNA,⯆,"After binding acetylcholine, the AChR responds by an
 extensive change in conformation that affects all subunits
 and leads to opening of an ion-conducting channel across the
 plasma membrane.",NA,NA,NA
-Bupropion,5-hydroxytryptamine receptor 3A,5-hydroxytryptamine  3A,Blocker/inhibitor,HTR3A,Unknown,NA,HTR,⮿,"This is one of the several different receptors for 5-
+Bupropion,5-hydroxytryptamine receptor 3A,5-hydroxytryptamine  3A,Blocker/inhibitor,HTR3A,Unknown,NA,HTR,⭙,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 This receptor is a ligand-gated ion channel, which when
@@ -1371,26 +1371,26 @@ hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",NA,NA,NA
-Cabergoline,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Blocker/inhibitor,ADRA1A,Unknown,NA,ADRA,⮿,"This alpha-adrenergic receptor mediates its action
+Cabergoline,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Blocker/inhibitor,ADRA1A,Unknown,NA,ADRA,⭙,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Cabergoline,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Blocker/inhibitor,ADRA1B,Unknown,NA,ADRA,⮿,"This alpha-adrenergic receptor mediates its action
+Cabergoline,Alpha-1B adrenergic receptor,Alpha-1B adrenergic ,Blocker/inhibitor,ADRA1B,Unknown,NA,ADRA,⭙,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine (PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Cabergoline,Alpha-1D adrenergic receptor,Alpha-1D adrenergic ,Blocker/inhibitor,ADRA1D,Unknown,NA,ADRA,⮿,"This alpha-adrenergic receptor mediates its effect through
+Cabergoline,Alpha-1D adrenergic receptor,Alpha-1D adrenergic ,Blocker/inhibitor,ADRA1D,Unknown,NA,ADRA,⭙,"This alpha-adrenergic receptor mediates its effect through
 the influx of extracellular calcium.",NA,NA,NA
-Cabergoline,Beta-1 adrenergic receptor,Beta-1 adrenergic ,Blocker/inhibitor,ADRB1,Unknown,NA,ADRB,⮿,"Beta-adrenergic receptors mediate the catecholamine-induced
+Cabergoline,Beta-1 adrenergic receptor,Beta-1 adrenergic ,Blocker/inhibitor,ADRB1,Unknown,NA,ADRB,⭙,"Beta-adrenergic receptors mediate the catecholamine-induced
 activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
-Cabergoline,Beta-2 adrenergic receptor,Beta-2 adrenergic ,Blocker/inhibitor,ADRB2,Unknown,NA,ADRB,⮿,"Beta-adrenergic receptors mediate the catecholamine-induced
+Cabergoline,Beta-2 adrenergic receptor,Beta-2 adrenergic ,Blocker/inhibitor,ADRB2,Unknown,NA,ADRB,⭙,"Beta-adrenergic receptors mediate the catecholamine-induced
 activation of adenylate cyclase through the action of G
 proteins. The beta-2-adrenergic receptor binds epinephrine
 with an approximately 30-fold greater affinity than it does
@@ -1471,7 +1471,7 @@ increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",6,3,9.09
-Chlorpromazine,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⮿,"Pore-forming (alpha) subunit of voltage-gated inwardly
+Chlorpromazine,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⭙,"Pore-forming (alpha) subunit of voltage-gated inwardly
 rectifying potassium channel. Channel properties are
 modulated by cAMP and subunit assembly. Mediates the rapidly
 activating component of the delayed rectifying potassium
@@ -1480,18 +1480,18 @@ activity by themself, but modulates channel characteristics
 by forming heterotetramers with other isoforms which are
 retained intracellularly and undergo ubiquitin-dependent
 degradation.",NA,NA,NA
-Chlorpromazine,Dopamine D3 receptor,Dopamine D3 ,Blocker/inhibitor,DRD3,Unknown,9.42021640338319,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Chlorpromazine,Dopamine D3 receptor,Dopamine D3 ,Blocker/inhibitor,DRD3,Unknown,9.42021640338319,DRD,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase. Promotes cell proliferation.",3.8,3,6.9
-Chlorpromazine,Dopamine D4 receptor,Dopamine D4 ,Blocker/inhibitor,DRD4,Unknown,NA,DRD,⮿,"Dopamine receptor responsible for neuronal signaling in
+Chlorpromazine,Dopamine D4 receptor,Dopamine D4 ,Blocker/inhibitor,DRD4,Unknown,NA,DRD,⭙,"Dopamine receptor responsible for neuronal signaling in
 the mesolimbic system of the brain, an area of the brain
 that regulates emotion and complex behavior. Its activity
 is mediated by G proteins which inhibit adenylyl cyclase.
 Modulates the circadian rhythm of contrast sensitivity by
 regulating the rhythmic expression of NPAS2 in the retinal
 ganglion cells (By similarity).",NA,NA,NA
-Chlorpromazine,Dopamine D5 receptor,Dopamine D5 ,Blocker/inhibitor,DRD5,Unknown,7.816730156317195,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Chlorpromazine,Dopamine D5 receptor,Dopamine D5 ,Blocker/inhibitor,DRD5,Unknown,7.816730156317195,DRD,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",152.5,133,172
-Chlorpromazine,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Blocker/inhibitor,HTR2C,Unknown,8.602059991327963,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Chlorpromazine,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Blocker/inhibitor,HTR2C,Unknown,8.602059991327963,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including ergot alkaloid
 derivatives, 1-2,5,-dimethoxy-4-iodophenyl-2-aminopropane
@@ -1523,18 +1523,18 @@ cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",57,47,67
-Chlorpromazine,Sphingomyelin phosphodiesterase,Sphingomyelin phosphodiesterase,Blocker/inhibitor,SMPD1,Unknown,NA,SMPD,⮿,"Converts sphingomyelin to ceramide. Also has phospholipase C
+Chlorpromazine,Sphingomyelin phosphodiesterase,Sphingomyelin phosphodiesterase,Blocker/inhibitor,SMPD1,Unknown,NA,SMPD,⭙,"Converts sphingomyelin to ceramide. Also has phospholipase C
 activities toward 1,2-diacylglycerolphosphocholine and 1,2-
 diacylglycerolphosphoglycerol. Isoform 2 and isoform 3 have
 lost catalytic activity.",NA,NA,NA
-Chlorpromazine,Calmodulin,Calmodulin,Blocker/inhibitor,CALM1,Unknown,5.714892970433188,CALM,⮿,"Calmodulin mediates the control of a large number of
+Chlorpromazine,Calmodulin,Calmodulin,Blocker/inhibitor,CALM1,Unknown,5.714892970433188,CALM,⭙,"Calmodulin mediates the control of a large number of
 enzymes, ion channels, aquaporins and other proteins
 by Ca(2+). Among the enzymes to be stimulated by the
 calmodulin-Ca(2+) complex are a number of protein kinases
 and phosphatases. Together with CCP110 and centrin, is
 involved in a genetic pathway that regulates the centrosome
 cycle and progression through cytokinesis.",19280,19280,19280
-Chlorpromazine,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Blocker/inhibitor,HTR6,Unknown,8.721246399047171,HTR,⮿,"This is one of the several different receptors for 5-
+Chlorpromazine,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Blocker/inhibitor,HTR6,Unknown,8.721246399047171,HTR,⭙,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins
@@ -1543,16 +1543,16 @@ for tricyclic psychotropic drugs (By similarity). Controls
 pyramidal neurons migration during corticogenesis, through
 the regulation of CDK5 activity (By similarity). Is an
 activator of TOR signaling (PubMed:23027611).",19,4,20.1
-Chlorpromazine,5-hydroxytryptamine receptor 7,5-hydroxytryptamine  7,Blocker/inhibitor,HTR7,Unknown,8.568636235841012,HTR,⮿,"This is one of the several different receptors for 5-
+Chlorpromazine,5-hydroxytryptamine receptor 7,5-hydroxytryptamine  7,Blocker/inhibitor,HTR7,Unknown,8.568636235841012,HTR,⭙,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",27,27,27
-Chlorpromazine,Histamine H4 receptor,Histamine H4 ,Blocker/inhibitor,HRH4,Unknown,8.29929628285498,HRH,⮿,"The H4 subclass of histamine receptors could mediate
+Chlorpromazine,Histamine H4 receptor,Histamine H4 ,Blocker/inhibitor,HRH4,Unknown,8.29929628285498,HRH,⭙,"The H4 subclass of histamine receptors could mediate
 the histamine signals in peripheral tissues. Displays a
 significant level of constitutive activity (spontaneous
 activity in the absence of agonist).",50.2,50.2,50.2
-Citalopram,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.358525889495901,SLC,⮿,"Serotonin transporter whose primary function in the central
+Citalopram,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.358525889495901,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -1560,13 +1560,13 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",4.38,1.1,67
-Citalopram,Histamine H1 receptor,Histamine H1 ,Blocker/inhibitor,HRH1,No,NA,HRH,⮿,"In peripheral tissues, the H1 subclass of histamine
+Citalopram,Histamine H1 receptor,Histamine H1 ,Blocker/inhibitor,HRH1,No,NA,HRH,⭙,"In peripheral tissues, the H1 subclass of histamine
 receptors mediates the contraction of smooth muscles,
 increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",NA,NA,NA
-Clomipramine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,10.853871964321762,SLC,⮿,"Serotonin transporter whose primary function in the central
+Clomipramine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,10.853871964321762,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -1644,10 +1644,10 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",64.6,64.6,64.6
-Clomipramine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,8.33866065999396,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Clomipramine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,8.33866065999396,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",45.85,38,53.7
-Clomipramine,Glutathione S-transferase P,Glutathione S-transferase P,Blocker/inhibitor,GSTP1,Unknown,NA,GSTP,⮿,"Conjugation of reduced glutathione to a wide number
+Clomipramine,Glutathione S-transferase P,Glutathione S-transferase P,Blocker/inhibitor,GSTP1,Unknown,NA,GSTP,⭙,"Conjugation of reduced glutathione to a wide number
 of exogenous and endogenous hydrophobic electrophiles.
 Regulates negatively CDK5 activity via p25/p35 translocation
 to prevent neurodegeneration.",NA,NA,NA
@@ -1903,7 +1903,7 @@ Clozapine,Glutathione S-transferase P,Glutathione S-transferase P,Other/unknown,
 of exogenous and endogenous hydrophobic electrophiles.
 Regulates negatively CDK5 activity via p25/p35 translocation
 to prevent neurodegeneration.",NA,NA,NA
-Desipramine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,9.462180904926726,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Desipramine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,9.462180904926726,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",3.45,0.6,8.54
 Desipramine,Beta-2 adrenergic receptor,Beta-2 adrenergic ,Antagonist,ADRB2,Unknown,NA,ADRB,⯆,"Beta-adrenergic receptors mediate the catecholamine-induced
@@ -1911,7 +1911,7 @@ activation of adenylate cyclase through the action of G
 proteins. The beta-2-adrenergic receptor binds epinephrine
 with an approximately 30-fold greater affinity than it does
 norepinephrine.",NA,NA,NA
-Desipramine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,8.657577319177793,SLC,⮿,"Serotonin transporter whose primary function in the central
+Desipramine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,8.657577319177793,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -1945,7 +1945,7 @@ activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
-Desipramine,Sphingomyelin phosphodiesterase,Sphingomyelin phosphodiesterase,Blocker/inhibitor,SMPD1,Unknown,NA,SMPD,⮿,"Converts sphingomyelin to ceramide. Also has phospholipase C
+Desipramine,Sphingomyelin phosphodiesterase,Sphingomyelin phosphodiesterase,Blocker/inhibitor,SMPD1,Unknown,NA,SMPD,⭙,"Converts sphingomyelin to ceramide. Also has phospholipase C
 activities toward 1,2-diacylglycerolphosphocholine and 1,2-
 diacylglycerolphosphoglycerol. Isoform 2 and isoform 3 have
 lost catalytic activity.",NA,NA,NA
@@ -1983,7 +1983,7 @@ cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
-Desipramine,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,6.086186147616283,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Desipramine,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,6.086186147616283,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -2001,7 +2001,7 @@ regulation of dopamine and 5-hydroxytryptamine levels
 in the brain, and thereby affects neural activity, mood
 and behavior. Plays a role in the response to anxiogenic
 stimuli.",8200,6400,10000
-Desipramine,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Blocker/inhibitor,HTR2C,Unknown,7.455931955649724,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Desipramine,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Blocker/inhibitor,HTR2C,Unknown,7.455931955649724,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including ergot alkaloid
 derivatives, 1-2,5,-dimethoxy-4-iodophenyl-2-aminopropane
@@ -2023,12 +2023,12 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",350,350,350
-Desipramine,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,NA,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Desipramine,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,NA,DRD,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",NA,NA,NA
-Desvenlafaxine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,6.529810093714447,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Desvenlafaxine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,6.529810093714447,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",2952.5,2753,3152
-Desvenlafaxine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,8.212185432936977,SLC,⮿,"Serotonin transporter whose primary function in the central
+Desvenlafaxine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,8.212185432936977,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -2036,7 +2036,7 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",61.35,7.7,115
-Desvenlafaxine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,NA,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Desvenlafaxine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,NA,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
 Dextroamphetamine,Synaptic vesicular amine transporter,Synaptic vesicular amine transporter,Inducer,SLC18A2,Yes,NA,SLC,⯀,"Involved in the ATP-dependent vesicular transport of
@@ -2044,10 +2044,10 @@ biogenic amine neurotransmitters. Pumps cytosolic monoamines
 including dopamine, norepinephrine, serotonin, and histamine
 into synaptic vesicles. Requisite for vesicular amine
 storage prior to secretion via exocytosis.",NA,NA,NA
-Dextroamphetamine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,NA,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Dextroamphetamine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,NA,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
-Dextroamphetamine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,NA,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Dextroamphetamine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,NA,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
 Dextroamphetamine,Trace amine-associated receptor 1,Trace amine-associated  1,Agonist,TAAR1,Unknown,NA,TAAR,⯅,"Receptor for trace amines, including beta-phenylethylamine
@@ -2070,7 +2070,7 @@ phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine (PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Duloxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.337242168318426,SLC,⮿,"Serotonin transporter whose primary function in the central
+Duloxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.337242168318426,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -2078,13 +2078,13 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",4.6,0.501,790
-Duloxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.921905849593589,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Duloxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.921905849593589,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",11.97,5.97,7450
-Duloxetine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,7.431798275933005,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Duloxetine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,7.431798275933005,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",370,240,240000
-Escitalopram,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,10,SLC,⮿,"Serotonin transporter whose primary function in the central
+Escitalopram,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,10,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -2092,18 +2092,18 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",1,1,1
-Escitalopram,Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine  M1,Blocker/inhibitor,CHRM1,Unknown,NA,CHRM,⮿,"The muscarinic acetylcholine receptor mediates various
+Escitalopram,Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine  M1,Blocker/inhibitor,CHRM1,Unknown,NA,CHRM,⭙,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
-Escitalopram,Histamine H1 receptor,Histamine H1 ,Blocker/inhibitor,HRH1,Unknown,NA,HRH,⮿,"In peripheral tissues, the H1 subclass of histamine
+Escitalopram,Histamine H1 receptor,Histamine H1 ,Blocker/inhibitor,HRH1,Unknown,NA,HRH,⭙,"In peripheral tissues, the H1 subclass of histamine
 receptors mediates the contraction of smooth muscles,
 increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",NA,NA,NA
-Escitalopram,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Escitalopram,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,NA,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -2121,7 +2121,7 @@ regulation of dopamine and 5-hydroxytryptamine levels
 in the brain, and thereby affects neural activity, mood
 and behavior. Plays a role in the response to anxiogenic
 stimuli.",NA,NA,NA
-Escitalopram,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Blocker/inhibitor,HTR2A,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Escitalopram,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Blocker/inhibitor,HTR2A,Unknown,NA,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including mescaline,
 psilocybin, 1-(2,5-dimethoxy-4-iodophenyl)-2-aminopropane
@@ -2142,7 +2142,7 @@ and psychoactive substances. Plays a role in intestinal
 smooth muscle contraction, and may play a role in arterial
 vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",NA,NA,NA
-Escitalopram,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Blocker/inhibitor,HTR2C,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Escitalopram,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Blocker/inhibitor,HTR2C,Unknown,NA,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including ergot alkaloid
 derivatives, 1-2,5,-dimethoxy-4-iodophenyl-2-aminopropane
@@ -2164,12 +2164,12 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",NA,NA,NA
-Escitalopram,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,NA,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Escitalopram,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,NA,DRD,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",NA,NA,NA
-Escitalopram,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,NA,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Escitalopram,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,NA,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
-Escitalopram,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,No,NA,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Escitalopram,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,No,NA,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
 Ethanol,Gamma-aminobutyric acid receptor subunit alpha-1,Gamma-aminobutyric acid  subunit alpha-1,Agonist,GABRA1,Yes,NA,GABRA,⯅,"Component of the heteropentameric receptor for GABA, the
@@ -2621,7 +2621,7 @@ Fludiazepam,Gamma-aminobutyric acid receptor subunit rho-3,Gamma-aminobutyric ac
 vertebrate brain, mediates neuronal inhibition by binding
 to the GABA/benzodiazepine receptor and opening an integral
 chloride channel.",NA,NA,NA
-Fluoxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.657577319177793,SLC,⮿,"Serotonin transporter whose primary function in the central
+Fluoxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.657577319177793,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -2665,7 +2665,7 @@ and leads to opening of an ion-conducting channel across the
 plasma membrane.",NA,NA,NA
 Fluoxetine,Cyclin-dependent kinases regulatory subunit 1,Cyclin-dependent kinases regulatory subunit 1,Other/unknown,CKS1B,Unknown,NA,CKS,⭗,"Binds to the catalytic subunit of the cyclin dependent
 kinases and is essential for their biological function.",NA,NA,NA
-Fluoxetine,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⮿,"Pore-forming (alpha) subunit of voltage-gated inwardly
+Fluoxetine,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⭙,"Pore-forming (alpha) subunit of voltage-gated inwardly
 rectifying potassium channel. Channel properties are
 modulated by cAMP and subunit assembly. Mediates the rapidly
 activating component of the delayed rectifying potassium
@@ -2714,7 +2714,7 @@ Fluphenazine,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,9.84163750790
 which inhibit adenylyl cyclase.",1.44,1.44,1.44
 Fluphenazine,Dopamine D1 receptor,Dopamine D1 ,Antagonist,DRD1,Yes,8.67778070526608,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",21,7,179
-Fluphenazine,Calmodulin,Calmodulin,Blocker/inhibitor,CALM1,Unknown,NA,CALM,⮿,"Calmodulin mediates the control of a large number of
+Fluphenazine,Calmodulin,Calmodulin,Blocker/inhibitor,CALM1,Unknown,NA,CALM,⭙,"Calmodulin mediates the control of a large number of
 enzymes, ion channels, aquaporins and other proteins
 by Ca(2+). Among the enzymes to be stimulated by the
 calmodulin-Ca(2+) complex are a number of protein kinases
@@ -2771,12 +2771,12 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",579,188.67,1386
-Gabapentin,Voltage-dependent calcium channel subunit alpha-2/delta-1,Voltage-dependent calcium channel subunit alpha-2/delta-1,Blocker/inhibitor,CACNA2D1,Yes,NA,CACNA,⮿,"The alpha-2/delta subunit of voltage-dependent calcium
+Gabapentin,Voltage-dependent calcium channel subunit alpha-2/delta-1,Voltage-dependent calcium channel subunit alpha-2/delta-1,Blocker/inhibitor,CACNA2D1,Yes,NA,CACNA,⭙,"The alpha-2/delta subunit of voltage-dependent calcium
 channels regulates calcium current density and activation/
 inactivation kinetics of the calcium channel. Plays an
 important role in excitation-contraction coupling (By
 similarity).",NA,NA,NA
-Gabapentin,Voltage-dependent calcium channel subunit alpha-2/delta-2,Voltage-dependent calcium channel subunit alpha-2/delta-2,Blocker/inhibitor,CACNA2D2,Unknown,NA,CACNA,⮿,"The alpha-2/delta subunit of voltage-dependent calcium
+Gabapentin,Voltage-dependent calcium channel subunit alpha-2/delta-2,Voltage-dependent calcium channel subunit alpha-2/delta-2,Blocker/inhibitor,CACNA2D2,Unknown,NA,CACNA,⭙,"The alpha-2/delta subunit of voltage-dependent calcium
 channels regulates calcium current density and activation/
 inactivation kinetics of the calcium channel. Acts as a
 regulatory subunit for P/Q-type calcium channel (CACNA1A),
@@ -2959,7 +2959,7 @@ hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",NA,NA,NA
-Imipramine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.170696227168975,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Imipramine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.170696227168975,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",67.5,16,142
 Imipramine,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Antagonist,HTR2A,Unknown,7.896196279044043,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
@@ -2983,7 +2983,7 @@ and psychoactive substances. Plays a role in intestinal
 smooth muscle contraction, and may play a role in arterial
 vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",127,94,160
-Imipramine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.494850021680094,SLC,⮿,"Serotonin transporter whose primary function in the central
+Imipramine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,9.494850021680094,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -3033,7 +3033,7 @@ cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
-Imipramine,Potassium voltage-gated channel subfamily D member 2,Potassium voltage-gated channel subfamily D member 2,Blocker/inhibitor,KCND2,No,NA,KCND,⮿,"Voltage-gated potassium channel that mediates transmembrane
+Imipramine,Potassium voltage-gated channel subfamily D member 2,Potassium voltage-gated channel subfamily D member 2,Blocker/inhibitor,KCND2,No,NA,KCND,⭙,"Voltage-gated potassium channel that mediates transmembrane
 potassium transport in excitable membranes, primarily in
 the brain. Mediates the major part of the dendritic A-
 type current I(SA) in brain neurons (By similarity).
@@ -3079,7 +3079,7 @@ PubMed:14980201, PubMed:19171772, PubMed:24501278,
 PubMed:24811166). Likewise, interaction with DPP6 or DPP10
 promotes expression at the cell membrane and regulates both
 channel characteristics and activity (By similarity).",NA,NA,NA
-Imipramine,Potassium voltage-gated channel subfamily D member 3,Potassium voltage-gated channel subfamily D member 3,Blocker/inhibitor,KCND3,No,NA,KCND,⮿,"Pore-forming (alpha) subunit of voltage-gated rapidly
+Imipramine,Potassium voltage-gated channel subfamily D member 3,Potassium voltage-gated channel subfamily D member 3,Blocker/inhibitor,KCND3,No,NA,KCND,⭙,"Pore-forming (alpha) subunit of voltage-gated rapidly
 inactivating A-type potassium channels. May contribute to
 I(To) current in heart and I(Sa) current in neurons. Channel
 properties are modulated by interactions with other alpha
@@ -3117,9 +3117,9 @@ hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",NA,NA,NA
-Imipramine,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,7.139063379299906,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Imipramine,Dopamine D2 receptor,Dopamine D2 ,Blocker/inhibitor,DRD2,Unknown,7.139063379299906,DRD,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",726,726,726
-Imipramine,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⮿,"Pore-forming (alpha) subunit of voltage-gated inwardly
+Imipramine,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⭙,"Pore-forming (alpha) subunit of voltage-gated inwardly
 rectifying potassium channel. Channel properties are
 modulated by cAMP and subunit assembly. Mediates the rapidly
 activating component of the delayed rectifying potassium
@@ -3128,7 +3128,7 @@ activity by themself, but modulates channel characteristics
 by forming heterotetramers with other isoforms which are
 retained intracellularly and undergo ubiquitin-dependent
 degradation.",NA,NA,NA
-Imipramine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,6.0338582672609675,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Imipramine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,6.0338582672609675,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",9250,8500,10000
 Imipramine,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Agonist,HTR1A,Unknown,6.102372908709558,HTR,⯅,"G-protein coupled receptor for 5-hydroxytryptamine
@@ -3149,7 +3149,7 @@ regulation of dopamine and 5-hydroxytryptamine levels
 in the brain, and thereby affects neural activity, mood
 and behavior. Plays a role in the response to anxiogenic
 stimuli.",7900,5800,10000
-Imipramine,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Blocker/inhibitor,HTR6,Unknown,NA,HTR,⮿,"This is one of the several different receptors for 5-
+Imipramine,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Blocker/inhibitor,HTR6,Unknown,NA,HTR,⭙,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins
@@ -3172,18 +3172,18 @@ barrel domain. Also binds synthetic drugs and influences
 their distribution and availability. Appears to function
 in modulating the activity of the immune system during the
 acute-phase reaction.",NA,NA,NA
-Lamotrigine,Voltage-dependent R-type calcium channel subunit alpha-1E (CACNA1E),Voltage-dependent R-type calcium channel subunit alpha-1E (CACNA1E),Blocker/inhibitor,CACNA1E,Yes,NA,CACNA,⮿,Calcium channel activity,NA,NA,NA
-Lamotrigine,Adenosine receptor A1,Adenosine  A1,Blocker/inhibitor,ADORA1,Unknown,NA,ADORA,⮿,"Receptor for adenosine. The activity of this receptor is
+Lamotrigine,Voltage-dependent R-type calcium channel subunit alpha-1E (CACNA1E),Voltage-dependent R-type calcium channel subunit alpha-1E (CACNA1E),Blocker/inhibitor,CACNA1E,Yes,NA,CACNA,⭙,Calcium channel activity,NA,NA,NA
+Lamotrigine,Adenosine receptor A1,Adenosine  A1,Blocker/inhibitor,ADORA1,Unknown,NA,ADORA,⭙,"Receptor for adenosine. The activity of this receptor is
 mediated by G proteins which inhibit adenylyl cyclase.",NA,NA,NA
-Lamotrigine,Adenosine receptor A2a,Adenosine  A2a,Blocker/inhibitor,ADORA2A,Unknown,NA,ADORA,⮿,"Receptor for adenosine. The activity of this receptor is
+Lamotrigine,Adenosine receptor A2a,Adenosine  A2a,Blocker/inhibitor,ADORA2A,Unknown,NA,ADORA,⭙,"Receptor for adenosine. The activity of this receptor is
 mediated by G proteins which activate adenylyl cyclase.",NA,NA,NA
-Lamotrigine,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Blocker/inhibitor,ADRA1A,Unknown,NA,ADRA,⮿,"This alpha-adrenergic receptor mediates its action
+Lamotrigine,Alpha-1A adrenergic receptor,Alpha-1A adrenergic ,Blocker/inhibitor,ADRA1A,Unknown,NA,ADRA,⭙,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Lamotrigine,Alpha-2A adrenergic receptor,Alpha-2A adrenergic ,Blocker/inhibitor,ADRA2A,Unknown,NA,ADRA,⮿,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Lamotrigine,Alpha-2A adrenergic receptor,Alpha-2A adrenergic ,Blocker/inhibitor,ADRA2A,Unknown,NA,ADRA,⭙,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is oxymetazoline > clonidine > epinephrine
@@ -3192,7 +3192,7 @@ this receptor is oxymetazoline > clonidine > epinephrine
 the rank order is yohimbine > phentolamine = mianserine
 > chlorpromazine = spiperone = prazosin > propanolol >
 alprenolol = pindolol.",NA,NA,NA
-Lamotrigine,Beta-1 adrenergic receptor,Beta-1 adrenergic ,Blocker/inhibitor,ADRB1,Unknown,NA,ADRB,⮿,"Beta-adrenergic receptors mediate the catecholamine-induced
+Lamotrigine,Beta-1 adrenergic receptor,Beta-1 adrenergic ,Blocker/inhibitor,ADRB1,Unknown,NA,ADRB,⭙,"Beta-adrenergic receptors mediate the catecholamine-induced
 activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
@@ -3205,7 +3205,7 @@ increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",NA,NA,NA
-Lamotrigine,Kappa-type opioid receptor,Kappa-type opioid ,Blocker/inhibitor,OPRK1,Unknown,NA,OPRK,⮿,"G-protein coupled opioid receptor that functions as receptor
+Lamotrigine,Kappa-type opioid receptor,Kappa-type opioid ,Blocker/inhibitor,OPRK1,Unknown,NA,OPRK,⭙,"G-protein coupled opioid receptor that functions as receptor
 for endogenous alpha-neoendorphins and dynorphins, but has
 low affinity for beta-endorphins. Also functions as receptor
 for various synthetic opioids and for the psychoactive
@@ -3221,11 +3221,11 @@ reduced physical activity upon treatment with synthetic
 opioids. Plays a role in the regulation of salivation in
 response to synthetic opioids. May play a role in arousal
 and regulation of autonomic and neuroendocrine functions.",NA,NA,NA
-Lamotrigine,Acetylcholine receptor subunit alpha,Acetylcholine  subunit alpha,Blocker/inhibitor,CHRNA1,Unknown,NA,CHRNA,⮿,"After binding acetylcholine, the AChR responds by an
+Lamotrigine,Acetylcholine receptor subunit alpha,Acetylcholine  subunit alpha,Blocker/inhibitor,CHRNA1,Unknown,NA,CHRNA,⭙,"After binding acetylcholine, the AChR responds by an
 extensive change in conformation that affects all subunits
 and leads to opening of an ion-conducting channel across the
 plasma membrane.",NA,NA,NA
-Lamotrigine,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Blocker/inhibitor,HTR2A,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Lamotrigine,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Blocker/inhibitor,HTR2A,Unknown,NA,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including mescaline,
 psilocybin, 1-(2,5-dimethoxy-4-iodophenyl)-2-aminopropane
@@ -3246,14 +3246,14 @@ and psychoactive substances. Plays a role in intestinal
 smooth muscle contraction, and may play a role in arterial
 vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",NA,NA,NA
-Lamotrigine,5-hydroxytryptamine receptor 3A,5-hydroxytryptamine  3A,Blocker/inhibitor,HTR3A,Unknown,NA,HTR,⮿,"This is one of the several different receptors for 5-
+Lamotrigine,5-hydroxytryptamine receptor 3A,5-hydroxytryptamine  3A,Blocker/inhibitor,HTR3A,Unknown,NA,HTR,⭙,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 This receptor is a ligand-gated ion channel, which when
 activated causes fast, depolarizing responses in neurons. It
 is a cation-specific, but otherwise relatively nonselective,
 ion channel.",NA,NA,NA
-Lamotrigine,Glutamate receptor 1,Glutamate  1,Blocker/inhibitor,GRIA1,Unknown,NA,GRIA,⮿,"Ionotropic glutamate receptor. L-glutamate acts as an
+Lamotrigine,Glutamate receptor 1,Glutamate  1,Blocker/inhibitor,GRIA1,Unknown,NA,GRIA,⭙,"Ionotropic glutamate receptor. L-glutamate acts as an
 excitatory neurotransmitter at many synapses in the central
 nervous system. Binding of the excitatory neurotransmitter
 L-glutamate induces a conformation change, leading to the
@@ -3421,7 +3421,7 @@ hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",NA,NA,NA
-Lithium,Glycogen synthase kinase-3 beta,Glycogen synthase kinase-3 beta,Blocker/inhibitor,GSK3B,Unknown,NA,GSK,⮿,"Constitutively active protein kinase that acts as a negative
+Lithium,Glycogen synthase kinase-3 beta,Glycogen synthase kinase-3 beta,Blocker/inhibitor,GSK3B,Unknown,NA,GSK,⭙,"Constitutively active protein kinase that acts as a negative
 regulator in the hormonal control of glucose homeostasis,
 Wnt signaling and regulation of transcription factors and
 microtubules, by phosphorylating and inactivating glycogen
@@ -3478,7 +3478,7 @@ and proteasomal degradation. Phosphorylates OGT at 'Ser-3'
 or 'Ser-4' which positively regulates its activity.
 Phosphorylates MYCN in neuroblastoma cells which may promote
 its degradation (PubMed:24391509).",NA,NA,NA
-Lithium,Inositol monophosphatase 1,Inositol monophosphatase 1,Blocker/inhibitor,IMPA1,Unknown,NA,IMPA,⮿,"Responsible for the provision of inositol required for
+Lithium,Inositol monophosphatase 1,Inositol monophosphatase 1,Blocker/inhibitor,IMPA1,Unknown,NA,IMPA,⭙,"Responsible for the provision of inositol required for
 synthesis of phosphatidylinositol and polyphosphoinositides
 and has been implicated as the pharmacological target for
 lithium action in brain. Has broad substrate specificity
@@ -3487,7 +3487,7 @@ and can use myo-inositol monophosphates, myo-inositol
 inositol-phosphate, D-galactose 1-phosphate, glucose-1-
 phosphate, glucose-6-phosphate, fructose-1-phosphate, beta-
 glycerophosphate, and 2'-AMP as substrates.",NA,NA,NA
-Lithium,Inositol monophosphatase 2,Inositol monophosphatase 2,Blocker/inhibitor,IMPA2,Unknown,NA,IMPA,⮿,"Can use myo-inositol monophosphates, scylloinositol 1,4-
+Lithium,Inositol monophosphatase 2,Inositol monophosphatase 2,Blocker/inhibitor,IMPA2,Unknown,NA,IMPA,⭙,"Can use myo-inositol monophosphates, scylloinositol 1,4-
 diphosphate, glucose-1-phosphate, beta-glycerophosphate,
 and 2'-AMP as substrates. Has been implicated as the
 pharmacological target for lithium Li(+) action in brain.",NA,NA,NA
@@ -3578,14 +3578,14 @@ calmodulin-Ca(2+) complex are a number of protein kinases
 and phosphatases. Together with CCP110 and centrin, is
 involved in a genetic pathway that regulates the centrosome
 cycle and progression through cytokinesis.",NA,NA,NA
-Melatonin,Myeloperoxidase,Myeloperoxidase,Blocker/inhibitor,MPO,Unknown,NA,MPO,⮿,"Part of the host defense system of polymorphonuclear
+Melatonin,Myeloperoxidase,Myeloperoxidase,Blocker/inhibitor,MPO,Unknown,NA,MPO,⭙,"Part of the host defense system of polymorphonuclear
 leukocytes. It is responsible for microbicidal activity
 against a wide range of organisms. In the stimulated PMN,
 MPO catalyzes the production of hypohalous acids, primarily
 hypochlorous acid in physiologic situations, and other
 toxic intermediates that greatly enhance PMN microbicidal
 activity.",NA,NA,NA
-Melatonin,Eosinophil peroxidase,Eosinophil peroxidase,Blocker/inhibitor,EPX,Unknown,NA,EPX,⮿,"Mediates tyrosine nitration of secondary granule proteins
+Melatonin,Eosinophil peroxidase,Eosinophil peroxidase,Blocker/inhibitor,EPX,Unknown,NA,EPX,⭙,"Mediates tyrosine nitration of secondary granule proteins
 in mature resting eosinophils. Shows significant inhibitory
 activity towards Mycobacterium tuberculosis H37Rv by
 inducing bacterial fragmentation and lysis.",NA,NA,NA
@@ -3692,10 +3692,10 @@ Methadone,Neuronal acetylcholine receptor subunit beta-2,Neuronal acetylcholine 
 extensive change in conformation that affects all subunits
 and leads to opening of an ion-conducting channel across the
 plasma membrane permeable to sodiun ions.",NA,NA,NA
-Methamphetamine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,NA,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Methamphetamine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Yes,NA,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
-Methamphetamine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,NA,SLC,⮿,"Serotonin transporter whose primary function in the central
+Methamphetamine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,NA,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -3703,15 +3703,15 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",NA,NA,NA
-Methamphetamine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,NA,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Methamphetamine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,NA,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
-Methamphetamine,Synaptic vesicular amine transporter,Synaptic vesicular amine transporter,Blocker/inhibitor,SLC18A2,Yes,NA,SLC,⮿,"Involved in the ATP-dependent vesicular transport of
+Methamphetamine,Synaptic vesicular amine transporter,Synaptic vesicular amine transporter,Blocker/inhibitor,SLC18A2,Yes,NA,SLC,⭙,"Involved in the ATP-dependent vesicular transport of
 biogenic amine neurotransmitters. Pumps cytosolic monoamines
 including dopamine, norepinephrine, serotonin, and histamine
 into synaptic vesicles. Requisite for vesicular amine
 storage prior to secretion via exocytosis.",NA,NA,NA
-Methamphetamine,Chromaffin granule amine transporter,Chromaffin granule amine transporter,Blocker/inhibitor,SLC18A1,Yes,NA,SLC,⮿,"Involved in the transport of biogenic monoamines, such as
+Methamphetamine,Chromaffin granule amine transporter,Chromaffin granule amine transporter,Blocker/inhibitor,SLC18A1,Yes,NA,SLC,⭙,"Involved in the transport of biogenic monoamines, such as
 serotonin, from the cytoplasm into the secretory vesicles of
 neuroendocrine and endocrine cells.",NA,NA,NA
 Methamphetamine,Trace amine-associated receptor 1,Trace amine-associated  1,Agonist,TAAR1,Yes,NA,TAAR,⯅,"Receptor for trace amines, including beta-phenylethylamine
@@ -3749,13 +3749,13 @@ propanolol > pindolol.",NA,NA,NA
 Methamphetamine,Alpha-2C adrenergic receptor,Alpha-2C adrenergic ,Agonist,ADRA2C,Yes,NA,ADRA,⯅,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins.",NA,NA,NA
-Methamphetamine,Amine oxidase [flavin-containing] A,Amine oxidase [flavin-containing] A,Blocker/inhibitor,MAOA,Yes,NA,MAOA,⮿,"Catalyzes the oxidative deamination of biogenic and
+Methamphetamine,Amine oxidase [flavin-containing] A,Amine oxidase [flavin-containing] A,Blocker/inhibitor,MAOA,Yes,NA,MAOA,⭙,"Catalyzes the oxidative deamination of biogenic and
 xenobiotic amines and has important functions in the
 metabolism of neuroactive and vasoactive amines in the
 central nervous system and peripheral tissues. MAOA
 preferentially oxidizes biogenic amines such as 5-
 hydroxytryptamine (5-HT), norepinephrine and epinephrine.",NA,NA,NA
-Methamphetamine,Amine oxidase [flavin-containing] B,Amine oxidase [flavin-containing] B,Blocker/inhibitor,MAOB,Yes,NA,MAOB,⮿,"Catalyzes the oxidative deamination of biogenic and
+Methamphetamine,Amine oxidase [flavin-containing] B,Amine oxidase [flavin-containing] B,Blocker/inhibitor,MAOB,Yes,NA,MAOB,⭙,"Catalyzes the oxidative deamination of biogenic and
 xenobiotic amines and has important functions in the
 metabolism of neuroactive and vasoactive amines in the
 central nervous system and peripheral tissues. MAOB
@@ -3818,10 +3818,10 @@ increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
 medulla, as well as mediating neurotransmission in the
 central nervous system.",1.03,0.36,1.7
-Mianserin,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,8.148741651280925,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Mianserin,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,8.148741651280925,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",71,71,71
-Mianserin,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Unknown,6.3979400086720375,SLC,⮿,"Serotonin transporter whose primary function in the central
+Mianserin,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Unknown,6.3979400086720375,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -3829,11 +3829,11 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",4000,4000,4000
-Mianserin,Histamine H4 receptor,Histamine H4 ,Blocker/inhibitor,HRH4,Unknown,7.1249387366083,HRH,⮿,"The H4 subclass of histamine receptors could mediate
+Mianserin,Histamine H4 receptor,Histamine H4 ,Blocker/inhibitor,HRH4,Unknown,7.1249387366083,HRH,⭙,"The H4 subclass of histamine receptors could mediate
 the histamine signals in peripheral tissues. Displays a
 significant level of constitutive activity (spontaneous
 activity in the absence of agonist).",750,750,750
-Mianserin,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,7.295480575406682,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Mianserin,5-hydroxytryptamine receptor 1A,5-hydroxytryptamine  1A,Blocker/inhibitor,HTR1A,Unknown,7.295480575406682,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -3854,7 +3854,7 @@ stimuli.",506.43,398.1,2592
 Mianserin,Alpha-2C adrenergic receptor,Alpha-2C adrenergic ,Antagonist,ADRA2C,Unknown,9.42021640338319,ADRA,⯆,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins.",3.8,3.8,3.8
-Mianserin,5-hydroxytryptamine receptor 2B,5-hydroxytryptamine  2B,Blocker/inhibitor,HTR2B,Unknown,NA,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Mianserin,5-hydroxytryptamine receptor 2B,5-hydroxytryptamine  2B,Blocker/inhibitor,HTR2B,Unknown,NA,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various ergot
 alkaloid derivatives and psychoactive substances. Ligand
 binding causes a conformation change that triggers signaling
@@ -3881,7 +3881,7 @@ for normal osteoblast function and proliferation, and
 for maintaining normal bone density. Required for normal
 proliferation of the interstitial cells of Cajal in the
 intestine.",NA,NA,NA
-Mianserin,5-hydroxytryptamine receptor 1F,5-hydroxytryptamine  1F,Blocker/inhibitor,HTR1F,Unknown,8.90031935889075,HTR,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Mianserin,5-hydroxytryptamine receptor 1F,5-hydroxytryptamine  1F,Blocker/inhibitor,HTR1F,Unknown,8.90031935889075,HTR,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 alkaloids and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -3897,7 +3897,7 @@ serotonin > p-synephrine / p-octopamine. For antagonists,
 the rank order is yohimbine > chlorpromazine > phentolamine
 > mianserine > spiperone > prazosin > alprenolol >
 propanolol > pindolol.",27,27,27
-Mianserin,Dopamine D3 receptor,Dopamine D3 ,Blocker/inhibitor,DRD3,Unknown,6.546528766277064,DRD,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Mianserin,Dopamine D3 receptor,Dopamine D3 ,Blocker/inhibitor,DRD3,Unknown,6.546528766277064,DRD,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase. Promotes cell proliferation.",2841,2841,2841
 Mianserin,Kappa-type opioid receptor,Kappa-type opioid ,Agonist,OPRK1,Unknown,NA,OPRK,⯅,"G-protein coupled opioid receptor that functions as receptor
 for endogenous alpha-neoendorphins and dynorphins, but has
@@ -3915,7 +3915,7 @@ reduced physical activity upon treatment with synthetic
 opioids. Plays a role in the regulation of salivation in
 response to synthetic opioids. May play a role in arousal
 and regulation of autonomic and neuroendocrine functions.",NA,NA,NA
-Mianserin,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,6.026872146400301,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Mianserin,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,6.026872146400301,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",9400,9400,9400
 Mianserin,5-hydroxytryptamine receptor 7,5-hydroxytryptamine  7,Antagonist,HTR7,Unknown,6.394371777992381,HTR,⯆,"This is one of the several different receptors for 5-
@@ -3925,7 +3925,7 @@ The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",4033,56,8010
 Mianserin,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Unknown,6.658169943079489,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",2197,2197,2197
-Mianserin,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Blocker/inhibitor,HTR6,Unknown,8.166597870768141,HTR,⮿,"This is one of the several different receptors for 5-
+Mianserin,5-hydroxytryptamine receptor 6,5-hydroxytryptamine  6,Blocker/inhibitor,HTR6,Unknown,8.166597870768141,HTR,⭙,"This is one of the several different receptors for 5-
 hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins
@@ -4286,7 +4286,7 @@ DNA binding and/or heterodimerization with the full length
 receptor. Essential for MTA1-mediated transcriptional
 regulation of BRCA1 and BCAS3. Isoform 3 can bind to ERE and
 inhibit isoform 1.",NA,NA,NA
-Naloxone,Toll-like receptor 4,Toll-like  4,Blocker/inhibitor,TLR4,Unknown,NA,TLR,⮿,"Cooperates with LY96 and CD14 to mediate the innate
+Naloxone,Toll-like receptor 4,Toll-like  4,Blocker/inhibitor,TLR4,Unknown,NA,TLR,⭙,"Cooperates with LY96 and CD14 to mediate the innate
 immune response to bacterial lipopolysaccharide (LPS).
 Acts via MYD88, TIRAP and TRAF6, leading to NF-kappa-B
 activation, cytokine secretion and the inflammatory response
@@ -4399,10 +4399,10 @@ in response to the voltage difference across the membrane,
 the protein forms a sodium-selective channel through which
 Na(+) ions may pass in accordance with their electrochemical
 gradient.",NA,NA,NA
-Nortriptyline,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,9.27286557623951,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Nortriptyline,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,9.27286557623951,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",5.335,1.49,21
-Nortriptyline,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,7.828273546346769,SLC,⮿,"Serotonin transporter whose primary function in the central
+Nortriptyline,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,7.828273546346769,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -4836,7 +4836,7 @@ hydroxytryptamine (serotonin), a biogenic hormone that
 functions as a neurotransmitter, a hormone, and a mitogen.
 The activity of this receptor is mediated by G proteins that
 stimulate adenylate cyclase.",NA,NA,NA
-Paroxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,10.939302159646388,SLC,⮿,"Serotonin transporter whose primary function in the central
+Paroxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,10.939302159646388,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -4844,7 +4844,7 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",0.115,0.04,0.83
-Paroxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,8.057991946977687,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Paroxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,8.057991946977687,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",87.5,40,328
 Paroxetine,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Agonist,HTR2A,Unknown,6,HTR,⯅,"G-protein coupled receptor for 5-hydroxytryptamine
@@ -4870,7 +4870,7 @@ vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",10000,10000,10000
 Paroxetine,Dopamine D2 receptor,Dopamine D2 ,Other/unknown,DRD2,Unknown,NA,DRD,⭗,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase.",NA,NA,NA
-Paroxetine,Histamine H1 receptor,Histamine H1 ,Blocker/inhibitor,HRH1,Unknown,NA,HRH,⮿,"In peripheral tissues, the H1 subclass of histamine
+Paroxetine,Histamine H1 receptor,Histamine H1 ,Blocker/inhibitor,HRH1,Unknown,NA,HRH,⭙,"In peripheral tissues, the H1 subclass of histamine
 receptors mediates the contraction of smooth muscles,
 increase in capillary permeability due to contraction of
 terminal venules, and catecholamine release from adrenal
@@ -5051,7 +5051,7 @@ Perphenazine,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,NA,DRD,⯆,"D
 which inhibit adenylyl cyclase.",NA,NA,NA
 Perphenazine,Dopamine D1 receptor,Dopamine D1 ,Antagonist,DRD1,Yes,NA,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
-Perphenazine,Calmodulin,Calmodulin,Blocker/inhibitor,CALM1,Unknown,NA,CALM,⮿,"Calmodulin mediates the control of a large number of
+Perphenazine,Calmodulin,Calmodulin,Blocker/inhibitor,CALM1,Unknown,NA,CALM,⭙,"Calmodulin mediates the control of a large number of
 enzymes, ion channels, aquaporins and other proteins
 by Ca(2+). Among the enzymes to be stimulated by the
 calmodulin-Ca(2+) complex are a number of protein kinases
@@ -5069,24 +5069,24 @@ xenobiotic amines and has important functions in the
 metabolism of neuroactive and vasoactive amines in the
 central nervous system and peripheral tissues. MAOB
 preferentially degrades benzylamine and phenylethylamine.",NA,NA,NA
-Phenelzine,Membrane primary amine oxidase,Membrane primary amine oxidase,Blocker/inhibitor,AOC3,Unknown,NA,AOC,⮿,"Cell adhesion protein that participates in lymphocyte
+Phenelzine,Membrane primary amine oxidase,Membrane primary amine oxidase,Blocker/inhibitor,AOC3,Unknown,NA,AOC,⭙,"Cell adhesion protein that participates in lymphocyte
 extravasation and recirculation by mediating the
 binding of lymphocytes to peripheral lymph node vascular
 endothelial cells in an L-selectin-independent fashion. Has
 semicarbazide-sensitive (SSAO) monoamine oxidase activity.
 May play a role in adipogenesis.",NA,NA,NA
-Phenelzine,"4-aminobutyrate aminotransferase, mitochondrial","4-aminobutyrate aminotransferase, mitochondrial",Blocker/inhibitor,ABAT,Unknown,NA,ABAT,⮿,"Catalyzes the conversion of gamma-aminobutyrate and L-
+Phenelzine,"4-aminobutyrate aminotransferase, mitochondrial","4-aminobutyrate aminotransferase, mitochondrial",Blocker/inhibitor,ABAT,Unknown,NA,ABAT,⭙,"Catalyzes the conversion of gamma-aminobutyrate and L-
 beta-aminoisobutyrate to succinate semialdehyde and
 methylmalonate semialdehyde, respectively. Can also convert
 delta-aminovalerate and beta-alanine.",NA,NA,NA
-Phenelzine,Alanine aminotransferase 1,Alanine aminotransferase 1,Blocker/inhibitor,GPT,Unknown,NA,GPT,⮿,"Catalyzes the reversible transamination between alanine and
+Phenelzine,Alanine aminotransferase 1,Alanine aminotransferase 1,Blocker/inhibitor,GPT,Unknown,NA,GPT,⭙,"Catalyzes the reversible transamination between alanine and
 2-oxoglutarate to form pyruvate and glutamate. Participates
 in cellular nitrogen metabolism and also in liver
 gluconeogenesis starting with precursors transported from
 skeletal muscles (By similarity).",NA,NA,NA
-Phenelzine,Alanine aminotransferase 2,Alanine aminotransferase 2,Blocker/inhibitor,GPT2,Unknown,NA,GPT,⮿,"Catalyzes the reversible transamination between alanine and
+Phenelzine,Alanine aminotransferase 2,Alanine aminotransferase 2,Blocker/inhibitor,GPT2,Unknown,NA,GPT,⭙,"Catalyzes the reversible transamination between alanine and
 2-oxoglutarate to form pyruvate and glutamate.",NA,NA,NA
-Phenelzine,Glutamic acid decarboxylase,Glutamic acid decarboxylase,Blocker/inhibitor,GAD65,Unknown,NA,GAD,⮿,Not Available,NA,NA,NA
+Phenelzine,Glutamic acid decarboxylase,Glutamic acid decarboxylase,Blocker/inhibitor,GAD65,Unknown,NA,GAD,⭙,Not Available,NA,NA,NA
 Pindolol,Beta-1 adrenergic receptor,Beta-1 adrenergic ,Partial agonist,ADRB1,Yes,9.712198270069774,ADRB,⬟,"Beta-adrenergic receptors mediate the catecholamine-induced
 activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
@@ -5420,7 +5420,7 @@ cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
-Reboxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.958607314841775,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Reboxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,8.958607314841775,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",11,0.3,15.8
 Risperidone,5-hydroxytryptamine receptor 2A,5-hydroxytryptamine  2A,Antagonist,HTR2A,Yes,NA,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
@@ -5589,7 +5589,7 @@ for tricyclic psychotropic drugs (By similarity). Controls
 pyramidal neurons migration during corticogenesis, through
 the regulation of CDK5 activity (By similarity). Is an
 activator of TOR signaling (PubMed:23027611).",5.2,5,5.4
-Sertindole,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⮿,"Pore-forming (alpha) subunit of voltage-gated inwardly
+Sertindole,Potassium voltage-gated channel subfamily H member 2,Potassium voltage-gated channel subfamily H member 2,Blocker/inhibitor,KCNH2,Unknown,NA,KCNH,⭙,"Pore-forming (alpha) subunit of voltage-gated inwardly
 rectifying potassium channel. Channel properties are
 modulated by cAMP and subunit assembly. Mediates the rapidly
 activating component of the delayed rectifying potassium
@@ -5654,7 +5654,7 @@ Sulpiride,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,8.06803388527182
 which inhibit adenylyl cyclase.",85.5,51,120
 Sulpiride,Dopamine D3 receptor,Dopamine D3 ,Antagonist,DRD3,Unknown,8.05551732784983,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which inhibit adenylyl cyclase. Promotes cell proliferation.",88,8,120
-Sulpiride,Carbonic anhydrase 2,Carbonic anhydrase 2,Blocker/inhibitor,CA2,Unknown,8.397940008672037,CA,⮿,"Essential for bone resorption and osteoclast differentiation
+Sulpiride,Carbonic anhydrase 2,Carbonic anhydrase 2,Blocker/inhibitor,CA2,Unknown,8.397940008672037,CA,⭙,"Essential for bone resorption and osteoclast differentiation
 (By similarity). Reversible hydration of carbon dioxide.
 Can hydrate cyanamide to urea. Involved in the regulation
 of fluid secretion into the anterior chamber of the eye.
@@ -5662,15 +5662,15 @@ Contributes to intracellular pH regulation in the duodenal
 upper villous epithelium during proton-coupled peptide
 absorption. Stimulates the chloride-bicarbonate exchange
 activity of SLC26A6.",40,40,40000
-Sulpiride,Carbonic anhydrase 3,Carbonic anhydrase 3,Blocker/inhibitor,CA3,Unknown,5.97469413473523,CA,⮿,Reversible hydration of carbon dioxide.,10600,10600,10600
-Valproic Acid,"Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial","Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial",Blocker/inhibitor,ACADSB,Unknown,NA,ACADSB,⮿,"Has greatest activity toward short branched chain acyl-
+Sulpiride,Carbonic anhydrase 3,Carbonic anhydrase 3,Blocker/inhibitor,CA3,Unknown,5.97469413473523,CA,⭙,Reversible hydration of carbon dioxide.,10600,10600,10600
+Valproic Acid,"Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial","Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial",Blocker/inhibitor,ACADSB,Unknown,NA,ACADSB,⭙,"Has greatest activity toward short branched chain acyl-
 CoA derivative such as (s)-2-methylbutyryl-CoA, isobutyryl-
 CoA, and 2-methylhexanoyl-CoA as well as toward short
 straight chain acyl-CoAs such as butyryl-CoA and hexanoyl-
 CoA. Can use valproyl-CoA as substrate and may play a role
 in controlling the metabolic flux of valproic acid in the
 development of toxicity of this agent.",NA,NA,NA
-Valproic Acid,Histone deacetylase 9,Histone deacetylase 9,Blocker/inhibitor,HDAC9,Yes,NA,HDAC,⮿,"Responsible for the deacetylation of lysine residues on the
+Valproic Acid,Histone deacetylase 9,Histone deacetylase 9,Blocker/inhibitor,HDAC9,Yes,NA,HDAC,⭙,"Responsible for the deacetylation of lysine residues on the
 N-terminal part of the core histones (H2A, H2B, H3 and H4).
 Histone deacetylation gives a tag for epigenetic repression
 and plays an important role in transcriptional regulation,
@@ -5683,15 +5683,15 @@ be involved in heart development. Protects neurons from
 apoptosis, both by inhibiting JUN phosphorylation by MAPK10
 and by repressing JUN transcription via HDAC1 recruitment to
 JUN promoter.",NA,NA,NA
-Valproic Acid,"2-oxoglutarate dehydrogenase, mitochondrial","2-oxoglutarate dehydrogenase, mitochondrial",Blocker/inhibitor,OGDH,Unknown,NA,OGDH,⮿,"The 2-oxoglutarate dehydrogenase complex catalyzes
+Valproic Acid,"2-oxoglutarate dehydrogenase, mitochondrial","2-oxoglutarate dehydrogenase, mitochondrial",Blocker/inhibitor,OGDH,Unknown,NA,OGDH,⭙,"The 2-oxoglutarate dehydrogenase complex catalyzes
 the overall conversion of 2-oxoglutarate to succinyl-
 CoA and CO(2). It contains multiple copies of three
 enzymatic components: 2-oxoglutarate dehydrogenase (E1),
 dihydrolipoamide succinyltransferase (E2) and lipoamide
 dehydrogenase (E3).",NA,NA,NA
-Valproic Acid,"Succinate-semialdehyde dehydrogenase, mitochondrial","Succinate-semialdehyde dehydrogenase, mitochondrial",Blocker/inhibitor,ALDH5A1,Unknown,NA,ALDH,⮿,"Catalyzes one step in the degradation of the inhibitory
+Valproic Acid,"Succinate-semialdehyde dehydrogenase, mitochondrial","Succinate-semialdehyde dehydrogenase, mitochondrial",Blocker/inhibitor,ALDH5A1,Unknown,NA,ALDH,⭙,"Catalyzes one step in the degradation of the inhibitory
 neurotransmitter gamma-aminobutyric acid (GABA).",NA,NA,NA
-Valproic Acid,Histone deacetylase 2,Histone deacetylase 2,Blocker/inhibitor,HDAC2,Unknown,NA,HDAC,⮿,"Responsible for the deacetylation of lysine residues on the
+Valproic Acid,Histone deacetylase 2,Histone deacetylase 2,Blocker/inhibitor,HDAC2,Unknown,NA,HDAC,⭙,"Responsible for the deacetylation of lysine residues on the
 N-terminal part of the core histones (H2A, H2B, H3 and H4).
 Histone deacetylation gives a tag for epigenetic repression
 and plays an important role in transcriptional regulation,
@@ -5766,7 +5766,7 @@ Varenicline,Neuronal acetylcholine receptor subunit beta-2,Neuronal acetylcholin
 extensive change in conformation that affects all subunits
 and leads to opening of an ion-conducting channel across the
 plasma membrane permeable to sodiun ions.",NA,NA,NA
-Venlafaxine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,8.119758224104519,SLC,⮿,"Serotonin transporter whose primary function in the central
+Venlafaxine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,8.119758224104519,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -5774,13 +5774,13 @@ utilization. Plays a key role in mediating regulation of the
 availability of serotonin to other receptors of serotonergic
 systems. Terminates the action of serotonin and recycles it
 in a sodium-dependent manner.",75.9,7.5,145
-Venlafaxine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,6.71669877129645,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Venlafaxine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Yes,6.71669877129645,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",1920,385,6310
-Venlafaxine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,6.1165089098110705,SLC,⮿,"Amine transporter. Terminates the action of dopamine by its
+Venlafaxine,Sodium-dependent dopamine transporter,Sodium-dependent dopamine transporter,Blocker/inhibitor,SLC6A3,Unknown,6.1165089098110705,SLC,⭙,"Amine transporter. Terminates the action of dopamine by its
 high affinity sodium-dependent reuptake into presynaptic
 terminals.",7647,3070,10000
-Vortioxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,NA,SLC,⮿,"Serotonin transporter whose primary function in the central
+Vortioxetine,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,NA,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -5838,7 +5838,7 @@ activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
-Vortioxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,NA,SLC,⮿,"Amine transporter. Terminates the action of noradrenaline by
+Vortioxetine,Sodium-dependent noradrenaline transporter,Sodium-dependent noradrenaline transporter,Blocker/inhibitor,SLC6A2,Unknown,NA,SLC,⭙,"Amine transporter. Terminates the action of noradrenaline by
 its high affinity sodium-dependent reuptake into presynaptic
 terminals.",NA,NA,NA
 Ziprasidone,Dopamine D2 receptor,Dopamine D2 ,Antagonist,DRD2,Yes,9.301029995663981,DRD,⯆,"Dopamine receptor whose activity is mediated by G proteins
@@ -6127,7 +6127,7 @@ then regulates the release of corticosterone. Plays a role
 in the regulation of appetite and eating behavior, responses
 to anxiogenic stimuli and stress. Plays a role in insulin
 sensitivity and glucose homeostasis.",124.435,25,223.87
-Trazodone,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,7.598599459218455,SLC,⮿,"Serotonin transporter whose primary function in the central
+Trazodone,Sodium-dependent serotonin transporter,Sodium-dependent serotonin transporter,Blocker/inhibitor,SLC6A4,Yes,7.598599459218455,SLC,⭙,"Serotonin transporter whose primary function in the central
 nervous system involves the regulation of serotonergic
 signaling via transport of serotonin molecules from the
 synaptic cleft back into the pre-synaptic terminal for re-
@@ -6335,7 +6335,7 @@ cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
-Amitriptyline,HERG human cardiac K+ channel (Protein Group),HERG human cardiac K+ channel (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Pore-forming (alpha) subunit of voltage-gated inwardly
+Amitriptyline,HERG human cardiac K+ channel (Protein Group),HERG human cardiac K+ channel (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Pore-forming (alpha) subunit of voltage-gated inwardly
 rectifying potassium channel. Channel properties are
 modulated by cAMP and subunit assembly. Mediates the rapidly
 activating component of the delayed rectifying potassium
@@ -6355,7 +6355,7 @@ activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
-Amphetamine,Monoamine oxidase (Protein Group),Monoamine oxidase (Protein Group),Blocker/inhibitor,NA,Yes,NA,NE,⮿,"Catalyzes the oxidative deamination of biogenic and
+Amphetamine,Monoamine oxidase (Protein Group),Monoamine oxidase (Protein Group),Blocker/inhibitor,NA,Yes,NA,NE,⭙,"Catalyzes the oxidative deamination of biogenic and
 xenobiotic amines and has important functions in the
 metabolism of neuroactive and vasoactive amines in the
 central nervous system and peripheral tissues. MAOA
@@ -6368,7 +6368,7 @@ role in synaptic plasticity, synaptogenesis, excitotoxicity,
 memory acquisition and learning. It mediates neuronal
 functions in glutamate neurotransmission. Is involved in the
 cell surface targeting of NMDA receptors (By similarity).",NA,NA,NA
-Atomoxetine,NMDA receptor (Protein Group),NMDA  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"NMDA receptor subtype of glutamate-gated ion channels with
+Atomoxetine,NMDA receptor (Protein Group),NMDA  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"NMDA receptor subtype of glutamate-gated ion channels with
 high calcium permeability and voltage-dependent sensitivity
 to magnesium. Mediated by glycine. This protein plays a key
 role in synaptic plasticity, synaptogenesis, excitotoxicity,
@@ -6397,15 +6397,15 @@ ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
 Cabergoline,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Agonist,NA,Unknown,NA,NE,⯅,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
-Carbamazepine,Voltage-gated sodium channel alpha subunit (Protein Group),Voltage-gated sodium channel alpha subunit (Protein Group),Blocker/inhibitor,NA,Yes,NA,NE,⮿,"Mediates the voltage-dependent sodium ion permeability of
+Carbamazepine,Voltage-gated sodium channel alpha subunit (Protein Group),Voltage-gated sodium channel alpha subunit (Protein Group),Blocker/inhibitor,NA,Yes,NA,NE,⭙,"Mediates the voltage-dependent sodium ion permeability of
 excitable membranes. Assuming opened or closed conformations
 in response to the voltage difference across the membrane,
 the protein forms a sodium-selective channel through which
 Na(+) ions may pass in accordance with their electrochemical
 gradient.",NA,NA,NA
-Chlorpromazine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Chlorpromazine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
-Chlorpromazine,5-hydroxytryptamine 2 receptor (Protein Group),5-hydroxytryptamine 2  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Chlorpromazine,5-hydroxytryptamine 2 receptor (Protein Group),5-hydroxytryptamine 2  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including mescaline,
 psilocybin, 1-(2,5-dimethoxy-4-iodophenyl)-2-aminopropane
@@ -6426,13 +6426,13 @@ and psychoactive substances. Plays a role in intestinal
 smooth muscle contraction, and may play a role in arterial
 vasoconstriction.(Microbial infection) Acts as a receptor
 for human JC polyomavirus/JCPyV.",NA,NA,NA
-Chlorpromazine,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"This alpha-adrenergic receptor mediates its action
+Chlorpromazine,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Chlorpromazine,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Chlorpromazine,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is oxymetazoline > clonidine > epinephrine
@@ -6441,7 +6441,7 @@ this receptor is oxymetazoline > clonidine > epinephrine
 the rank order is yohimbine > phentolamine = mianserine
 > chlorpromazine = spiperone = prazosin > propanolol >
 alprenolol = pindolol.",NA,NA,NA
-Chlorpromazine,alpha1-acid glycoprotein (Protein Group),alpha1-acid glycoprotein (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Functions as transport protein in the blood stream. Binds
+Chlorpromazine,alpha1-acid glycoprotein (Protein Group),alpha1-acid glycoprotein (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Functions as transport protein in the blood stream. Binds
 various ligands in the interior of its beta-barrel domain.
 Also binds synthetic drugs and influences their distribution
 and availability in the body. Appears to function in
@@ -6481,7 +6481,7 @@ phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Desipramine,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Desipramine,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is oxymetazoline > clonidine > epinephrine
@@ -6490,7 +6490,7 @@ this receptor is oxymetazoline > clonidine > epinephrine
 the rank order is yohimbine > phentolamine = mianserine
 > chlorpromazine = spiperone = prazosin > propanolol >
 alprenolol = pindolol.",NA,NA,NA
-Dextroamphetamine,Alpha adrenergic receptor (Protein Group),Alpha adrenergic  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"This alpha-adrenergic receptor mediates its action
+Dextroamphetamine,Alpha adrenergic receptor (Protein Group),Alpha adrenergic  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
@@ -6510,13 +6510,13 @@ responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Escitalopram,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"This alpha-adrenergic receptor mediates its action
+Escitalopram,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Escitalopram,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Escitalopram,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is oxymetazoline > clonidine > epinephrine
@@ -6553,16 +6553,16 @@ responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Gabapentin,Voltage-dependent N-type calcium channel (Protein Group),Voltage-dependent N-type calcium channel (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,Voltage-gated calcium channel activity,NA,NA,NA
-Imipramine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Gabapentin,Voltage-dependent N-type calcium channel (Protein Group),Voltage-dependent N-type calcium channel (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,Voltage-gated calcium channel activity,NA,NA,NA
+Imipramine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
-Lamotrigine,Voltage-gated sodium channel alpha subunit (Protein Group),Voltage-gated sodium channel alpha subunit (Protein Group),Blocker/inhibitor,NA,Yes,NA,NE,⮿,"Mediates the voltage-dependent sodium ion permeability of
+Lamotrigine,Voltage-gated sodium channel alpha subunit (Protein Group),Voltage-gated sodium channel alpha subunit (Protein Group),Blocker/inhibitor,NA,Yes,NA,NE,⭙,"Mediates the voltage-dependent sodium ion permeability of
 excitable membranes. Assuming opened or closed conformations
 in response to the voltage difference across the membrane,
 the protein forms a sodium-selective channel through which
 Na(+) ions may pass in accordance with their electrochemical
 gradient.",NA,NA,NA
-Lamotrigine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Lamotrigine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
 Lamotrigine,GABA(A) Receptor (Protein Group),GABA(A) Receptor (Protein Group),AntagonistInducer,NA,Unknown,NA,NE,⯀,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
@@ -6571,7 +6571,7 @@ responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Lamotrigine,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Component of the heteropentameric receptor for GABA, the
+Lamotrigine,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -6619,7 +6619,7 @@ phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Mianserin,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Dopamine receptor whose activity is mediated by G proteins
+Mianserin,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
 Mirtazapine,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
@@ -6655,7 +6655,7 @@ activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
-Nortriptyline,Sigma receptor (Protein Group),Sigma  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,Receptor for progesterone.,NA,NA,NA
+Nortriptyline,Sigma receptor (Protein Group),Sigma  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,Receptor for progesterone.,NA,NA,NA
 Nortriptyline,Muscarinic acetylcholine receptor (Protein Group),Muscarinic acetylcholine  (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
@@ -6663,12 +6663,12 @@ potassium channels through the action of G proteins. Primary
 transducing effect is Pi turnover.",NA,NA,NA
 Olanzapine,D(1) dopamine receptor (Protein Group),D(1) dopamine  (Protein Group),Antagonist,NA,Unknown,NA,NE,⯆,"Dopamine receptor whose activity is mediated by G proteins
 which activate adenylyl cyclase.",NA,NA,NA
-Olanzapine,Beta adrenergic receptor (Protein Group),Beta adrenergic  (Protein Group),Blocker/inhibitor,NA,No,NA,NE,⮿,"Beta-adrenergic receptors mediate the catecholamine-induced
+Olanzapine,Beta adrenergic receptor (Protein Group),Beta adrenergic  (Protein Group),Blocker/inhibitor,NA,No,NA,NE,⭙,"Beta-adrenergic receptors mediate the catecholamine-induced
 activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
 through G(s)-alpha- and cAMP-mediated signaling.",NA,NA,NA
-Olanzapine,5-hydroxytryptamine receptor 1 (Protein Group),5-hydroxytryptamine  1 (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"G-protein coupled receptor for 5-hydroxytryptamine
+Olanzapine,5-hydroxytryptamine receptor 1 (Protein Group),5-hydroxytryptamine  1 (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances. Ligand binding causes
 a conformation change that triggers signaling via guanine
@@ -6686,7 +6686,7 @@ regulation of dopamine and 5-hydroxytryptamine levels
 in the brain, and thereby affects neural activity, mood
 and behavior. Plays a role in the response to anxiogenic
 stimuli.",NA,NA,NA
-Olanzapine,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Blocker/inhibitor,NA,No,NA,NE,⮿,"Component of the heteropentameric receptor for GABA, the
+Olanzapine,GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),GABA(A) Receptor Benzodiazepine Binding Site (Protein Group),Blocker/inhibitor,NA,No,NA,NE,⭙,"Component of the heteropentameric receptor for GABA, the
 major inhibitory neurotransmitter in the vertebrate brain.
 Functions also as histamine receptor and mediates cellular
 responses to histamine. Functions as receptor for diazepines
@@ -6707,19 +6707,19 @@ responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Oxcarbazepine,Sodium channel protein (Protein Group),Sodium channel protein (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Mediates the voltage-dependent sodium ion permeability of
+Oxcarbazepine,Sodium channel protein (Protein Group),Sodium channel protein (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Mediates the voltage-dependent sodium ion permeability of
 excitable membranes. Assuming opened or closed conformations
 in response to the voltage difference across the membrane,
 the protein forms a sodium-selective channel through which
 Na(+) ions may pass in accordance with their electrochemical
 gradient.",NA,NA,NA
-Paroxetine,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"This alpha-adrenergic receptor mediates its action
+Paroxetine,Alpha-1 adrenergic receptors (Protein Group),Alpha-1 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"This alpha-adrenergic receptor mediates its action
 by association with G proteins that activate a
 phosphatidylinositol-calcium second messenger system. Its
 effect is mediated by G(q) and G(11) proteins. Nuclear
 ADRA1A-ADRA1B heterooligomers regulate phenylephrine(PE)-
 stimulated ERK signaling in cardiac myocytes.",NA,NA,NA
-Paroxetine,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Alpha-2 adrenergic receptors mediate the catecholamine-
+Paroxetine,Alpha-2 adrenergic receptors (Protein Group),Alpha-2 adrenergic s (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Alpha-2 adrenergic receptors mediate the catecholamine-
 induced inhibition of adenylate cyclase through the action
 of G proteins. The rank order of potency for agonists of
 this receptor is oxymetazoline > clonidine > epinephrine
@@ -6728,7 +6728,7 @@ this receptor is oxymetazoline > clonidine > epinephrine
 the rank order is yohimbine > phentolamine = mianserine
 > chlorpromazine = spiperone = prazosin > propanolol >
 alprenolol = pindolol.",NA,NA,NA
-Paroxetine,Beta adrenergic receptor (Protein Group),Beta adrenergic  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Beta-adrenergic receptors mediate the catecholamine-induced
+Paroxetine,Beta adrenergic receptor (Protein Group),Beta adrenergic  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Beta-adrenergic receptors mediate the catecholamine-induced
 activation of adenylate cyclase through the action of G
 proteins. This receptor binds epinephrine and norepinephrine
 with approximately equal affinity. Mediates Ras activation
@@ -6751,7 +6751,7 @@ regulation of dopamine and 5-hydroxytryptamine levels
 in the brain, and thereby affects neural activity, mood
 and behavior. Plays a role in the response to anxiogenic
 stimuli.",NA,NA,NA
-Paroxetine,Muscarinic acetylcholine receptor (Protein Group),Muscarinic acetylcholine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"The muscarinic acetylcholine receptor mediates various
+Paroxetine,Muscarinic acetylcholine receptor (Protein Group),Muscarinic acetylcholine  (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"The muscarinic acetylcholine receptor mediates various
 cellular responses, including inhibition of adenylate
 cyclase, breakdown of phosphoinositides and modulation of
 potassium channels through the action of G proteins. Primary
@@ -6802,7 +6802,7 @@ responses to histamine. Functions as receptor for diazepines
 and various anesthetics, such as pentobarbital; these
 are bound at a separate allosteric effector binding site.
 Functions as ligand-gated chloride channel (By similarity).",NA,NA,NA
-Valproic Acid,Sodium channel protein (Protein Group),Sodium channel protein (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⮿,"Mediates the voltage-dependent sodium ion permeability of
+Valproic Acid,Sodium channel protein (Protein Group),Sodium channel protein (Protein Group),Blocker/inhibitor,NA,Unknown,NA,NE,⭙,"Mediates the voltage-dependent sodium ion permeability of
 excitable membranes. Assuming opened or closed conformations
 in response to the voltage difference across the membrane,
 the protein forms a sodium-selective channel through which
