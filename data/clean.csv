@@ -1,4 +1,4 @@
-drug_name,Name,receptor,A,Gene Name,Pharmacological action,potency,family,symbol,show_text,Ki,Ki_min,Ki_max
+drug_name,Name,receptor,Actions,Gene Name,Pharmacological action,potency,family,symbol,show_text,Ki,Ki_min,Ki_max
 Agomelatine,5-hydroxytryptamine receptor 2C,5-hydroxytryptamine  2C,Antagonist,HTR2C,Yes,7.149982077838116,HTR,⯆,"G-protein coupled receptor for 5-hydroxytryptamine
 (serotonin). Also functions as a receptor for various
 drugs and psychoactive substances, including ergot alkaloid
