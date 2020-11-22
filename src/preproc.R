@@ -9,8 +9,8 @@ clean_data <-
     mutate(
         A = ifelse(Actions == "Other/unknown", "Unknown", A),
         symbol = case_when(
-            A == "Agonist" ~ '\u2bc5',
-            A == "Antagonist" ~ '\u2bc6',
+            A == "Agonist" ~ '\u25b2',
+            A == "Antagonist" ~ '\u25bc',
             A == "Inhibitor" ~ '\u2bbd',
             A == "Binder" ~ '\u2b2c',
             A == "Blocker" ~ '\u2b59',
